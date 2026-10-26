@@ -1,6 +1,7 @@
 {
-  "package": "Architectural work and generative AI",
-  "status": "Local review build",
+  "package": "What Will Software Architects Really Do? Revisiting the Architect\u2019s Role in the Age of Generative AI",
+  "release": "1.0",
+  "status": "Anonymous review release",
   "approved_codebook": true,
   "final_themes": true,
   "files": {
@@ -9,12 +10,16 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "README.md": {
-      "bytes": 3573,
-      "sha256": "2acea47dc8f351829aba708fd32fb7a79036a5ef52abe2df4f90b4f66e99a367"
+      "bytes": 4263,
+      "sha256": "ad4ce8dbc58835d20645fe73baa941119b1c82988f14c67cf4df086869c273ee"
+    },
+    "RELEASE.json": {
+      "bytes": 472,
+      "sha256": "1d2de36eb7782a5ab874414060e39ded00aa4f203f2de3b481fab07585f680d0"
     },
     "assets/app.js": {
-      "bytes": 43800,
-      "sha256": "071791e3f7f0aa86d7b88c6dacccc1398d19997e33fda6e346dac8f056124897"
+      "bytes": 43886,
+      "sha256": "fbb04f577d5bf510ce27957be73af0401627256c8c2235d832a5a4eff7b3dd5a"
     },
     "assets/style.css": {
       "bytes": 33277,
@@ -57,12 +62,12 @@
       "sha256": "feaa83d2c22d5c72cf182fed33c3cfcda6e044b43386c07155e8238e2546c0a7"
     },
     "data/package.js": {
-      "bytes": 777694,
-      "sha256": "02a41e24a2beaf937b441e0dfc4a1989983032499a007926b150a03dfc930342"
+      "bytes": 777685,
+      "sha256": "09620b65e4b90e00039a33d19fde8c18de89fd6ae3ecfb87cf3e9061359fd4b9"
     },
     "data/package.json": {
-      "bytes": 959569,
-      "sha256": "2c3572a7c3f69841e3cebd20abba7d91b753957ac7b26a9695f2d08208990fb3"
+      "bytes": 959560,
+      "sha256": "5e6d4a60b0b77daf4a32ebc00ad57ed60a3d0fe688237098c0d2691d2f1487f1"
     },
     "data/relationships.csv": {
       "bytes": 3551,
@@ -113,8 +118,8 @@
       "sha256": "0dbd1974f38e59019bb01d93bba04fa25896d2c65261de01a200ab5a269335c9"
     },
     "index.html": {
-      "bytes": 2754,
-      "sha256": "95a0bf24ad0334b14e5154f76dbce07acd56e6329a511871551d4c400a3b88b4"
+      "bytes": 2762,
+      "sha256": "3c9d0dc92a6f1648442ca0f6604fd0b55c23241440f7221c81da84c9409fbc97"
     },
     "robots.txt": {
       "bytes": 26,

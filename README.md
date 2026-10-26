@@ -1,6 +1,12 @@
 # What Will Software Architects Really Do? Revisiting the Architect’s Role in the Age of Generative AI
 
-Replication package for the paper. Open index.html directly or serve this directory with a static HTTP server. The site needs no installation, account or backend and loads no remote fonts, assets or trackers.
+Anonymous replication package for the paper. Release 1.0, 26 October 2026.
+
+Reviewer website: https://anonymous.4open.science/w/what-1DCE/
+
+Anonymous repository: https://anonymous.4open.science/r/what-1DCE/
+
+For offline access, open index.html directly or serve this directory with a static HTTP server. The site needs no installation, account or backend and loads no remote fonts, assets or trackers.
 
 ## What is included
 
@@ -29,11 +35,18 @@ Names, identified organizations, selected locations, identifying background deta
 - index.html and assets/: website.
 - data/: JSON and CSV exports; package.js allows offline use.
 - transcripts/: 12 marked sharing copies in UTF-8 text.
-- downloads/: methodology, interview guide, readable analysis and a materials ZIP.
+- downloads/: interview questions, the transcript ZIP and the combined themes-and-codes codebook ZIP. Additional readable and structured exports support offline inspection.
+- RELEASE.json: release identifier, date and anonymous reviewer links.
 - MANIFEST.json: file sizes and SHA-256 hashes, excluding the manifest itself and ZIP bundles.
 
 ## Hosting and reuse
 
-Only this site directory belongs in the anonymous repository. Do not upload its parent directory or the original research workspace. Hosting is configured separately; this local build has not been published.
+The website is a static HTML, CSS and JavaScript package with relative links and no build step. Retain .nojekyll at its root when hosting with GitHub Pages. Only this site directory belongs in the shared repository; the original research workspace and private review records are excluded.
 
-No blanket license is assigned to the interview material. Public access does not override consent or third-party rights. The authors should settle citation and licensing information before publication.
+No blanket reuse license is assigned to the interview material. Public access does not override consent or third-party rights.
+
+## Citation during anonymous review
+
+Anonymous authors (2026). What Will Software Architects Really Do? Revisiting the Architect’s Role in the Age of Generative AI. Replication package, release 1.0. https://anonymous.4open.science/w/what-1DCE/
+
+This anonymous citation can be replaced by the final paper citation after review.
