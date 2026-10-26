@@ -1,0 +1,458 @@
+[
+  {
+    "theme_id": "T01",
+    "rq_id": "RQ1",
+    "previous_relation": "Primary",
+    "current_relation": "Primary",
+    "rationale": "Participants describe faster exploration and generation, continuing correction needs, more planning/review and expanding workload. This directly answers changes and continuities in work; speed and workload claims remain self-assessed rather than measured outcomes.",
+    "evidence_ids": [
+      "E003",
+      "E012",
+      "E078",
+      "E140",
+      "E161",
+      "E234"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T01",
+    "rq_id": "RQ2",
+    "previous_relation": "Supporting",
+    "current_relation": "Unmapped",
+    "rationale": "Changed effort or workload does not itself establish a change in professional authority, responsibility or relationships. Those mechanisms are assessed in T03/T04/T05.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "T01",
+    "rq_id": "RQ3",
+    "previous_relation": "Supporting",
+    "current_relation": "Unmapped",
+    "rationale": "Acceleration and demand are properties of work, not by themselves an attribution of value to the architect. Contextual value is central to T07.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "T01",
+    "rq_id": "RQ4",
+    "previous_relation": "Supporting",
+    "current_relation": "Supporting",
+    "rationale": "Participants envisage less administrative effort, more stakeholder attention and additional projects or improvement ambitions. These are anticipated directions and conditions, not realized future outcomes.",
+    "evidence_ids": [
+      "E045",
+      "E046",
+      "E047",
+      "E086",
+      "E202"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T02",
+    "rq_id": "RQ1",
+    "previous_relation": "Primary",
+    "current_relation": "Primary",
+    "rationale": "Knowledge is recovered and shared, and intent becomes more explicit for agents, while core design rules and the need for context continue. Knowledge access and codification attempts are described; reliable agent enforcement or a universal change in artifacts is not established.",
+    "evidence_ids": [
+      "E078",
+      "E101",
+      "E131",
+      "E170",
+      "E172",
+      "E192"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T02",
+    "rq_id": "RQ2",
+    "previous_relation": "Supporting",
+    "current_relation": "Unmapped",
+    "rationale": "Knowledge access and circulation do not by themselves demonstrate redistributed approval authority or accountability. Relevant role arrangements are assessed in T03/T04.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "T02",
+    "rq_id": "RQ3",
+    "previous_relation": "Primary",
+    "current_relation": "Supporting",
+    "rationale": "Participants attribute a specific contribution to supplying architectural context and meaningful solution boundaries for agents. This supports one mechanism of architectural contribution. Broader domain judgment, trade-offs and risk stewardship are central to T07; knowledge access alone is not proof of professional value.",
+    "evidence_ids": [
+      "E080",
+      "E237"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T02",
+    "rq_id": "RQ4",
+    "previous_relation": "Supporting",
+    "current_relation": "Supporting",
+    "rationale": "Participants envisage agent-consumable knowledge and testable intent; representation and validated explanation are conditions that could alter human involvement. Desired knowledge tools complement, rather than establish, expected role change; representations and explanations are not assumed complete or reliable.",
+    "evidence_ids": [
+      "E038",
+      "E043",
+      "E235",
+      "E203",
+      "E219"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T03",
+    "rq_id": "RQ1",
+    "previous_relation": "Primary",
+    "current_relation": "Supporting",
+    "rationale": "Participants describe continued human checking, architectural review and acceptance alongside delegated execution. This is the work-continuity aspect of an allocation theme; it does not establish unchanged architectural work in general or universal human-only verification.",
+    "evidence_ids": [
+      "E009",
+      "E075",
+      "E130",
+      "E153",
+      "E206",
+      "E242"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T03",
+    "rq_id": "RQ2",
+    "previous_relation": "Primary",
+    "current_relation": "Primary",
+    "rationale": "Participants distinguish delegated execution from retained human acceptance, decision control and answerability, with different role-holders and responsibility tensions. Review, authority and accountability are separate properties. These are situated perceived allocations, not verified legal duties or evidence that architects alone remain responsible.",
+    "evidence_ids": [
+      "E139",
+      "E153",
+      "E156",
+      "E190",
+      "E228",
+      "E229",
+      "E251",
+      "E197"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T03",
+    "rq_id": "RQ3",
+    "previous_relation": "Primary",
+    "current_relation": "Unmapped",
+    "rationale": "Retained oversight or answerability does not itself establish distinctive architectural value. The predecessor’s value argument is separated into T07.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "T03",
+    "rq_id": "RQ4",
+    "previous_relation": "Supporting",
+    "current_relation": "Supporting",
+    "rationale": "Participants discuss difficulty taking responsibility for delegated work, desire retained sign-off and envisage validated explanations as a condition changing human involvement. A wish to retain sign-off is not a prediction; conditional explanation-based changes are not achieved capability. This is a specific future condition, not a comprehensive role trajectory.",
+    "evidence_ids": [
+      "E197",
+      "E214",
+      "E203"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T04",
+    "rq_id": "RQ1",
+    "previous_relation": "Supporting",
+    "current_relation": "Supporting",
+    "rationale": "Some accounts describe wider engineer ownership of architectural tasks; others describe already-shared architecture and no observed reallocation. I8 lacks a reliable pre-adoption company comparison. Changes and continuities in work are retained without attributing every shared arrangement to GenAI.",
+    "evidence_ids": [
+      "E116",
+      "E154",
+      "E190",
+      "E191",
+      "E225"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T04",
+    "rq_id": "RQ2",
+    "previous_relation": "Primary",
+    "current_relation": "Primary",
+    "rationale": "Participants describe varied effects on professional boundaries, apparent influence, communication and relationships, including accounts of no authority or boundary change. Apparent competence, communication, work ownership and formal decision authority are different properties; no uniform disappearance or authority redistribution is inferred.",
+    "evidence_ids": [
+      "E021",
+      "E024",
+      "E025",
+      "E072",
+      "E135",
+      "E157",
+      "E191",
+      "E227",
+      "E249"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T04",
+    "rq_id": "RQ3",
+    "previous_relation": "Supporting",
+    "current_relation": "Unmapped",
+    "rationale": "Role retention and task distribution do not alone demonstrate value. The contextual expertise argument is assessed in T07; future role-retention conditions remain under RQ4.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "T04",
+    "rq_id": "RQ4",
+    "previous_relation": "Primary",
+    "current_relation": "Primary",
+    "rationale": "Participants envisage convergence, different role titles or continued specialization, shaped by product complexity and established organizational/team arrangements. These are divergent possible trajectories, not verified employment trends or inevitable loss of the architect role.",
+    "evidence_ids": [
+      "E146",
+      "E147",
+      "E196",
+      "E241",
+      "E259"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T05",
+    "rq_id": "RQ1",
+    "previous_relation": "Primary",
+    "current_relation": "Primary",
+    "rationale": "Participants report AI policy work, shared feedback and work decomposition, while interpreting the delivery process itself as an architectural concern. Current mechanisms are distinguished from prospective orchestration; this does not imply governance or coordination was absent before GenAI.",
+    "evidence_ids": [
+      "E118",
+      "E149",
+      "E204",
+      "E267"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T05",
+    "rq_id": "RQ2",
+    "previous_relation": "Supporting",
+    "current_relation": "Supporting",
+    "rationale": "Participants perceive responsibilities around permissible AI use, cost stewardship and commercial expectations for AI-supported professional work. Client approval and remuneration questions are not evidence of changed legal authority, actual fee changes or measured cost savings.",
+    "evidence_ids": [
+      "E027",
+      "E070",
+      "E118",
+      "E119"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T05",
+    "rq_id": "RQ3",
+    "previous_relation": "Supporting",
+    "current_relation": "Unmapped",
+    "rationale": "A delivery-design task is not automatically an attribution of value to a professional role. The general contextual value argument is retained in T07 and the explicit context-setting contribution in T02.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "T05",
+    "rq_id": "RQ4",
+    "previous_relation": "Primary",
+    "current_relation": "Primary",
+    "rationale": "Participants expect more upstream process design and envisage staged/coordinated agent work, qualified by shared execution needs, organizational readiness and the limits of excessive constraint. Desired shared execution is not itself a forecast; current organizational immaturity and constraint trade-offs delimit envisaged role evolution.",
+    "evidence_ids": [
+      "E088",
+      "E112",
+      "E205",
+      "E268",
+      "E269",
+      "E245"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T06",
+    "rq_id": "RQ1",
+    "previous_relation": "Supporting",
+    "current_relation": "Unmapped",
+    "rationale": "Teaching, learning and enjoyment examples support sustaining capacities; they do not centrally establish change or continuity in architectural work. Training continuity remains a contrasting account rather than an automatic RQ link.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "T06",
+    "rq_id": "RQ2",
+    "previous_relation": "Supporting",
+    "current_relation": "Unmapped",
+    "rationale": "Purpose and learning expectations do not independently establish a change in authority, accountability or professional relationships. Task-allocation intersections are retained as theme relationships.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "T06",
+    "rq_id": "RQ3",
+    "previous_relation": "Primary",
+    "current_relation": "Supporting",
+    "rationale": "Participants value critical understanding, creativity and meaningful human participation that work and learning arrangements can sustain. This supports capacities and participation valued alongside architectural judgment. Enjoyment or learning alone does not establish the architect’s comparative contribution; T07 carries the central attributed-value claim.",
+    "evidence_ids": [
+      "E104",
+      "E254",
+      "E265"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T06",
+    "rq_id": "RQ4",
+    "previous_relation": "Primary",
+    "current_relation": "Primary",
+    "rationale": "Participants expect broader expertise demands and see continued skill formation, trustworthy assistance and opportunities to learn through review as shaping future human participation. Desired learning and agency conditions are distinguished from predicted outcomes; loss-only trajectories are qualified by positive learning and enjoyment cases.",
+    "evidence_ids": [
+      "E106",
+      "E145",
+      "E177",
+      "E201",
+      "E276"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T07",
+    "rq_id": "RQ1",
+    "previous_relation": "New theme",
+    "current_relation": "Supporting",
+    "rationale": "Participants describe continuing stakeholder purpose and business interpretation, while some interpret cheaper technical reversal as changing which risks deserve architectural attention. Actual, interpreted and desired continuity remain distinct. Perceived reversibility is not measured and is not assumed to apply to all technical decisions.",
+    "evidence_ids": [
+      "E015",
+      "E019",
+      "E020",
+      "E174",
+      "E257",
+      "E258"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T07",
+    "rq_id": "RQ2",
+    "previous_relation": "New theme",
+    "current_relation": "Unmapped",
+    "rationale": "Valued expertise does not necessarily confer formal decision authority or answerability. Allocation is central to T03 and role arrangements to T04.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "T07",
+    "rq_id": "RQ3",
+    "previous_relation": "New theme",
+    "current_relation": "Primary",
+    "rationale": "Participants attribute architectural value to domain and business understanding, stakeholder trade-offs, identifying significant risks and contextual ethical reasoning. Attributed value is not proof of increased formal authority, permanent AI incapability or measured superiority. The accountability allocation is analyzed separately in T03.",
+    "evidence_ids": [
+      "E015",
+      "E032",
+      "E037",
+      "E120",
+      "E165",
+      "E178",
+      "E256",
+      "E257",
+      "E275"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "T07",
+    "rq_id": "RQ4",
+    "previous_relation": "New theme",
+    "current_relation": "Unmapped",
+    "rationale": "The central claim concerns attributed value. Conditional changes to future involvement qualify it and are assessed explicitly through T03 and X01, rather than create another automatic link.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "X01",
+    "rq_id": "RQ1",
+    "previous_relation": "Contextual",
+    "current_relation": "Contextual",
+    "rationale": "Different adoption experiences and appraised usefulness help explain variation in described work changes and continuities. These are participant appraisals, not a verified model-development timeline or a universal adoption-stage model.",
+    "evidence_ids": [
+      "E065",
+      "E066",
+      "E167",
+      "E187"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "X01",
+    "rq_id": "RQ2",
+    "previous_relation": "Contextual",
+    "current_relation": "Unmapped",
+    "rationale": "Adoption stance alone does not establish changes in professional-role allocation or relationships.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "X01",
+    "rq_id": "RQ3",
+    "previous_relation": "Contextual",
+    "current_relation": "Unmapped",
+    "rationale": "Capability conditions qualify value claims, but their future implications are explicitly mapped under RQ4 rather than add a generic value link.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "X01",
+    "rq_id": "RQ4",
+    "previous_relation": "Contextual",
+    "current_relation": "Contextual",
+    "rationale": "Uncertain capability, changing usefulness and representation/explanation conditions qualify all future role trajectories. No single expected trajectory is imposed on the differing accounts.",
+    "evidence_ids": [
+      "E050",
+      "E166",
+      "E183",
+      "E203",
+      "E219"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "P01",
+    "rq_id": "RQ1",
+    "previous_relation": "Peripheral",
+    "current_relation": "Unmapped",
+    "rationale": "Architecture of AI-containing products is retained outside the central scope of using GenAI in architectural work.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "P01",
+    "rq_id": "RQ2",
+    "previous_relation": "Peripheral",
+    "current_relation": "Unmapped",
+    "rationale": "Broader AI/ML expertise expectations do not independently establish changes in the GenAI-assisted professional role; the product extension remains peripheral.",
+    "evidence_ids": [],
+    "decision": "Indirect connection excluded from matrix"
+  },
+  {
+    "theme_id": "P01",
+    "rq_id": "RQ3",
+    "previous_relation": "Peripheral",
+    "current_relation": "Peripheral",
+    "rationale": "Participants attribute value to architecture expertise when combining nondeterministic AI features with deterministic systems. Retain the qualification that strategic architectural value may continue rather than universally increase. Theme P01 remains peripheral pending scope review.",
+    "evidence_ids": [
+      "E033",
+      "E034",
+      "E089"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  },
+  {
+    "theme_id": "P01",
+    "rq_id": "RQ4",
+    "previous_relation": "Peripheral",
+    "current_relation": "Peripheral",
+    "rationale": "Participants envisage security, identity and assurance complexity when AI is embedded in a delivered system. This is not evidence of deployed future capability or a central delivery-process role trajectory.",
+    "evidence_ids": [
+      "E089"
+    ],
+    "decision": "Retained/reassessed direct contribution"
+  }
+]

@@ -1,0 +1,250 @@
+INTERVIEW I10
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Interviewer 1 | 0:12
+Okay, and it looks like we're back. So we originally have around 10, 10-ish questions that we would like to, that we asked to practitioner that and experts that joined these interviews.
+
+P0002 | I10 | 0:14
+Yes.I think so.
+
+P0003 | Interviewer 1 | 0:33
+But since we are now close to 10 interviews, I think, we also are changing a little bit the order of the questions. So to essentially reach saturation for those questions that are, whose answers are not fully satisfying or saturated, as you, as I said.
+
+P0004 | I10 | 0:54
+Mm-hmm.
+
+P0005 | Interviewer 1 | 0:54
+So, but before moving to this question, we would like again to ask if you could summarize very briefly your professional background, just as, you know, demographic or a demographic account.
+
+P0006 | I10 | 1:09
+Yes.Yeah, so my name is redacted. I've done engineering studies and then I've done engineering studies at redacted, then worked a few years in industry as a software developer, went back and did PhD studies, and then went back again to industry, doing development work as well as a bit more software architecture.And for the purposes here, I think my most recent position, where I was a software architect that was going to construction, as I just mentioned, working with both embedded software and web services for construction machinery. Yeah, that's probably my most relevantExperience here in a nutshell.
+
+P0007 | Interviewer 1 | 1:56
+Good.So then maybe just a few, let's say, general questions to set up the, you know, the context of the conversation. As we talk about, we are interested in understanding the impact of Gen. AI with respect to the role of software architects. SoMaybe very briefly, do you remember when Jan AI or well previous related technology technology started to materially affect your work as an architect? And if you recall of any specific situation, even recent situation whereGen. AI really change your daily work, let's say.
+
+P0008 | I10 | 2:46
+I would say that it's fairly recent that I started using Jan AI. And if I think of its introduction in the organization, which was maybe a year, a year and a half, maybe even two years ago that the first trials were started, but it was afairly exploratory and ramp up phase. So I can't say that architecting or the more long-term concerns were that affected, especially not if I think of the embedded side. I would say, though, I mean, I did try to leverageI was not a frequent or daily user then as an architect or as a developer, but I did attempt to put it to use for, should I say, a bit more open-ended tasks and where IYeah, I wanted some more exploration, implementing, for example, support for science software. So, I mean, it did make a difference, I would say. Things where I might previously have poured over reference manuals and done searching and, yeah, where I would have needed to do a lot of footwork.
+
+P0009 | Interviewer 1 | 3:49
+You.
+
+P0010 | I10 | 4:05
+reading and so on, I could quicker get to something that I could try out, even if it wasn't necessarily correct. So in that sense, there was a shift. MoreUntil now, on very practical things, on getting an implementation that can be reasoned about and critically appraised. So in discussion with others in the review meetings or architecturally reviewed and so on. SoYeah, I would say it's kind of come, to summarize, it came, has as of yet come in more on the implementation side and then the resulting implementation being something that requires architectural reasoning as opposed to coming in from above as top-down support with, let'sspan out how to architect this first. That's at least not, yeah, that's how I've put it to use until now.
+
+P0011 | Interviewer 1 | 5:07
+Good. So when talking to...Previous colleagues and experts, we.I realized that some of them, actually the majority of them, were sort of hinting that.Jan AI changed the boundary between what is considered the architect job and what belongs to other roles traditionally. So yeah, first of all, we would like to know if in your experience this is true, at least in your setting, if you experience this.
+
+P0012 | I10 | 5:50
+I would say maybe not actually, but for the somewhat, not necessarily for technical reasons. The teams that I worked with were very few. So the...The product portfolio was wide, but there was a quite small amount of software in every product. So imagine a lot of products with quite simplistic embedded software for motor control or something, and then a whole range of those. And not so, I mean, five, six people, two teams of five people doingSpanning this work, and then another team of, say, five people covering the web services, so...With that scale and scope in mind, large portfolio, few people working, not so much complexity with each individual product, but a lot of complexity given the breadth. Architecting and taking a bit of responsibility for looking ahead was, I would say that was a team responsibility.So I would support this as an architect, but it wasn't my sole responsibility that everyone was happily hacking away. It always and only fell to me to sort of keep the architecture somewhat in check. So in that sense, I haven't seen a huge change, but I don't think it's for technical reasons in my setting.Well, I mean technical, I don't think it's for AI technical reasons.
+
+P0013 | Interviewer 1 | 7:09
+So, an...Okay, so another related aspect was that somehow maybe theThe responsibilities or tasks that previously were allocated to the architecture, architect job, sorry. Now I have being, you know,distributed across other stakeholder like tech leads, engineers, or managers. So do you, or developers as well, did you again experience this so that some of the architect competence are now being moved to these other stakeholders?
+
+P0014 | I10 | 7:55
+No.Not really, not, and and not yet. I rather saw that.attempts to, for example, codify architectural knowledge as agent skills and as input to agents so that code reviews and even code generation could take architectural intentions into account. So we wouldn't end up with three different proposals for solving different tasks and they would not have any coherent architecture, but rather the ambition toto put up architectural guidance and rules that could be fed to the agents and reused. More of that than that developers would somehow take over architect or other roles. So INo, I can't say that there was a reallocation that I saw in that regard.
+
+P0015 | Interviewer 1 | 8:47
+Okay, so let's try to put take it from another perspective. Could you think, or did you witness any situation in which Jan AI made the architect less central, therefore, you know, you had perhaps...
+
+P0016 | I10 | 8:55
+Mm.
+
+P0017 | Interviewer 1 | 9:08
+Ahh.the architect being bypassed because of the architectural decision was made by somebody else using or, you know, relying on Jan AI.
+
+P0018 | I10 | 9:22
+Yeah, I mean...Maybe, I'm not, I'm not sure. I maybe more on the web services side if it was possible to run faster there in terms of getting cranking out more implementation and not considering the architecture so much, but IMaybe my answer is no, for the reason that I don't perceive that there was sort of a divide between an architect who prescribed and developers who executed. So it was more of a shared responsibility anyway. The architectSo I mean, in my architect role, I was providing guidance and had more responsibility to ensure that there was guidance. But that did not mean that developers would sort of throw caution to the wind and just hack away. And I should say that there was a lot of seniority on the developer side as well. So this was notin general, not people's first jobs. So there was an awareness of sort of sensible engineering practice as well. So to phrase it like this, I can't say that there was a large push for disregarding architecture as something pesky just because it was possible to churn out implementation.Uh, that, that, that's not something I I saw, you know.
+
+P0019 | Interviewer 1 | 10:52
+Okay, yes, perfect. And just to be clear, you're also, if I get it correctly, you didn't experience that Jenny I shifted your, let's say, responsibility, decision authority or accountability, right?
+
+P0020 | I10 | 11:11
+No, no, I wouldn't say.
+
+P0021 | Interviewer 1 | 11:14
+Okay, and perfect. So moving on, let's see.Okay, yes. So another common, let's say, theme that emerged until now is that somehow the role of the architect is perceived as becoming more and more important because Gen. AI increases the amount ofyou know, the speed and amount of downstream work, right? So do you see any situation where the opposite happen and if so, why? So meaning that, yeah, I think you got it, that the role of architect is less central.
+
+P0022 | I10 | 11:44
+Yeah.Okay.Mm-mm.Yeah, no, no, I would rather say, I mean, if anything, I would also say that it was, I mean, not, if anything, I would say that it would be, did become more important, but maybe not so pronounced, but what did become more pronounced, as I said, was theintentionality, maybe the architecture and articulating the architecture became more of an explicit ambition. Yeah, as I said, providing it to agents and so on. But no, I didn't see that it was, that architecture was de-emphasized.
+
+P0023 | Interviewer 1 | 12:42
+Okay.
+
+P0024 | I10 | 12:42
+And to add to that, maybe I should add one piece of context. I mean, the life span in the market of the products that I worked on was quite long. So the desire for churning something out quick and then forgetting about it was pretty low. And I mean, on the cloud side, things were deployed.
+
+P0025 | Interviewer 1 | 13:00
+Okay, yes.
+
+P0026 | I10 | 13:01
+to the clouds and then there was the possibility to continuously do stuff anyway. So I can't say there was a strong push for disregarding the, I mean, long-term time scale.
+
+P0027 | Interviewer 1 | 13:12
+Mm.Yeah, makes sense, especially, as you said, given the context you have been working. All right, but keeping on this line of on reasoning, so the next the next question, sorry, is if you think that the architecture function could remain, you know, important while the explicitsoftware architect role become less distinct or disappearing at all from, you know, the job market.
+
+P0028 | I10 | 13:50
+Yes, I could. I could see something like that happen, definitely, but I was it was one of the the one of the more in-depth discussions I had with my my line manager before my previous role was a bit about.having an agentic setup and how to do sort of, yeah, what should I say, lead these agents, something that I mean an architect would deploy an orchestrated set of agents to do something. So I could see that the developer role would kind of merge more into someone who takes on architecting. That the distinction, because I can see that, the distinction becoming less
+
+P0029 | Interviewer 1 | 14:25
+Mm.
+
+P0030 | I10 | 14:29
+less of a thing and development, more and more meaning to architect the solution to the problem and then having it implemented or having implementations generated by agents. I mean, I still think there is a lot of stuff hiding in this and scrutinizing what comes back and ensuring that stuff actually is tractable for the long term and so on. ButYeah, yeah.I can definitely see that development would...sort of re-emphasize architecting as opposed to low-level details. That I could imagine as a trend.
+
+P0031 | Interviewer 1 | 15:05
+Yeah, so you think that this responsibility, so if the role of the architect should somehow disappear, then you see that this responsibility will likely switch to, you know, tech leads, engineers, teams, or...
+
+P0032 | I10 | 15:26
+Yes, it's a good question. I think...Yeah, who it will fall on is a very good question. I don't know, but I do think that the question of responsibility will be very important. Because I mean, with a faster pace, unless, yeah, if someone has, my view is this, that if someone has written stuff by hand, they can implicitly take responsibility for it.If someone has orchestrated agents to provide an implementation, that lessens the immediate possibility to take responsibility, but it increases somewhat intuitively the need for someone to take responsibility. No, no, the agents did it. I don't think organizations will be happy.be having no one care about how the code actually behaves.So.I would imagine in my [location redacted] context that it would be a team responsibility, maybe a tech lead or a, depending on what you call it, if it's a scrum master, if it's a team lead, if it's, yeah, whoever has that sort of some type of head role in a team, that at least they would be the person keeping it together.Um, but definitely that's...a part of the organization during implementation. I think that it will, I do not foresee that they will have less responsibility for how that works and taking responsibility for what they deliver.
+
+P0033 | Interviewer 1 | 16:53
+Mm.Mm.Yes, this is, yeah, okay, there is a discussion on the responsibility, but maybe we come back to this. So related to the answer that you just gave regarding the role of software architect and responsibility, soDo you think that there are certain conditions that will make the evolution of the architectural role be different from what you have described? Maybe, you know, certain domains, certain, let's say, capacity of organization capacity?You know, anything really.
+
+P0034 | I10 | 17:40
+Yes, I mean, I could...One thing I haven't mentioned is compliance. So I've been working in a domain where there's both functional safety requirements to be compliant with, and also in general, now at least within the EU, cybersecurity requirements. So I could imagine that sort of proportionality, the more
+
+P0035 | Interviewer 1 | 17:47
+Mm.
+
+P0036 | I10 | 18:02
+of a compliance obligation there is on a product or a service, the more the need for an organization to have a systematic way to take responsibility to actually know what's in the code. If the counter example, maybe it's a bit of a fiction, butI could imagine a web, something on the other end of the spectrum, a web service being delivered through the cloud and a company delivering only this hotel bookings or what have you, and having the true capacity for really rapid deployments, maybe it becomes less important how the code lookedSix months ago, if it's very cheap to re-architect and...sufficiently tractable to keep regressions down. I mean, I could phrase it like this, I would be concerned if an agentic setup rewrites a code base every other month. However, if there is a test scope that can ensure that this is good enough,then maybe it's fine if there are no other requirements, such as compliance or being able to explain it to an external assessor or something. So, but I'm not sure how realistic this is. I do think compliance will necessitate understandability and some level of being able to explain how systems work and that this
+
+P0037 | Interviewer 1 | 19:18
+Mm.
+
+P0038 | I10 | 19:31
+will mean that there is a responsibility for organizations regardless of how they choose to create that implementation.
+
+P0039 | Interviewer 1 | 19:42
+K.Yes, so, by the way, yeah, Author 2 Author 3, if you want to add me, just jump in. Otherwise, I will keep asking all the questions.
+
+P0040 | I10 | 19:57
+You.
+
+P0041 | Interviewer 1 | 20:01
+So there was this, as I said earlier, there was a little bit of discussion with the previous interviewees.Um...on the verification of the output generated by Gen. AI or similar technologies. And their stance was that they treat Gen. AI as novice engineers, so whose answer could be plausible but notnecessarily correct. And then they stress that the, you know, the real value is the senior knowledge that could help in discerning whether or not the answer is correct. However, then we are trying to understand how to solve this chicken egg problem.paradox, because the issue is that if now you have a junior jumping in the workforce and being exposed or being able to use Jan AI from the day one, then they may not acquire the knowledge that are deemed to be.relevant to decide whether or not the answer from the GNI is correct. So do you have any, of course, thought on this or do you in your current organization have any particular, you know, like setup that prevent or try to mitigate this?
+
+P0042 | I10 | 21:37
+No, it's a very good question. I definitely see that this could become a problem.And I would say, I mean, as far as mitigations go, I...Basically, for every position I've held, there's always been the practice of code reviews with at least one additional pair of eyes on every piece of code. So, and that's something I would expect with a setup like this, that even if I would, maybe I should say first, I would expect that there is always a humanWho is somehow?I mean, whoever shows up and get blame is also to blame, so it's I would kind of expect that someone submitting a pull request would nevertheless take responsibility. It could be if it's a junior or someone expecting a lot of feedback from others on the also on correctness and then sort of.Knowing that this might have...flaws, I mean, bigger flaws than what you perhaps would expect from a senior. But I would think that there needs to be...Team discussions of some form, but having code reviews of of public courses is one way, another thing would be more of pair programming or or just having group discussions about, and then I could bring up, I mean, in addition to...the classic reviewing pull requests, one thing that we did throughout was for larger, for more intricate problems that we foresaw that were not just rote coding tasks that required a bit of architecting. It would usually, someone would do a draft design, it didn't have to be, me could be an engineer working on it who knew.sort of the domain or so, but then we would discuss a proposal and more of an architecture review, a meeting, and then with in a room with a whiteboard, just discuss the implications on the suggested trade-offs and so on, and take more of a team decision. So, that I think is one way to mean you wouldn't necessarily someone's first week on the job, you wouldn't throw them something like this, but you would graduallygive junior developers more and more open-ended tasks. And having them a team review of proposals, that could be one way, I think, too.To ease into that, then I think it becomes less.less important for the learning to have done sort of manual hacking of every line. That's, I don't, yeah, I hope that this could de-emphasize that, that it becomes more about relating to what the agents propose. But then, for some questions, it might just boil down to, as I hinted earlier,sitting there with a few 1000 pages of reference manual and actually looking through it and saying, for this particular chip model, does this proposed implementation actually make sense or is there some more things to take into account? So that's sometimes it's not avoidable, I think.
+
+P0043 | Interviewer 1 | 24:33
+Yeah.All right.So we are now, let's say, entering an even more speculative phase that of the interview where we ask you about the future, knowing very well that it's hard to predict for anybody, including us. But yeah, we anyhow try to, you know, to collect the different views.So if you have to make a guess looking three to five years ahead of time, how do you think that software architect job will look like?
+
+P0044 | I10 | 25:23
+Well, I could, a few things I could imagine, again, pointing going back to this, I discussed somewhat, I mean, well, I didn't pick development and software architecture with my line manager and the organization. I couldI mean, foresee that architectures, or whoever has the title on their on their business card, would mean use Jan AI more to create architecture and deliverables of all I mean specifications, sketches, and so on, especially if there is a need.for compliance, for example, for systems to be.explainable and to have some kind of stability in their implementation over time. And then I could imagine a staged development approach where instead of directly prompting agents for implementations, maybe there will be a first step of prompting for an architecture for a moredesign sketch and doing a more classic staged, yeah, first a design, heavily supported by an agentic work there, and then having that, reviewing the design and inputting these design documents to agents then for implementation toto separate this to codify in architecture intentions and so on. So for, yeah, when.That stability is is necessary, compliance comes to mind, and then I think re-emphasizing.phases of development that may be developing.artifacts for each stage would make sense. I mean, if previously it was quite expensive to have someone sit down and do a lot of specification and draw documents and so on, and then equally expensive to have a team actually look at these to do the implementation, it would be more efficient and cheaper to just have a team do the implementation andcreate much of the architecture as they go. Maybe agents will make it cheaper to do it a bit more. Yeah, to reinvent the kind of old school thing, because it will be cheaper to generate specs and cheaper to develop by with agent agentic support from specs. So that could be something.Pure speculation, but it's...
+
+P0045 | Interviewer 1 | 27:45
+Yeah, I mean, it's, of course, we don't expect anything else. I mean, it's hard, as I say, to provide already an answer to this, but...
+
+P0046 | I10 | 27:50
+Yeah.Right, but...Yeah, this I could imagine as a way also to orchestrate agents, I mean, to help with this to not get just stuck in small boxes of implementation that then manually needs to be pieced together.
+
+P0047 | Interviewer 1 | 28:12
+So, uh...Related to this, what evidence or future, you know, development direction would make you change your view about, yeah, Jan AI affecting the role of software architects?If any, of course.
+
+P0048 | I10 | 28:34
+Yes, one thing that immediately comes to mind is, I should say, explainability if...If the agentic answers becomes more and more capable of also of not just delivering an implementation, a solution, but also an accompanying explanation. And of course, if this actually is validated, if it's actually correct, so it's possible to somehow check in a cheaper way than pure manual meticulous labor.That could change, that I could see lessens the need for.It lessens the need for architect in the loop of covering up for this. If the agentic output is both solution and explanation, if it goes in that direction, then that I think would change.There will be a difference compared to now, where I see it largely as, I mean, it's...It's the prompt on every meta level. Encoding concerns on higher abstraction levels also goes into the prompt. And similarly, the answer back. It's all flat at the moment. And it's cleverness of putting whatever own ingenuity and agents toTo use to work on crafting prompts, it's all down to that, so if...
+
+P0049 | Interviewer 1 | 30:02
+Yeah.
+
+P0050 | I10 | 30:03
+If more systematic workflows emerge around this and explainability, understandability of...
+
+P0051 | Interviewer 1 | 30:15
+Yeah.
+
+P0052 | I10 | 30:16
+That's what I imagine, you know.
+
+P0053 | Interviewer 1 | 30:18
+No, it's very interesting. So actually, since, as I said, we were trying to saturate the less answer questions, we are actually done. So we finish a little bit earlier thanBut before letting you go, we want to keep you a bit more. Just the last question is just to check that, you know, you may have read our e-mail and had some, you know, topics or, yeah, let's say topics that you thought we were going to treat or that you wanted to share with us and.
+
+P0054 | I10 | 30:36
+No.Yes.
+
+P0055 | Interviewer 1 | 31:00
+And we just wanted to check that you get an opportunity to discuss this topic in case we didn't ask them explicitly, of course.
+
+P0056 | I10 | 31:11
+Yeah, uh...I mean, one thing that did come to mind just now, but I hadn't thought about it before, but going back to the discussion in the beginning where regarding sort of the role of the architect, mostly in relation to, as I perceive the questions to the developer, maybe another facet of the same thing is the role of the architect.
+
+P0057 | Interviewer 1 | 31:18
+Yeah.
+
+P0058 | I10 | 31:35
+As compared to, or should I say, team?team leader management in terms of leading the work and distributing the work, how a team of implementers picks and subdivides the work. That's also something I could see being affected. I mean, how does prompting theagent for how to slice a larger pie of an implementation task that could result in more tasks and it could be a different way to approach. What I see now is more that it's a manual, currently still a largely manual work to decompose the work into work packages and then put engineersTo work on putting agents to work, so that could that could change. I imagine that agents coming in earlier on a more.abstract high level problem and breaking this down and maybe that is where teams then come in and take the take on on this. So yeah, how work is subdivided that could.
+
+P0059 | Interviewer 1 | 32:30
+Mm.Yeah.This is interesting and it touches upon a couple of aspects that were discussed. So the first one being that somehow many interviewees sort of agreed that theThe value, current and future value of a software architect job is about the domain knowledge, the experience and so on, which I guess it would come to use when you have to do this earlier work that you are talking about. Like you have to
+
+P0060 | I10 | 33:21
+MMM.
+
+P0061 | Interviewer 1 | 33:21
+So, to some extent, maybe this is...What you said is interesting because also points out to what many practitioner currently think that Jan AI cannot excel at. So and to some extent aligns to what you said, but you are actually
+
+P0062 | I10 | 33:41
+Hmm.
+
+P0063 | Interviewer 1 | 33:47
+thinking that maybe the advances in Gen. AI could even help in that direction. And the other aspect, no other, ah yes, the other aspect is that another, some other practitioner actually mentioned that one of the bigger limitation that they see is that currently these tools are genetic
+
+P0064 | I10 | 33:53
+Mm mm mm.
+
+P0065 | Interviewer 1 | 34:09
+towards LLMs and AI are used in a one-to-one setting. So every engineer has its own, let's say, context framework or whatever. And what they are missing is like a team set up that could really streamline and help the architecture, but even the development. And so this also goes back a little bit on what you said.
+
+P0066 | I10 | 34:16
+Okay.Yep.
+
+P0067 | Interviewer 1 | 34:32
+So...We don't have answer of this, but just discussion points.
+
+P0068 | I10 | 34:35
+Yeah, no, but I think it's a very valid point. I mean, that is it's very interesting that others to hear that others have brought up this point, since I also heard it brought up in my settings. There definitely seems to be something there, and I think, yeah, it seems best current with the current generation.
+
+P0069 | Interviewer 1 | 34:43
+Yes.
+
+P0070 | I10 | 34:53
+of these tools, it seems that codifying things as skills and sharing architectural decisions, for example, in that way seems to be the best there is, but it certainly leaves one longing for more, as you say, maybe a team context where a team can execute an agent.and work on something together.
+
+P0071 | Interviewer 1 | 35:14
+Yeah, and I think it's also a problem, or not a problem, but a question on how actually to summarize this knowledge in, for instance, an MD file, I mean, in a way that actually makes a difference. Of course, you can summarize it, but...
+
+P0072 | I10 | 35:31
+Yeah, but.
+
+P0073 | Interviewer 1 | 35:33
+All right, well, this leads us to the end of the interview, so I can stop the... Ah, no. Yeah, yeah, sorry, I didn't hear.
+
+P0074 | Interviewer 3 | 35:36
+I I.Can I ask only, because when you say the code review, no, in your case, did you review, do you review only the code or you focus on the, let's say, the architecture?part related to the generated code.
+
+P0075 | I10 | 36:04
+I would say it depends on, I would describe it as kind of two different circumstances. One would be for an open-ended problem where we had a kind of two-stage approach. First, propose an architecture and have a review meeting around the architecture as such, regardless of how much or little implementation that was.generated. And then the more traditional, maybe code reviews, there's a pull request, there's a change, then it's more that another pair of eyes looks through the code, irrespective of who has actually written the lines of code. And then it becomes more implicit to review. Yeah, architecture compliance or alignment would be one thing to look at.But it would be so more, not not so pronounced, maybe.
+
+P0076 | Interviewer 3 | 36:53
+So you mean that when you have, let's say, to review the code that affects the architecture, you work within, let's say, the other software architects and within the entire team, no? It's not, okay, the junior generates code, the first it.
+
+P0077 | I10 | 37:07
+Yeah.
+
+P0078 | Interviewer 3 | 37:12
+It or she reviews the code, and then create a pull request, and then you review the code, and that's it. OK, so you are reviewing a small, let's say, a small piece of code, but when you have to review the architecture in general, you...You do this job in in in a team, is it right?
+
+P0079 | I10 | 37:38
+Yes, I would say so. I mean, the thing that is the thing that is not obvious here, and that was very much field-based, was which tasks require upfront architecting and more work on the team and which things can just be implemented straight away. And that was very much sort of an experience-based
+
+P0080 | Interviewer 3 | 37:39
+Fine, okay, this.Yeah.
+
+P0081 | I10 | 37:58
+Yeah, we think that these tasks are more complex. So that was not, that was really senior experience that that was just, we see which things that is not so systematic or maybe not so externalizable, I should say.
+
+P0082 | Interviewer 3 | 38:06
+Yeah, OK, OK.Okay.No, OK. Thanks.

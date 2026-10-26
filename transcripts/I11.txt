@@ -1,0 +1,253 @@
+INTERVIEW I11
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Interviewer 1 | 0:18
+So I can see that at least we are back and I guess, yeah, you will switch on the mic when you would be ready to answer my first question, that in this case is something very easy just to set the contest. So we would like to describe brieflyyour profile just, you know, for the records and the demographics.
+
+P0002 | I11 | 0:45
+Okay.Are you gonna ask me questions, or should I just describe myself?
+
+P0003 | Interviewer 1 | 0:52
+Uh...Yeah, you can describe yourself very shortly in the way you want.
+
+P0004 | I11 | 0:59
+[Identifying professional background withheld. General participant perspective is recorded in the interview index.]
+
+P0005 | Interviewer 1 | 2:05
+Great. So with that said, we can dig in the technical questions. And of course, you could, I don't know, let's put it this way, I don't know if you have been able to experiment a little bit with the Jan AI, but I guess thatDefinitely, you have been hearing a lot about the potential and the way it's impacting software development, and specifically the role of a software architect. So, in the previous interviews, when Tolkit...when talking with the expert and another researcher, we kind of got the message that Jenny I could be reshaping the boundary of the architect's job. So we would like to ask to you if this is true in your opinion, or at least if youcould see this happening and if specifically you think that maybe there are that the architect is taking other tasks that were previously pertaining to other roles within the software development.
+
+P0006 | I11 | 3:32
+Short answer is yes, it's definitely starting to impact software architecture. In the last six months or so, I've started playing, experimenting on my own with several of the large language models and trying to run them locally so I don't run intoproblems with copyright and security and other things. So a lot of that time has been spent setting up a facility. Like I'm sitting here at my server now, so no camera. So I can save as many cycles as possible for experimentation withLet's see, about six or seven different LLMs right now at home. And yeah, I started with just...Text kinds of, oh, that's the probably the phone. Let me kill it. I'm sorry.
+
+P0007 | Interviewer 1 | 4:33
+Yeah.Yeah, no worries.
+
+P0008 | I11 | 4:41
+We never get real calls on our phone. We only get people trying to sell us stuff. I started with...I started with just, you know, some conversations with LLMs and was surprised of what they, oh my, surprised with what they've been fed and already knew about.Components and connectors, and...viewpoints and it was a surprising amount of training that had gone into some of these things relative to our interest in microservices and things, topics that would come up in architecture.
+
+P0009 | Interviewer 1 | 5:32
+Mm.
+
+P0010 | I11 | 5:32
+And so my initial thing was conversational. Then I have a particular interest in architecture modeling and architecture description. And so I started playing with ones that could interpret diagrams like SysML or UML diagrams.And that's been where I've been focusing lately. But absolutely, I see a role for generative AI, probably, hopefully, because of the problems of hallucinations.merging, you know, falsification of citations, just take 3 citations that have similar titles and merge them into one that doesn't exist. Because of that kind of stuff, you know, my basic slogan is that these are potentially good forat this time for generating ideas that you need to carefully verify before you take any further. So, distrust and verify is my slogan.
+
+P0011 | Interviewer 1 | 6:43
+Right, but so in your experience with, you know, playing with this with these tools, have you experienced that, for instance, they may have capabilities that could, you know, affect the tasks that typically areEntrusted to the to a software architect, so what I mean is, yeah.
+
+P0012 | I11 | 7:05
+Yes.Yes, certainly in the making connections between things, you know, sort of the literally the generative aspect is coming up with ideas that they that the human architect then needs to check or test out.And I wouldn't trust them for, at this point, I wouldn't trust them for designing something very large without, or even something very small.Compared to compared to the success people are having generating code.which is surprising, really. But, you know, but our the degree of represent the degree of variation in representing architectures is probably not readily trainable at this stage.
+
+P0013 | Interviewer 1 | 8:07
+Mm.
+
+P0014 | I11 | 8:07
+You know, architecture descriptions tend to be partly text, pictures, pictures without necessarily a strong set of conventions, you know, so...
+
+P0015 | Interviewer 1 | 8:22
+Yes.
+
+P0016 | I11 | 8:23
+The training aspect is going to be a challenge, and that's why I was looking at UML and SysML and.whether we can find LLMs that have really been trained on sufficient corpus of models and things. Yeah.
+
+P0017 | Interviewer 1 | 8:42
+Models, yeah, yeah, yeah.Right. And so one interesting observation that again emerged from the previous interview is that somehow the role, the, let's say, formal definition of role of software architects may beappearing, especially from the job market. So some interviewees highlighted how the number of software architect position is decreasing and will be decreasing even more to a point that maybe again the position will disappear. So then we even ask if this would mean that thethe responsibility assigned to the architect would disappear, but then another possibility could be that those responsibility will be again, because of Gen. AI redistributed to different stakeholders involved in the development, such as tech leads, staff engineers, or manager.Do you have, um, you know, any any opinion on that or any, yeah?
+
+P0018 | I11 | 9:56
+I hope.
+
+P0019 | Interviewer 1 | 10:11
+Yeah.
+
+P0020 | I11 | 10:11
+But, you know, we typically think, I like to think of the software architect as holding a role very similar to a chief engineer or a building architect that says...The buck stops here. I'm responsible for signing off or certifying that this approach will work. And I hope that does not disappear in the rush to automate things. It's certainly affecting the industry's perception
+
+P0021 | Interviewer 1 | 10:41
+Yeah.
+
+P0022 | I11 | 10:47
+of the need for how many programmers and designers they need. That, you know, AI has really messed up that job market. I'm not sure fair, I'm not sure it's been fair. I mean, I think I've played some with code, code generation andExtracting design from.from code and I see there's a lot of in probably some of your other interviewees have been because I'm seeing papers in that area in that area there's a lot of stuff on extracting views and extracting
+
+P0023 | Interviewer 1 | 11:26
+Mm.
+
+P0024 | I11 | 11:28
+you know, architectural information from code, which is very important and probably more achievable.because of the code base, as long as you can train on the other end, as long as you can train on some set of concepts into which to project that code.
+
+P0025 | Interviewer 1 | 11:40
+Yeah.
+
+P0026 | I11 | 11:50
+That's probably more feasible than, you know, making up having a generative AI system make up a new design.
+
+P0027 | Interviewer 1 | 12:00
+Yes, that, that, that's correct, yeah.
+
+P0028 | I11 | 12:01
+But, but yeah.Yeah.
+
+P0029 | Interviewer 1 | 12:05
+So, what I wanted to say is that we do, we did have several interviews that were pointing exactly what you were saying, so that reverse engineering could be somehow easier to manage than the process of actually deriving the implementation or the normal, you know, forward flow, let's put it like this.
+
+P0030 | I11 | 12:25
+Yeah.Yes.
+
+P0031 | Interviewer 1 | 12:29
+Ah.
+
+P0032 | I11 | 12:30
+But still, even in that case, I still fear for hallucinations. You know, somebody sees two, the LLM sees two boxes with the same name on two very different models and says, oh,These are the same.
+
+P0033 | Interviewer 1 | 12:49
+Yeah.
+
+P0034 | I11 | 12:50
+And, [person redacted], yeah.
+
+P0035 | Interviewer 1 | 12:50
+And related to this, actually, there are a few questions that follow. So let's try to hump back them in the order. So the first thing is about responsibility. So basically, many interviewees, if not all, they said that
+
+P0036 | I11 | 13:02
+Sure.
+
+P0037 | Interviewer 1 | 13:11
+because hallucination and, you know, the current limitation of Gen. AI, responsibility, authority, decision authority, accountability, as it's still delegated to the engineers. So, but the question is, could...be the case that you know execution has moved elsewhere while accountability stay with the architect.
+
+P0038 | I11 | 13:39
+Yeah, I think it has to, personally. I mean, the most...
+
+P0039 | Interviewer 1 | 13:41
+Mm.
+
+P0040 | I11 | 13:44
+There's a lot of, as one sees in the every day on the web, there's a lot of success in mathematics, proving theorems, developing consequences of theorems, finding counter examples.And that's because of the rigor of the languages.usually associated with proof assistants like rock or lead. You know, you can't you can't fake a proof. You can you can throw things in that, you know, let you prove anything, you know.
+
+P0041 | Interviewer 1 | 14:20
+Yeah.
+
+P0042 | I11 | 14:28
+P implies not P kinds of stuff. But those are inspectable and visible to humans. And until we have that level of...
+
+P0043 | Interviewer 1 | 14:37
+Mm.
+
+P0044 | I11 | 14:41
+Rigor in our representations.We will need people to inspect or certify or say, yeah, that's OK. We can continue kind of thing.
+
+P0045 | Interviewer 1 | 14:55
+So related to this thread of question, so several participants, they say that basically they see the architectural more important because Gen. AI increases the amount and speed of the downstream work. SoOur question now is, do you, for instance, have any counter examples, so situation where the opposite happens, so where the role of architects may become less central or even bypassed at all?
+
+P0046 | I11 | 15:34
+I think there's possibilities in the short term. Again, a lot of it depends on how robust the representations are. But...I think in the area of traceability, complete, you know, I, you know, in some...In some ways, you can think of an LLM as a very sophisticated pattern matcher and pattern search. And that would be very good for, I think, for discovering and enforcing traceability kinds of stuff, so that you can demonstrate that.the architecture is complete relative to a set of requirements or that the interfaces cover all cases of usage, things like that. I think, I think, and again, to the extent that those things can benormalized in how they're represented.
+
+P0047 | Interviewer 1 | 16:43
+Yes.So before we were discussing on the role of software architect, right, and how this may be, you know, disappear or, yeah, let's say disappear. But so what I get from your answer is that you...you hope that this will not happen, but let's say that it may happen. Do you, what's your vision on the fact that the architecture function could remain central even if the software architectural become, you know, less distinct or disappear?peers. So would this, again, responsibility should, would this responsibility reallocate and if so, how?
+
+P0048 | I11 | 17:36
+I really don't know. I mean, again, if you look at the mathematics communities, especially the folks who are in graduate school or postdocs, are starting to worry that there's no future in mathematics.
+
+P0049 | Interviewer 1 | 17:54
+Yes.
+
+P0050 | I11 | 17:56
+And if you think software engineering kind of has been going through that for the last couple of years, as well as the big companies increasingly code with via GAI. But there will always, it seems to me, there will always be a need forif nothing else, mathematicians or architects posing the problems, looking at, gee, we've developed 5 architectures for our products, but they're not really, they're not really consistent. You know, there will always be higher levelProblems that need to that will need human attention, it seems to me.Unless, you know, until and unless we can make architecture as...Normalized as a in terms of representation as math or.programming. So to me, that's the big, that's the gap, the representation gap that allows for humans to...
+
+P0051 | Interviewer 1 | 19:01
+Yeah.
+
+P0052 | I11 | 19:13
+continue to have a role. And if, you know, we really say we can do it, if we discover we can do everything with some kind of enhanced UML, God forbid, or SysML or something. I mean, these languages are, you know, these languages are great.But the wider set of concerns you have as an architect, you really look at them and they're really only good for functionality, some kinds of structuring. They don't have anything to say about safety or other quality, some other qualities we don't even know how to write down.Other than in English, so it's gonna take a while.
+
+P0053 | Interviewer 1 | 19:54
+Yeah.Yeah, yeah. And of course, this was also shared from few, actually not few, from different interviewees from other angle, but they were essentially saying what you're pointing out, that they believe that the, you know, knowledge, implicit knowledge, domain knowledge, business knowledge of the architect is whatwill make the role of the architect still valuable and difficult to replace.
+
+P0054 | I11 | 20:27
+Yes.Exactly, that's the flip side of we don't have, it's built-in knowledge that we don't have easy ways to encode for machine use. Yeah, yeah.
+
+P0055 | Interviewer 1 | 20:40
+Yeah, exactly. So this is...Precisely. This is what I wanted to ask you. So because to me, well, to us, it also seemed that the issue is not the knowledge itself, but the problem that we do not know how to encode this knowledge in a way that can be fed to machines. I mean, in case we would like to, I'm not saying that we have to, but.
+
+P0056 | I11 | 20:44
+Yeah.Yes.
+
+P0057 | Interviewer 1 | 21:03
+Yeah, OK, and...
+
+P0058 | I11 | 21:06
+It's funny, I don't know if this is relevant, but we've been thinking about this problem as well in the standards area. Can we start to deliver published standards that are readily accessible not only to humans, but to LLMs? You know,
+
+P0059 | Interviewer 1 | 21:21
+Oh, Di, yeah.
+
+P0060 | I11 | 21:24
+Would we structure them differently? What would we put in? You know, how would how would we do that so they could be readily?Utilized.
+
+P0061 | Interviewer 1 | 21:34
+I think this is very interesting. I mean, or well, interesting fact, because it shows clearly that, I mean, standardization bodies are thinking about this, and this is also maybe a future area of research, how to basicallyrender the development artifacts in a way that are actually consumable by machine, mostly by machine rather than by humans since, I mean, if that is the future of development we are targeting.
+
+P0062 | I11 | 22:00
+Yes.Yes.
+
+P0063 | Interviewer 1 | 22:09
+But if I try to, you know, get your vision on the immediate future of, you know, Gen. AI and software architect, I think that you, as many other interviewees, agreed that for the moment, Gen. AI is mostly a very useful tool.tool that can automate most of the tasks but not replacing the, as we were saying, the knowledge that the architect has, right?
+
+P0064 | I11 | 22:38
+Yes, it's most it's most trustworthy for those tasks that are.
+
+P0065 | Interviewer 1 | 22:39
+Yeah.
+
+P0066 | I11 | 22:45
+Shall we say, like, like bookkeeping, there, there, can we, yeah, do we try, does this trace, is it traceability, coverage, things like that, yeah.
+
+P0067 | Interviewer 1 | 22:50
+Yeah.Okay, but in this context, is there an evidence or or or the other?or future development that will make change, you know, your view on how Jan AI will affect the architect role. So, let's say that, yeah, Jan AI will actually be able to replace also or execute the task that for the moment.cannot be executed.
+
+P0068 | I11 | 23:28
+Yeah, I think it it to me it it weighs down to that issue of domain knowledge or rigorous representation. If you can start to cap and that that gets into the hole what the.
+
+P0069 | Interviewer 1 | 23:33
+Knowledge, OK.
+
+P0070 | I11 | 23:43
+you know, 20, 30 years ago, they called the frame problem in artificial intelligence. It's like, how much you have, you know, you say, I want to teach a robot to make a cup of coffee. And then you say, well, it has to know about coffee and hot liquids.
+
+P0071 | Interviewer 1 | 23:50
+Mm.
+
+P0072 | I11 | 24:02
+And oh, it has to know about kitchens and it has to know about my espresso machine. And you, you know, you get ever widening amount of knowledge you need to just say, here, make a cup of coffee.
+
+P0073 | Interviewer 1 | 24:09
+Yeah.
+
+P0074 | I11 | 24:20
+Yeah.And domain knowledge is a lot like that.
+
+P0075 | Interviewer 1 | 24:21
+And the...Since you talk about standards, so did the, it's a side question, but I think it's also relevant. Do you think that there are any, you know, condition or constraints of any kinds? So for instance, even criticality level of the domain or things like that that could affect the...the evolution of the architect role with respect of course, or I would say the evolution of Jan AI and its impact on the architect role.
+
+P0076 | I11 | 24:59
+Yeah, I mean, I think I think the some of the large the Amazons and the Googles and Metas have shown that coding, maybe vibe coding, coding information systemsSocial media systems, simple data database, the.It may not, they may not be beautiful solutions, but they're pretty much a solved, I suspect they're close to a solved problem. But when we get into cyber-physical systems, safe, you know, automotive, I know [person redacted] used to do a lot of work in the
+
+P0077 | Interviewer 1 | 25:46
+Yeah, automotive is.
+
+P0078 | I11 | 25:47
+in automotive, you know, when you get into safety critical near real time stuff. Boy, I really don't want hallucinations, you know.
+
+P0079 | Interviewer 1 | 26:00
+Yeah, of course. No, I, of course, we also think that the, you know, safety critical domain and our mission critical domain should be, I mean, the adoption in those domains should be very safeguarded, let's say, but OK.
+
+P0080 | I11 | 26:03
+Yeah.Yeah.And there are some interesting approaches to that. You know, one thing I've seen is a sort of a nested approach where you have a simple AI solving a simple problem, then you have another AI responsible for verifying that, and it's sort of like nested.What are the Russian dolls, the matrushkas, the nested dolls, where each one solves the safety problem and eventually you maybe get a workable system.
+
+P0081 | Interviewer 1 | 26:49
+Yeah.Good, uh, well...It has been a very interesting discussion, but we actually ended up with the question that we wanted to ask you, as I anticipated, has been a little bit shorter than planned. So, before I mean leaving you, I just wanted to checkthat, you know, maybe in case you have any question or comment or area that you wanted to touch upon and we didn't explicitly ask you. So this is, we just wanted to give you this chance of discussing it before we close the interview.
+
+P0082 | I11 | 27:30
+Ohh.Oh, hello, thank you. I think I hit on most of the things. I think your questions allowed me to hit on most of the things that I've been thinking about in regard to using generative AI. SoYeah, thank you, and I would very much.
+
+P0083 | Interviewer 1 | 27:49
+Okay.

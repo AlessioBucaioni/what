@@ -1,0 +1,331 @@
+INTERVIEW I8
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Interviewer 1 | 0:22
+OK, welcome back.So we have around 10 questions, out of which five or six have a slightly higher priority. So we are trying to prioritize those. But before going or moving to the questions, we would like you to briefly describe your profile.
+
+P0002 | I8 | 0:48
+[Identifying professional background withheld. General participant perspective is recorded in the interview index.]
+
+P0003 | Interviewer 1 | 1:17
+Perfect. Thank you so much. So the first question is a little bit, let's say,pointing at the moment in which you realise that Jan AI was materially affecting the work as an architect or in this case as an engineer. And if you can think of any recent, let's say, situationin which Jenny I really changed the way you...Deliver the task that you were required to.
+
+P0004 | I8 | 1:59
+Yeah, so, so I would say a Jan AI changed a lot in the software development life cycles like.architect, architect, architecting, coding, testing, basically everything. So you can imagine that for now we we use the agent 100% in our daily life andWe we use the AI's is like.the junior engineers that we we have with with us. But like we we we we don't know.100% trust what the AI generate. But we use a mechanism to speed up our development process.And the coding activity is not the bottleneck anymore and also the architecting activities.
+
+P0005 | Interviewer 1 | 3:06
+Okay, great. And do you have any specific, let's say, recent situation in which, yeah, Jan AI really affected your architecture job?
+
+P0006 | I8 | 3:21
+Yeah.Yeah, so you can imagine that like before the the Jan AI era. So we have the other like legacies, I would say legacy software that have like the components we we need to define the ABI, the the the subsystem that communicate with each other. Now the central teams.of our development is like multi-agent. You can think of an agent is like a subsystem.and uh and the API is like how the the agent communicate with each other. But one important thing iswhen when when this come to the to the Jan AI era is we need tohave the very clear battery of when the AI can make the decision and when the when we need the human approval.We we cannot let the the AI do 100 percent of the job. But on the important or the pro show activities, we need the human to tell me.
+
+P0007 | Interviewer 1 | 4:29
+Perfect. And related to this, maybe I can already enter in a little bit in, yeah, the most interesting part. Have you, let's say, experienced any shift in responsibility, decision authority or accountability?
+
+P0008 | I8 | 4:41
+Okay.
+
+P0009 | Interviewer 1 | 4:50
+because of Jenny I.
+
+P0010 | I8 | 4:55
+I would study that.the account, the accountability is still on on humans. But the execution is on the AI.
+
+P0011 | Interviewer 1 | 5:06
+Okay, so yes, let's say that Jan AI in your context did any impact the accountability and decision authority, right? It's still on the human level. Okay.
+
+P0012 | I8 | 5:07
+Yeah.Yeah, so.Yes, exactly. And that and the execution is now we we try to delegate as much as we can to the to the AI.
+
+P0013 | Interviewer 1 | 5:26
+Okay, perfect. And so I guess that in your current role at [organization redacted], you may work with a heterogeneous team that's composed of architects, developers, and I mean many other stakeholders, let's say. So one question is,regarding the architect job. So have you noticed that Jan AI changed the boundary between what is typically considered the architect job and what belonged to other roles, for instance?
+
+P0014 | I8 | 6:06
+Um...I would not say that we have like.I would say that we for now at [organization redacted], we only have a few architects. Maybe that my knowledge is not that accurate because I just joined a company for a year. But what I can see now is like we only have a few architects in the whole company.
+
+P0015 | Interviewer 1 | 6:21
+Yeah.
+
+P0016 | I8 | 6:33
+And it also like, I mean, even for me, I'm the engineering owner and this means that I am the one who design architecture, do the implementation, do the testing, basically everything of the model.And what we did, it goes to the other system is like still the API.Or, or what, what are the teams want?But for me now, I don't see the clear distinctions between the roles.
+
+P0017 | Interviewer 1 | 7:10
+OK.
+
+P0018 | I8 | 7:10
+Like, like what we had before.
+
+P0019 | Interviewer 1 | 7:17
+So if I try to build a little bit on what you said, so in your current settings, of course, you, I mean, every person of the team has a little bit of responsibility that are spanning different activities.Activities of the life cycle, right? So, OK, but but in this in this aspect you didn't notice that Jan AI changed this, so essentially it is the same as it used to be maybe before Jan AI was heavily used in the development process.
+
+P0020 | I8 | 7:40
+Exactly.
+
+P0021 | Interviewer 1 | 7:57
+or maybe you don't know because you were not at [organization redacted] before.
+
+P0022 | I8 | 8:02
+For [organization redacted], I didn't, I don't know that much, but because I was in the software industry before 2021, so I still see that there's still the software architect, still the like the tester, the software developers, those kind of thing, but that.
+
+P0023 | Interviewer 1 | 8:10
+Yeah.
+
+P0024 | I8 | 8:21
+But for now, at [organization redacted], we don't have nothing.
+
+P0025 | Interviewer 1 | 8:24
+Yeah, okay, yeah.
+
+P0026 | I8 | 8:26
+Yeah. And one thing that I can additionally command is because of the chain AI. So then the like the expectation and the workload of each engineer is like much tiger. So like for example, my own project before the AI there was like
+
+P0027 | Interviewer 1 | 8:26
+Yeah.Mm.
+
+P0028 | I8 | 8:45
+Nine people, including two seniors, but now only two people.
+
+P0029 | Interviewer 1 | 8:51
+Okay, then.
+
+P0030 | I8 | 8:51
+and most of the tasks has to be delegated to the AI to complete. But still, again, the accountability of the system is still on the engineers.
+
+P0031 | Interviewer 1 | 9:04
+Okay, so you, I see this is very interesting. So in your experience, basically, now most of the low entry tasks are replaced by Jan AI, right? And so only few, maybe few, few.
+
+P0032 | I8 | 9:19
+Is that exactly?
+
+P0033 | Interviewer 1 | 9:25
+position are retained with more senior, let's say senior task.
+
+P0034 | I8 | 9:32
+Yeah, so, like, like, let's say that now almost all of everybody's become, like, take care of the senior task.
+
+P0035 | Interviewer 1 | 9:34
+Okay.Mm-hmm.
+
+P0036 | I8 | 9:42
+Yeah.
+
+P0037 | Interviewer 1 | 9:43
+OK, that's uh, yeah, the middle, yeah, that's interesting, and uh...
+
+P0038 | I8 | 9:43
+Or at least the mid-levels.Yeah.
+
+P0039 | Interviewer 1 | 9:51
+So, and I guess this also impact the way you work within or you, how can I say, you approach each other within the team. So have you, for instance, noticed that there were some changes because of Jan AI? I mean, one obvious thing, as you said, is that you are fewer.people. So I think somehow the communication was affected as well, right? Between the people in the team.
+
+P0040 | I8 | 10:21
+Yeah, exactly. So like...each of the engineers become more independent. That's the first thing that we don't need to communicate with an order that much. Another thing is things move faster and that is interesting that sometimes we don't really know that we are talking toSo a humans are the kind of the boat of that human.
+
+P0041 | Interviewer 1 | 10:52
+Okay, interesting. So this is a...
+
+P0042 | I8 | 10:53
+Yeah, yeah, and also we have the AI that can like, you can imagine that.[organization redacted] is have a big tech company and its data is so huge. So just say that for a search activity before it's like we can spend like days or at least hours
+
+P0043 | Interviewer 1 | 11:15
+Mm.
+
+P0044 | I8 | 11:15
+to sort for the correct information. But now, with AI, we can, we can do that in in minutes and and the information is like becoming in our hands. So we that type of so the like.
+
+P0045 | Interviewer 1 | 11:22
+Mm.
+
+P0046 | I8 | 11:29
+the small communication that doesn't need that much. Now.
+
+P0047 | Interviewer 1 | 11:35
+Okay, and related to this, have you noticed that the meaning of architectural artifacts and architectural knowledge change for the role of software architects? So what I mean is that do you experience or did you experience that, for instance, software architects create or maintainor rely on different artifacts than they used to previously.
+
+P0048 | I8 | 12:06
+I would say that things become.Very quickly, obsolete now.It's like, let's say that we have the very big architecture of the, like the whole entries strength. [redacted]
+
+P0049 | Interviewer 2 | 13:17
+In concerning this, let's say, activity, you know, how do you manage the, let's say, the evolvability of this, let's say, big architecture in the sense, okay, I think that before you maintain the, before Jan AI, you maintained the architecture,
+
+P0050 | I8 | 13:26
+Oh.
+
+P0051 | Interviewer 2 | 13:38
+maybe, let's say, better than Gen. AI, you know, because now the generation of code is greater than the previous one. So how can you manage this evolvability of this big architecture?Because you have you generate code, no, and and and then how can you manage this the the consistency between the the new code or the evolved the code with respect to this big big architecture?
+
+P0052 | I8 | 13:58
+Yeah, that.Yeah.Yeah, that is the pain that we are experienced now, I would say. So let's say that.We have a same repository, and then there we have like...Like several subsystems, each of the each of the subsystem do does a specific job.And basically the people approach the problem very differently.And I recently I need to build a system that like coordinate.All of the system together, so we need to accept the threat.of the architecture of the subsystem. and then we we have the trick we we we, and then we have a bridge in between that tried to to leave.accommodate the differences between the system.That that is one thing, and another thing is...Uhh.how we can maintain the consistency of the architecture is, of course, another plan of our daily work. And we need to still do the code review very carefully. But I would say that the code review is also done by the AI.So we look at the decision. So we now have a lot of like criteria, the guardrails.that we look at the description to make sure that.our change will not dramatically change the whole system. But of course that it that is like unavoidable.
+
+P0053 | Interviewer 2 | 16:03
+Okay, so the human manages the, let's say, the evolution of the architecture. You are in the sense of you review the code and then if you know that this code affects the, let's say, the architecture, for example, a dependency, you will review and then you will accept. Okay.
+
+P0054 | I8 | 16:04
+Yeah.Yeah.You.Yeah, exactly.Yeah, exactly. So yeah, so I can give you one is I have one specific example. It's like before, like.
+
+P0055 | Interviewer 2 | 16:24
+Okay, okay.
+
+P0056 | I8 | 16:32
+Our system use, let's say, Custo database.So, to manage some some data, so so Custo just like SQL, but then at some development task, the AI suddenly switch to SQL and then the whole thing just just break.
+
+P0057 | Interviewer 2 | 16:38
+Mm.
+
+P0058 | I8 | 16:50
+And without testing, we see that that issue.So it's now it's like...Everything is that the more important thing is like how we find it, how we verify the changes.
+
+P0059 | Interviewer 2 | 17:07
+Yeah.
+
+P0060 | I8 | 17:08
+So if you read the book from Anthropic, now they have the concept called love and cheering. And basicallyFor the whole flow, we have like...the specification, the bill, the very, very verification. So with the AI, the bill become very soft and more time is spent on the validation.
+
+P0061 | Interviewer 2 | 17:36
+Okay. Thanks.
+
+P0062 | I8 | 17:38
+Yeah.
+
+P0063 | Interviewer 1 | 17:44
+Good, nice, uh, nice example.So we had following up one question that I think you partially already answered, because the question that we wanted to ask was about new responsibility or expectation emerging for architects because of Jan AI, but you already mentioned essentially thatExpectation on each and every role, right? So do you want to add anything or?
+
+P0064 | I8 | 18:16
+Grazie.So, so.What I can mention is like, because of the AI, then we have a lot of ideas that we want to do.and then it's like you often hear that like AI would have the people in like reduce our workload right but the reality is different it's like because of the AI we can do things faster then a lot of IE just come up and basically weI I would say now we are learning to to cope with the change, because it's tension just so fast, so so so quickly now. and then we we have a lot of ideas. We have a lot of things to do.that basically increase the workload. And this is the job of the engineer is to to manage the agent effectively. So thatHe can scope with the expectation in the in the workload.
+
+P0065 | Interviewer 1 | 19:35
+Mhm.
+
+P0066 | I8 | 19:37
+Yeah.
+
+P0067 | Interviewer 1 | 19:38
+Okay, this is interesting and it was also mentioned by some colleagues that essentially say that with AI they could experiment even more than they used to do, essentially. So create a lot of solutions, even be bolder than they used to because currentlyThe price of experimenting is rather low, but of course, as you mentioned, also this can create more workload and more expectation on the on the on the task, OK?
+
+P0068 | I8 | 20:07
+Yeah.Yeah, so another like unwritten expectation is like, if somebody can have some agent that run while we sleep, then that is it.That is desirable because like for so we like you can imagine that each day we have a lot of e-mail and we should have an agent to like look at the signal, try to analyze, try to grab the answer to the user. Those are important.
+
+P0069 | Interviewer 1 | 20:36
+Yes.Yes. So now, related to what you would say, maybe also before you talk about, for instance, the majority of entry level tasks being done by AI, right? So in previous interviews, we also talk with colleagues that basicallytold us that they use Gen. AI extensively, but then they still, as you also pointed out, will require human revision of the output. And in this specific setting, they mentioned that they treat the output of Gen. AI as the output of a very unionengineer, so that can be plausible but not correct by default. And then they need people to validate this output. Now, the question that I wanted, that we wanted to ask is a little bit philosophical, no? And it doesn't really just relate on software architects, but maybe
+
+P0070 | I8 | 21:39
+Yeah.
+
+P0071 | Interviewer 1 | 21:52
+software architecture, sorry, but maybe it refers a little bit more in general on the use of Gen. AI. But the question is, if you need, let's say, senior competencies in order to evaluate the output of the Gen. AI, but at the same time, the junior are learning to workwith essentially this generative tool that they take away the learning part, how do you expect the future senior people to have the senior competencies if they don't have a test bad work to develop these competencies?I don't know if my question was clear.
+
+P0072 | I8 | 22:37
+If I understand correctly, your question is about like how thethe workload or how the expectation of a senior and the juniors changed in the AI era, right?
+
+P0073 | Interviewer 1 | 22:50
+Yeah, so how do, so assume that a junior person is employed right now, right? So the person will start to use Gen. AI and therefore potentially develop less and lesser knowledge, specific knowledge. So in a future when he or she will be asked to validate the Gen. AI output,
+
+P0074 | I8 | 22:59
+Yes.
+
+P0075 | Interviewer 1 | 23:13
+he or she may not have those senior or advanced competencies to actually judge the output, if the output of Jan AI is correct or not. So in your company, is this, or in your setting, is this like an issue that you foresee? And do you have any, you know, let's say policy to counteract this?
+
+P0076 | I8 | 23:39
+At least I will say that now this is worrying that...the newly, the new graduates are really affected by the AI.It's not easy for them to find a job.so so it is mean that like getting the real experience is is super difficult now.Another thing is like, if they, if they really get a job.they need to be to know a lot of things, not only about the coding activities.For now.I can see the trend that the coding I think, like the entry levels like you. It means that you are you are typing support right? But I would say that at for a year. I'm. I'm at the company now. I I don't type any
+
+P0077 | Interviewer 1 | 24:20
+Log in our web.
+
+P0078 | I8 | 24:32
+Any line of quotes for now?And the engine now expect to know very to know.About a about a system, how to decide a system.So, it means that, like, everyone is expect to have some stock of software architectures they they need to come up with with like.the the good, or at least the the the feasible, depending on the on the level of of the engineer. They need to come up with the the working architect architecture of the software.And for the senior role, I would say still is like...They need to.have the broad understanding of several systems together.And that is their responsibility to communicate with all the teams, or...on the services.That is the thing that I see in the British.So we are not really see. So we we we are now see that we are the individual contributors. But but our scopy much bigger.
+
+P0079 | Interviewer 1 | 25:57
+Yes, okay. Thank you so much for the nice insight. I mean, I see your point.
+
+P0080 | I8 | 26:03
+I and how they learn. Yeah. Yeah. Another thing is how they learn what are essential. I I would say still still the software engineering fundamentals still important like the pickle notation thing like micro services to make those kind of things are still super important. But.How to put them in the right contact list? Now is my proposal.
+
+P0081 | Interviewer 1 | 26:29
+Okay, so maybe let's go to the question, a big question of the whole session. So what, in your opinion, of course, what makes a software architect valuable now compared with before Jan AI?
+
+P0082 | I8 | 26:51
+I would say it's about the domain knowledge. Before still the domain knowledge is important, but now it's even more important.that you really need to understand what your system is doing, how is it backed?How?What types of values that the system is delivering?It's not really, it's not merely about like which kind of technology you we choose because like the programming language or the technology stack is basically that what the AI country tells us.where we within just a few prompts, but how we can connect the dogs of the big system that really might know the business work is more important.
+
+P0083 | Interviewer 1 | 27:49
+Okay, so guys, just checking if you have any follow-up question from your side. No? Okay, good. Then we are slowly moving towards the end of this interview and now, yeah, we will start the basically concludingpart, in which we try to look into the future, which of course is hard to do because we don't have the crystal ball. But of course, based on your experience and what you can witness in your current context, how do you expect three to five years ahead in time, the situation, theThe yeah, the with respect to Jan AI architects and things like that to look like.
+
+P0084 | I8 | 28:40
+It's super difficult to to predict now, because things just so fast. It's like 6 months ago is that we we we still complain about the quality of of what I. But now is we we almost satisfied. We even sometime we.we we are surprised by the ability of the AI for now also in in in my daily work as well what I would say is like we at least for the software engineer we would expect more and more agents coming inUhh...Yeah.More and more AI, and of course the workflow might be affected.
+
+P0085 | Interviewer 1 | 29:34
+Okay, and do you, for instance, um...So maybe one question that I didn't ask you before is that, have you, I mean, regardless of the...
+
+P0086 | I8 | 29:45
+Okay.
+
+P0087 | Interviewer 1 | 29:49
+Not regardless, but okay, Gen. AI has been introduced and many things have changed around the role of software architect. But have you noticed things that didn't change at all despite the introduction of Gen. AI?
+
+P0088 | I8 | 30:05
+The first one is about accountability of the people. The fundamental subway engineer still is like things like the metrics, the SLA, the SLO still what we want.Light.Basically, the...How, like...Uh, the user experience.
+
+P0089 | Interviewer 1 | 30:32
+Mhm.
+
+P0090 | I8 | 30:32
+Still the same?Yeah, and the rest is, I, I will say that.Chance a lot, at least on, and at least now is like...I would say that the human now need to be more careful.This is not about the philosophy, but...more careful on on what the AI generate. Wewe shouldn't be like the immediate layers between the AI and the system.And then that's basically the trap.Di.prevent our approve for now.
+
+P0091 | Interviewer 1 | 31:29
+Okay, interesting, interesting observation. Yeah, right. So going back to the future, do you see like any, for instance, how can I say, any condition or, you know, boundary that canshape the evolution of yeah, Jan AI and the role of architects. Like for instance, it can be a certain domain, safety critical or certain regulation or yeah, in general, if you see that there can be certain boundaries.
+
+P0092 | I8 | 32:10
+Yeah, at least now I see there's a lot of URLs that like to impose the safety.or or the quality of the software. I'm. I'm. I'm not in theI'm not in the automotive industry for now, because before that I I know there's a lot of like standard that we
+
+P0093 | Interviewer 1 | 32:34
+Yeah.
+
+P0094 | I8 | 32:36
+we have to like think of when we develop the software, but I still think this is not the same. But basically the, I would say that the AI now, likeIt's a bit difficult for me to to comment on that. But basicallyThere's a lot of like...The septic standards, septic like regulation that we need to impose on the.on the Jan AI, the AI native software development life cycle.
+
+P0095 | Interviewer 1 | 33:15
+Mm.Yeah, and of...
+
+P0096 | I8 | 33:17
+that is a that is a big question that that we need to deal with. But of course there is still some some right area that I would say that, like, how how can we control when the people use some? Let's say, unsensor model.open source model that basically have no garage. How can we deal with that? That is still the big question.
+
+P0097 | Interviewer 1 | 33:37
+Yeah.Yes, and of course, some of these questions are a little bit hard, of course, but yeah, it's just to explore or maybe to get an idea on how, yeah, which could be the direction where we are heading, let's say.
+
+P0098 | I8 | 34:01
+Yeah.
+
+P0099 | Interviewer 1 | 34:02
+But yes, say that I think we actually concluded all the questions that we had planned to ask you. Let me check briefly. Yes. Yes, it's correct. And maybe one last question is about, you know, things that you may havethought could have been interesting to discuss and we didn't ask you about. So just to check that maybe you, you know, you have comments or, you know, further ideas that we didn't explore and you want to communicate it to us, this is, you know,Opportunity.
+
+P0100 | I8 | 34:41
+Yeah.Yeah. So this is one thing that I'm always interested in is like how the academia really influenced the like the industry now because you see that things are moving super fast.Now?
+
+P0101 | Interviewer 1 | 35:03
+Yes.
+
+P0102 | I8 | 35:03
+And especially with Jan AI, so for academia, this is 1 concerning thing, is like for the, at least by my knowledge, for the reviewing process, is like it takes like a few months.
+
+P0103 | Interviewer 1 | 35:18
+Mhm.
+
+P0104 | I8 | 35:19
+And then it's just like...one month things already changed a lot. So how so and one thing I should note that is now at many companies, for example at [organization redacted], we have unlimited use of AI. We have no limit that we can do and we can explore it.So that is the open question that I I I don't have the the answer now as well, but like, how can the the academia influenced that the industry?
+
+P0105 | Interviewer 1 | 35:53
+Yeah.This is a this is a very interesting point, of course, and even after to, as you said, to answer right now, maybe we approach the, you know, a point in time in which the...the contest changed a bit. So while traditionally it was academia to be always in front of, you know, industry, now maybe it's a little bit the contrary. So because the scientific process is bounded by verification, essentially. So we can, as you know, the scientific community cannot accept anything.Anything before it is actually reviewed and validated, while at the other end, the industry has different drivers, which...
+
+P0106 | I8 | 36:38
+Yeah.
+
+P0107 | Interviewer 1 | 36:43
+traditionally our business. So I think we, this is like a foundational question that will affect definitely the model in which research is typically carried out with, again, the innovation coming mostly from industry rather than academia.
+
+P0108 | I8 | 36:44
+Yeah.Yeah, yeah.
+
+P0109 | Interviewer 1 | 37:07
+All right, but since we handed the question, I'm going to stop the transcript.

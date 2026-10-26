@@ -1,0 +1,1 @@
+window.DOWNLOAD_META={"downloads/interview_protocol.md": {"bytes": 2511, "size": "2.5 KB"}, "downloads/transcripts.zip": {"bytes": 128852, "size": "125.8 KB"}, "downloads/codebook.zip": {"bytes": 50086, "size": "48.9 KB"}};

@@ -1,0 +1,131 @@
+[
+  {
+    "relationship_id": "L01",
+    "source": "T01",
+    "target": "T02",
+    "claim": "Faster generation can increase the importance of explicit intent for controlling what is produced.",
+    "evidence_ids": [
+      "E080",
+      "E140",
+      "E235"
+    ],
+    "status": "Participant-argued relationship and analyst synthesis; not a tested causal effect",
+    "qualification": "Generation volume and useful constraint vary; E245 rejects the assumption that more constraint is always better."
+  },
+  {
+    "relationship_id": "L02",
+    "source": "T02",
+    "target": "T03",
+    "claim": "Represented context provides material for scrutiny, while acceptance still depends on how the work is checked and who approves it.",
+    "evidence_ids": [
+      "E075",
+      "E132",
+      "E217",
+      "E229"
+    ],
+    "status": "Interpretive/conditional relationship",
+    "qualification": "Knowledge artifacts do not assign accountability or guarantee reliable checking; E203 conditions possible reduced involvement on validated explanations and cheaper checks."
+  },
+  {
+    "relationship_id": "L03",
+    "source": "T01",
+    "target": "T05",
+    "claim": "Shorter generation and shifted effort motivate reconsideration of staging, decomposition and coordination.",
+    "evidence_ids": [
+      "E088",
+      "E140",
+      "E204",
+      "E269"
+    ],
+    "status": "Mixed current work description and prospective process interpretation",
+    "qualification": "Reported current decomposition and imagined orchestration remain separate; no established universal lifecycle transition."
+  },
+  {
+    "relationship_id": "L04",
+    "source": "T04",
+    "target": "T03",
+    "claim": "Redistributing execution or architectural tasks need not redistribute answerability in the same way.",
+    "evidence_ids": [
+      "E156",
+      "E190",
+      "E197",
+      "E228",
+      "E259"
+    ],
+    "status": "Reported divisions plus conditional and future interpretation",
+    "qualification": "Who takes responsibility varies by team/organization; retained human accountability is not a verified legal allocation or proof of unchanged authority."
+  },
+  {
+    "relationship_id": "L05",
+    "source": "T05",
+    "target": "T04",
+    "claim": "Shared delivery arrangements offer ways to coordinate people and agents across individual working contexts.",
+    "evidence_ids": [
+      "E125",
+      "E149",
+      "E205",
+      "E267"
+    ],
+    "status": "One bounded operational example plus desired/interpretive possibilities",
+    "qualification": "The feedback practice in E149 does not establish full team-agent orchestration or demonstrate that a shared process changes job boundaries."
+  },
+  {
+    "relationship_id": "L06",
+    "source": "T06",
+    "target": "T03",
+    "claim": "Retaining human oversight creates a need to sustain the capacities used to understand and review outputs.",
+    "evidence_ids": [
+      "E081",
+      "E098",
+      "E177",
+      "E200",
+      "E265"
+    ],
+    "status": "Participant-argued dependency, supported by practices; no longitudinal effectiveness test",
+    "qualification": "Teaching, mentoring and reviews are not proven learning outcomes; E201 envisages alternatives to learning by writing every line."
+  },
+  {
+    "relationship_id": "L07",
+    "source": "T01",
+    "target": "T06",
+    "claim": "Shifting work from creation toward review can create tensions over learning, agency and enjoyable work.",
+    "evidence_ids": [
+      "E104",
+      "E141",
+      "E142",
+      "E150"
+    ],
+    "status": "Interpretive and normative connection with colleague-reported preferences",
+    "qualification": "E105/E264 provide positive creativity/enjoyment accounts; no inevitable deskilling or morale decline is inferred."
+  },
+  {
+    "relationship_id": "L08",
+    "source": "T07",
+    "target": "T03",
+    "claim": "Contextual judgment can inform what people accept and supervise; its attributed value is distinct from the allocation of authority and answerability.",
+    "evidence_ids": [
+      "E075",
+      "E132",
+      "E229",
+      "E251",
+      "E275"
+    ],
+    "status": "Interpretive relationship between contribution and acceptance; not a causal or legal finding",
+    "qualification": "Shared evidence can illuminate different analytic questions. Accountability does not demonstrate value, and value does not confer authority."
+  },
+  {
+    "relationship_id": "L09",
+    "source": "T06",
+    "target": "T07",
+    "claim": "Learning and work arrangements are proposed as ways to sustain the understanding and judgment participants value.",
+    "evidence_ids": [
+      "E081",
+      "E177",
+      "E200",
+      "E265",
+      "E276"
+    ],
+    "status": "Participant-argued and analyst-synthesized dependency; no longitudinal effectiveness test",
+    "qualification": "Current learning practices, expected expertise and desired pathways remain separate. Learning outcomes and professional value are not independently measured."
+  }
+]

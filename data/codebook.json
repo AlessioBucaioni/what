@@ -1,0 +1,1200 @@
+[
+  {
+    "code_id": "K01",
+    "name": "Accelerated production and exploration",
+    "primary_rq": "RQ1",
+    "secondary_rqs": [
+      "RQ3"
+    ],
+    "definition": "Participants describe or appraise faster production and exploration of architectural or technical material, including advice, research code, specifications, documentation, technical options and codebase understanding.",
+    "inclusion_criteria": "Reported production/exploration and explicit opinions about these benefits. Preserve task, organizational context and account type; speed claims need no implication of measured gains.",
+    "exclusion_criteria": "Net efficiency and correction costs belong to K02; verification processes to K03. Do not assume all artifact types or projects become faster.",
+    "qualifications": "The original contextual qualifications still apply. I4 extends investigation to large undocumented systems and describes specification generation; I6 reports technology-option exploration. I5’s documentation claims are opinions, not industrial outcomes. K02/K18 qualify speed benefits.",
+    "evidence_ids": [
+      "E001",
+      "E002",
+      "E003",
+      "E004",
+      "E067",
+      "E068",
+      "E076",
+      "E078",
+      "E079",
+      "E099",
+      "E100",
+      "E105",
+      "E108",
+      "E111",
+      "E136",
+      "E144",
+      "E158",
+      "E173",
+      "E188",
+      "E211",
+      "E231",
+      "E239",
+      "E274"
+    ],
+    "preferred_display_evidence": "E001",
+    "predecessor_ids": [
+      "C001",
+      "C002",
+      "C003"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Colleague report"
+    ],
+    "destination": "T01",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K02",
+    "name": "Qualified efficiency gains",
+    "primary_rq": "RQ1",
+    "secondary_rqs": [
+      "RQ3"
+    ],
+    "definition": "Perceived initial speed gains may be offset or left uncertain by interpreting, correcting and validating generated output; a complex solution can cost more effort than direct work.",
+    "inclusion_criteria": "Initial generation speed alongside accuracy or end-to-end-effort qualifications, and reported unsuccessful complex-output attempts.",
+    "exclusion_criteria": "Do not infer measured end-to-end gains. Verification activity itself is K03; responsibility for review is K04.",
+    "qualifications": "E007 is a colleague report with the participant’s own appraisal, including an unmeasured 80% estimate. E012 is a direct failed-use case; both are retained within this broader code.",
+    "evidence_ids": [
+      "E007",
+      "E008",
+      "E012",
+      "E103",
+      "E133",
+      "E143",
+      "E188"
+    ],
+    "preferred_display_evidence": "E008",
+    "predecessor_ids": [
+      "C005",
+      "C007"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation"
+    ],
+    "source_scopes_present": [
+      "Colleague report",
+      "Direct account"
+    ],
+    "destination": "T01",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K03",
+    "name": "Verification around AI-assisted work",
+    "primary_rq": "RQ1",
+    "secondary_rqs": [
+      "RQ2",
+      "RQ3",
+      "RQ4"
+    ],
+    "definition": "AI-assisted work involves verification and refinement: GenAI can cross-check human work, while people or assisted workflows check generated output, architectural alignment and behavior. Reported checking, proposed assurance mechanisms and future expectations remain distinct.",
+    "inclusion_criteria": "Second opinions, tests and correction; architecture-level/team review, conformance/traceability checks, fitness functions and runtime observations; distinguish proposed automated assurance from reported operational use. Checking includes scrutiny of the evidence behind generated answers and perceived limitations of AI-based checking, such as agreement with the questioner. Preserve specific failure modes as properties; they do not demonstrate calibrated trust or a reliable checking mechanism.",
+    "exclusion_criteria": "Responsibility/approval is K04; encoding reasoning so it can be checked is K25; no suggestion or nested-AI checking scheme establishes proven safety or correctness.",
+    "qualifications": "Earlier current/normative/future checking distinctions remain. I10 describes staged team reviews; I9 proposes fitness functions/observability and I11 proposes traceability or nested checking. I12 argues the same testing regimen can apply to human/AI code; these are not independent safety guarantees.",
+    "evidence_ids": [
+      "E005",
+      "E006",
+      "E009",
+      "E010",
+      "E011",
+      "E048",
+      "E075",
+      "E076",
+      "E078",
+      "E083",
+      "E087",
+      "E091",
+      "E097",
+      "E103",
+      "E126",
+      "E149",
+      "E159",
+      "E160",
+      "E179",
+      "E200",
+      "E206",
+      "E211",
+      "E216",
+      "E218",
+      "E224",
+      "E235",
+      "E242",
+      "E265",
+      "E272"
+    ],
+    "preferred_display_evidence": "E009",
+    "predecessor_ids": [
+      "C004",
+      "C006",
+      "C027"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation",
+      "Expected future development",
+      "Hypothetical or conditional statement",
+      "Desired future development"
+    ],
+    "source_scopes_present": [
+      "Direct account"
+    ],
+    "destination": "T03",
+    "destination_role": "Supporting assurance code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K04",
+    "name": "Human oversight and responsibility for AI-assisted outcomes",
+    "primary_rq": "RQ2",
+    "secondary_rqs": [
+      "RQ1",
+      "RQ3"
+    ],
+    "definition": "Participants assign checking, approval, risk acceptance and responsibility for AI-assisted outcomes to people, while describing delegated execution and concerns about overreliance.",
+    "inclusion_criteria": "Reviewers, human approval gates, stated retained responsibility/accountability, risk acceptance and clearly labelled overreliance concerns.",
+    "exclusion_criteria": "Checking methods are K03. Do not turn participant responsibility or liability assertions into verified law, formal universal accountability, or established responsibility transfer.",
+    "qualifications": "The original qualifications on oversight and accepted risk still apply. I7 reports a company human-review gate; I8 states retained human accountability with AI execution. I6’s liability statement is a participant stance, not a legal finding. I4’s uncritical junior submission is direct, unlike earlier I2 hearsay.",
+    "evidence_ids": [
+      "E016",
+      "E029",
+      "E062",
+      "E072",
+      "E075",
+      "E081",
+      "E098",
+      "E121",
+      "E130",
+      "E132",
+      "E139",
+      "E152",
+      "E153",
+      "E156",
+      "E168",
+      "E171",
+      "E185",
+      "E190",
+      "E197",
+      "E214",
+      "E217",
+      "E228",
+      "E229",
+      "E251",
+      "E259"
+    ],
+    "preferred_display_evidence": "E029",
+    "predecessor_ids": [
+      "C017",
+      "C034"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation",
+      "Hypothetical or conditional statement",
+      "Desired future development",
+      "Expected future development"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Hearsay",
+      "Colleague report"
+    ],
+    "destination": "T03",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K05",
+    "name": "Uneven impact across architectural work",
+    "primary_rq": "RQ1",
+    "secondary_rqs": [
+      "RQ3"
+    ],
+    "definition": "GenAI is perceived to have greater impact or capability near implementation detail than in architectural direction, strategy and difficult quality decisions.",
+    "inclusion_criteria": "Experience of detailed agent findings and appraisals comparing implementation-facing and strategic work.",
+    "exclusion_criteria": "Do not infer a universal or measured capability gradient. Human option judgment is K27; future capability contingencies K16.",
+    "qualifications": "The assessment is explicitly experience-bound. E004 retains useful codebase understanding as a qualification. I1 does not assert a straight-line relationship.",
+    "evidence_ids": [
+      "E004",
+      "E016",
+      "E017",
+      "E018",
+      "E063",
+      "E068",
+      "E091",
+      "E102",
+      "E189",
+      "E212",
+      "E215",
+      "E236"
+    ],
+    "preferred_display_evidence": "E063",
+    "predecessor_ids": [
+      "C010",
+      "C035"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation"
+    ],
+    "source_scopes_present": [
+      "Direct account"
+    ],
+    "destination": "T02",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K08",
+    "name": "Continuity of architectural purpose and method",
+    "primary_rq": "RQ1",
+    "secondary_rqs": [
+      "RQ3",
+      "RQ4"
+    ],
+    "definition": "Participants describe, desire or expect continuity in architectural purpose, usefulness criteria and core design activities despite changing tools, while allowing tool reliance and organizational arrangements to change.",
+    "inclusion_criteria": "Artifact usefulness, requirements/business-goal frameworks, desired stakeholder fulfilment, and forecasts of continuing high-level design.",
+    "exclusion_criteria": "Do not treat desired or expected continuity as observed practice, or imply every method and organizational arrangement remains unchanged.",
+    "qualifications": "E049 is a desired future; E053 an expected future. E054–E056 qualify continuity with growing tool reliance, replacement skepticism and conditional organizational change. Context-dependent frameworks are not universal processes.",
+    "evidence_ids": [
+      "E019",
+      "E020",
+      "E049",
+      "E053",
+      "E054",
+      "E055",
+      "E056",
+      "E101",
+      "E130",
+      "E137",
+      "E151",
+      "E168",
+      "E170",
+      "E174",
+      "E178",
+      "E190",
+      "E232"
+    ],
+    "preferred_display_evidence": "E019",
+    "predecessor_ids": [
+      "C011",
+      "C012",
+      "C028",
+      "C030"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "General opinion or interpretation",
+      "Desired future development",
+      "Expected future development",
+      "Hypothetical or conditional statement",
+      "Reported current or past practice"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Colleague report"
+    ],
+    "destination": "T07",
+    "destination_role": "Supporting continuity code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K09",
+    "name": "Explicit architectural knowledge for steering agents",
+    "primary_rq": "RQ4",
+    "secondary_rqs": [
+      "RQ1",
+      "RQ2"
+    ],
+    "definition": "Explicit architectural intent, decisions and principles, made usable at appropriate agent-workflow points, are proposed as conditions for retaining control over autonomous development.",
+    "inclusion_criteria": "Recommended explicit knowledge, workflow injection, and reported difficulty making simple file-based instructions effective.",
+    "exclusion_criteria": "Do not infer validated control mechanisms. Knowledge retention/retrieval and expert interaction are K10. Feasibility/limits of encoding architectural reasoning are K25; actual conformance checking is K03. Constraints may also limit useful capability, so do not presume tighter is always better.",
+    "qualifications": "The account combines conditional advice and limited experimentation. Explicit intent and reliable application are related but remain distinguishable requirements.",
+    "evidence_ids": [
+      "E038",
+      "E039",
+      "E040",
+      "E041",
+      "E080",
+      "E084",
+      "E085",
+      "E101",
+      "E140",
+      "E159",
+      "E170",
+      "E172",
+      "E173",
+      "E179",
+      "E192",
+      "E194",
+      "E202",
+      "E221",
+      "E232",
+      "E235",
+      "E236",
+      "E237",
+      "E245",
+      "E246",
+      "E274"
+    ],
+    "preferred_display_evidence": "E040",
+    "predecessor_ids": [
+      "C023",
+      "C024"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Desired future development",
+      "Reported current or past practice",
+      "Hypothetical or conditional statement",
+      "General opinion or interpretation",
+      "Expected future development"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Colleague report",
+      "Hearsay"
+    ],
+    "destination": "T02",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K10",
+    "name": "Retaining, retrieving and using architectural knowledge",
+    "primary_rq": "RQ4",
+    "secondary_rqs": [
+      "RQ2",
+      "RQ3"
+    ],
+    "definition": "Participants describe or envisage preserving, reconstructing, linking, retrieving and using architectural knowledge, including expert interaction and team knowledge access or circulation.",
+    "inclusion_criteria": "Private/in-house retrieval, tacit considerations, undocumented-system reconstruction, expert knowledge tools, team access and knowledge-sharing through review.",
+    "exclusion_criteria": "Do not assume retrieved code explains all business rationale or that all tools are GenAI. Explicit agent constraints are K09; tasks/role transfer K21.",
+    "qualifications": "Earlier private knowledge proposals remain hypothetical/expected; E044 attribution is author confirmed under D006. I4-S3 and I7 provide current knowledge-reconstruction/sharing accounts. I8’s search example is company information of unspecified type. Accessible knowledge need not transfer review authority.",
+    "evidence_ids": [
+      "E042",
+      "E043",
+      "E044",
+      "E061",
+      "E078",
+      "E127",
+      "E131",
+      "E137",
+      "E149",
+      "E158",
+      "E181",
+      "E205",
+      "E207",
+      "E215",
+      "E237",
+      "E243"
+    ],
+    "preferred_display_evidence": "E043",
+    "predecessor_ids": [
+      "C025",
+      "C033"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Hypothetical or conditional statement",
+      "Expected future development",
+      "Reported current or past practice",
+      "General opinion or interpretation",
+      "Desired future development"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Colleague report"
+    ],
+    "destination": "T02",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K11",
+    "name": "Governance and organizational conditions of adoption",
+    "primary_rq": "RQ2",
+    "secondary_rqs": [
+      "RQ1",
+      "RQ4"
+    ],
+    "definition": "Safety context, permissions, policies, organizational readiness and architectural governance work shape adoption, alongside desired future AI regulation or standards.",
+    "inclusion_criteria": "Restricted artifacts, enterprise permissions/proxies, client agreements, organizational maturity, policy drafting and adoption rules, plus clearly distinguished future formalization views.",
+    "exclusion_criteria": "Do not infer an absolute ban, changing client authority, or verified legal requirements. Outcomes oversight is K04.",
+    "qualifications": "The client and safety conditions still apply. I6 reports writing AI policy and limited team adoption in an immature setting; I7 reports organizational policy and review gates. Compliance claims remain participant accounts, not audits. Costs/remuneration are K22.",
+    "evidence_ids": [
+      "E013",
+      "E014",
+      "E027",
+      "E028",
+      "E057",
+      "E058",
+      "E069",
+      "E090",
+      "E108",
+      "E112",
+      "E118",
+      "E119",
+      "E139",
+      "E185",
+      "E195",
+      "E199",
+      "E208",
+      "E223",
+      "E233",
+      "E242",
+      "E261"
+    ],
+    "preferred_display_evidence": "E027",
+    "predecessor_ids": [
+      "C008",
+      "C016",
+      "C031"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation",
+      "Desired future development",
+      "Expected future development"
+    ],
+    "source_scopes_present": [
+      "Direct account"
+    ],
+    "destination": "T05",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K12",
+    "name": "Influence and authority in AI-assisted work",
+    "primary_rq": "RQ2",
+    "secondary_rqs": [
+      "RQ3"
+    ],
+    "definition": "AI-assisted apparent competence and one-sided briefing are perceived as affecting influence in architectural discussion; architects lacking current delivery-tool expertise are advised to learn from and defer to delivery teams.",
+    "inclusion_criteria": "Perceived superficial technical influence, conditional political scenarios and advice about architect/team boundaries.",
+    "exclusion_criteria": "Do not assert demonstrated authority redistribution. Expectations and personal communication are K13; oversight responsibility K04.",
+    "qualifications": "I1 expressly says the authority/accountability effect has not happened to them (E025). Deferring to teams is conditional advice (E030), not reported delegation. The unclear contradictory clause in P0022 remains unused.",
+    "evidence_ids": [
+      "E024",
+      "E025",
+      "E026",
+      "E030",
+      "E072",
+      "E138",
+      "E193",
+      "E230",
+      "E251",
+      "E255"
+    ],
+    "preferred_display_evidence": "E024",
+    "predecessor_ids": [
+      "C015",
+      "C018"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "General opinion or interpretation",
+      "Reported current or past practice",
+      "Hypothetical or conditional statement"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Colleague report"
+    ],
+    "destination": "T04",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K13",
+    "name": "Changing expectations and relationships",
+    "primary_rq": "RQ2",
+    "secondary_rqs": [
+      "RQ1"
+    ],
+    "definition": "Participants describe continuity or change in communication, professional relationships, perceived AI participation in teams and expectations of collaborators, including maintaining a personal voice, agent-use expectations and individual versus shared working contexts.",
+    "inclusion_criteria": "Personal communication choices, perceived relational continuity and role-dependent expectations of others’ tool use.",
+    "exclusion_criteria": "Do not infer universal adoption or others’ expectations of the architect. Authority/influence concerns are K12.",
+    "qualifications": "I1’s expectations vary between code-facing and senior colleagues. Their reported continuity is self-assessed and does not establish colleagues’ views.",
+    "evidence_ids": [
+      "E021",
+      "E022",
+      "E023",
+      "E070",
+      "E112",
+      "E113",
+      "E125",
+      "E127",
+      "E135",
+      "E149",
+      "E157",
+      "E162",
+      "E182",
+      "E205",
+      "E226",
+      "E239"
+    ],
+    "preferred_display_evidence": "E021",
+    "predecessor_ids": [
+      "C013",
+      "C014"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation",
+      "Desired future development",
+      "Hypothetical or conditional statement"
+    ],
+    "source_scopes_present": [
+      "Direct account"
+    ],
+    "destination": "T04",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K14",
+    "name": "Architectural value of integrating GenAI into systems",
+    "primary_rq": "RQ3",
+    "secondary_rqs": [],
+    "definition": "Architectural expertise is perceived as particularly valuable when embedding nondeterministic GenAI features in deterministic systems because of stakeholder, quality and trade-off complexity.",
+    "inclusion_criteria": "Conditional value claims specifically about AI features in the product/system.",
+    "exclusion_criteria": "Distinguish using GenAI to develop software. Do not infer a universal or demonstrated increase in architect value.",
+    "qualifications": "E033 is a conditional opinion; E034 qualifies its scope with continuity in strategic architectural value. The C020-to-K14 succession is an author-requested ID transition, not a multi-code merge.",
+    "evidence_ids": [
+      "E033",
+      "E034",
+      "E089",
+      "E090",
+      "E114",
+      "E152",
+      "E244"
+    ],
+    "preferred_display_evidence": "E033",
+    "predecessor_ids": [
+      "C020"
+    ],
+    "transition_type": "Single-predecessor ID transition",
+    "account_types_present": [
+      "Hypothetical or conditional statement",
+      "General opinion or interpretation",
+      "Expected future development",
+      "Reported current or past practice"
+    ],
+    "source_scopes_present": [
+      "Direct account"
+    ],
+    "destination": "P01",
+    "destination_role": "Peripheral scope finding",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K15",
+    "name": "Reallocation of architectural effort and modernization choices",
+    "primary_rq": "RQ4",
+    "secondary_rqs": [
+      "RQ1",
+      "RQ3"
+    ],
+    "definition": "Participants report or anticipate shifts from building to planning or reviewing, relief from busywork and wider improvement ambitions, and changed legacy-system analysis, migration or renovate-or-rebuild choices.",
+    "inclusion_criteria": "Reported and expected changes in task emphasis; architectural refactoring/migration; conditional modernization economics; maintain account types and temporal distinctions.",
+    "exclusion_criteria": "Do not infer current change from forecasts, completed modernization from a possibility, or zero-cost rebuilding. Demand/volume bottlenecks are K18; rebuild hype K27.",
+    "qualifications": "I1’s earlier account of modernization and effort reallocation was speculative. I4-S3 now reports bounded client migrations; I7 describes refactoring and planning/review emphasis in their own organization; I5 industry review-shift statements are second-hand. No measured end-to-end efficiency is established.",
+    "evidence_ids": [
+      "E045",
+      "E046",
+      "E047",
+      "E059",
+      "E060",
+      "E079",
+      "E085",
+      "E088",
+      "E094",
+      "E136",
+      "E140",
+      "E144",
+      "E186",
+      "E196",
+      "E198",
+      "E202",
+      "E204",
+      "E231",
+      "E234",
+      "E247",
+      "E260",
+      "E262"
+    ],
+    "preferred_display_evidence": "E046",
+    "predecessor_ids": [
+      "C026",
+      "C032"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Expected future development",
+      "Hypothetical or conditional statement",
+      "General opinion or interpretation",
+      "Reported current or past practice"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Hearsay",
+      "Colleague report"
+    ],
+    "destination": "T01",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K16",
+    "name": "Contingency of the future role",
+    "primary_rq": "RQ4",
+    "secondary_rqs": [],
+    "definition": "Expectations about automation and the future architect role depend on uncertain architectural model capability, access to contextual knowledge, and whether outputs and explanations can be represented and checked reliably.",
+    "inclusion_criteria": "Uncertain future architectural automation; capability, trustworthy explanation or rigorous-representation conditions that might change human involvement.",
+    "exclusion_criteria": "Do not treat possibilities as predictions of occurrence or present capability. Adoption stance is K17.",
+    "qualifications": "Earlier I1 capability speculation remains. I10 asks for correct, validated explanations and cheaper checking; I11 highlights domain knowledge and representation gaps. These are conditions/interpretations, not observed replacement or validated forecasting.",
+    "evidence_ids": [
+      "E050",
+      "E051",
+      "E052",
+      "E146",
+      "E166",
+      "E183",
+      "E203",
+      "E219",
+      "E222",
+      "E246"
+    ],
+    "preferred_display_evidence": "E051",
+    "predecessor_ids": [
+      "C029"
+    ],
+    "transition_type": "Single-predecessor ID transition",
+    "account_types_present": [
+      "Expected future development",
+      "Hypothetical or conditional statement",
+      "General opinion or interpretation",
+      "Reported current or past practice"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Hearsay"
+    ],
+    "destination": "X01",
+    "destination_role": "Cross-cutting qualifier",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K17",
+    "name": "Adoption trajectory and stance",
+    "primary_rq": "RQ1",
+    "secondary_rqs": [
+      "RQ4"
+    ],
+    "definition": "Participants describe how their stance toward GenAI formed or changed, including gradual acceptance associated with perceived capabilities and continuing skepticism.",
+    "inclusion_criteria": "Self-described gradual uptake, revised skepticism, enthusiasm and contrasting continuing skepticism.",
+    "exclusion_criteria": "Do not impose a universal adoption-stage model or verified model-release chronology; future capability contingency is K16.",
+    "qualifications": "I1’s enthusiasm and I2’s continuing skepticism are both retained. The C036-to-K17 succession is an author-requested ID transition, not a multi-code merge.",
+    "evidence_ids": [
+      "E064",
+      "E065",
+      "E066",
+      "E084",
+      "E092",
+      "E134",
+      "E167",
+      "E184",
+      "E187",
+      "E208",
+      "E209",
+      "E264"
+    ],
+    "preferred_display_evidence": "E065",
+    "predecessor_ids": [
+      "C036"
+    ],
+    "transition_type": "Single-predecessor ID transition",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Colleague report"
+    ],
+    "destination": "X01",
+    "destination_role": "Cross-cutting qualifier",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K18",
+    "name": "Validation capacity and expanding workload",
+    "primary_rq": "RQ1",
+    "secondary_rqs": [
+      "RQ2",
+      "RQ4"
+    ],
+    "definition": "Participants describe or anticipate production and demand growing faster than human capacity to review, understand and coordinate outputs, creating workload or validation bottlenecks.",
+    "inclusion_criteria": "Volume of generated artifacts or projects; demand expansion; mentally costly review; expected prioritization or AI-assisted checking to handle capacity.",
+    "exclusion_criteria": "Individual output-correction efficiency is K02; which tasks receive effort is K15. Do not infer clinical harm or measured throughput.",
+    "qualifications": "Reported current burden, opinions and future triage remain separate. I8’s smaller team is contextual, not proof AI caused staffing reduction.",
+    "evidence_ids": [
+      "E073",
+      "E074",
+      "E077",
+      "E086",
+      "E087",
+      "E094",
+      "E115",
+      "E126",
+      "E140",
+      "E141",
+      "E155",
+      "E161",
+      "E162",
+      "E180"
+    ],
+    "preferred_display_evidence": "E073",
+    "predecessor_ids": [],
+    "transition_type": "Addition — no predecessor",
+    "account_types_present": [
+      "Reported current or past practice",
+      "Expected future development",
+      "General opinion or interpretation",
+      "Hypothetical or conditional statement"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Hearsay"
+    ],
+    "destination": "T01",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K19",
+    "name": "Developing and sustaining professional judgment",
+    "primary_rq": "RQ4",
+    "secondary_rqs": [
+      "RQ2",
+      "RQ3"
+    ],
+    "definition": "Participants describe or advocate developing and sustaining the judgment and practical proficiency needed for AI-assisted architectural work, through experience, explanation, critical thinking, mentoring and learning AI tools, while questioning how newcomers acquire those capabilities.",
+    "inclusion_criteria": "Learning/mentoring practices, teaching skepticism, future skill formation, access to experience, and the breadth needed to judge unfamiliar designs.",
+    "exclusion_criteria": "Checking one output is K03; professional agency is K20; staffing arrangements are K21. Do not assume AI inevitably erodes skills or that teaching achieves its intended outcomes.",
+    "qualifications": "I5’s teaching is direct practice; future erosion and learning claims are interpretations. I4-S2 emphasizes continuity in training principles, and I4-S1 uses AI explanations as a learning resource.",
+    "evidence_ids": [
+      "E072",
+      "E081",
+      "E082",
+      "E083",
+      "E096",
+      "E097",
+      "E098",
+      "E106",
+      "E107",
+      "E122",
+      "E123",
+      "E145",
+      "E148",
+      "E163",
+      "E164",
+      "E173",
+      "E177",
+      "E200",
+      "E201",
+      "E244",
+      "E250",
+      "E265",
+      "E273",
+      "E276"
+    ],
+    "preferred_display_evidence": "E072",
+    "predecessor_ids": [],
+    "transition_type": "Addition — no predecessor",
+    "account_types_present": [
+      "Reported current or past practice",
+      "Hypothetical or conditional statement",
+      "General opinion or interpretation",
+      "Expected future development",
+      "Desired future development"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Hearsay"
+    ],
+    "destination": "T06",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K20",
+    "name": "Preserving agency creativity and rewarding work",
+    "primary_rq": "RQ2",
+    "secondary_rqs": [
+      "RQ3",
+      "RQ4"
+    ],
+    "definition": "Participants value purpose, agency, creativity and enjoyable problem solving, and question work allocation that gives AI creation while humans inherit disliked review.",
+    "inclusion_criteria": "Purpose/agency and human-oriented allocation; creativity through exploration; reported colleague preferences; conditional review-only concern and direct renewed enjoyment of AI-assisted work.",
+    "exclusion_criteria": "No inference of measured morale decline or experienced psychological harm. Skill formation is K19; workload capacity K18.",
+    "qualifications": "Earlier concern and creativity-supporting accounts remain. I13 reports rediscovering coding enjoyment, a positive case that prevents reducing this code to loss of purpose. Broad claims about unhappy engineers are not treated as measured morale outcomes.",
+    "evidence_ids": [
+      "E104",
+      "E105",
+      "E106",
+      "E141",
+      "E142",
+      "E150",
+      "E254",
+      "E264"
+    ],
+    "preferred_display_evidence": "E104",
+    "predecessor_ids": [],
+    "transition_type": "Addition — no predecessor",
+    "account_types_present": [
+      "General opinion or interpretation",
+      "Expected future development",
+      "Reported current or past practice",
+      "Desired future development"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Colleague report"
+    ],
+    "destination": "T06",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K21",
+    "name": "Redistributing architectural work roles and staffing",
+    "primary_rq": "RQ2",
+    "secondary_rqs": [
+      "RQ1",
+      "RQ4"
+    ],
+    "definition": "Participants describe or envisage architectural tasks spreading across engineers or alternative roles, changing team staffing and expectations, while retaining architecture work or review gates in some settings.",
+    "inclusion_criteria": "Partial transfer of exploration, broad lifecycle ownership, headcount reports, job-title interpretations, complex-product role conditions, and speculative role-specialized agents.",
+    "exclusion_criteria": "Do not infer AI caused every title or staffing change. Apparent influence is K12; knowledge access without role transfer is K10; skill acquisition is K19.",
+    "qualifications": "I8 lacks a reliable prior company-role comparison. I6 title trends are perceptions, not vacancy data. I7’s external layoff/re-hire story is hearsay; their own platform retains architect gates.",
+    "evidence_ids": [
+      "E088",
+      "E095",
+      "E116",
+      "E117",
+      "E138",
+      "E146",
+      "E147",
+      "E148",
+      "E151",
+      "E154",
+      "E155",
+      "E156",
+      "E163",
+      "E164",
+      "E175",
+      "E176",
+      "E191",
+      "E196",
+      "E225",
+      "E226",
+      "E227",
+      "E240",
+      "E241",
+      "E247",
+      "E248",
+      "E249",
+      "E259"
+    ],
+    "preferred_display_evidence": "E088",
+    "predecessor_ids": [],
+    "transition_type": "Addition — no predecessor",
+    "account_types_present": [
+      "Expected future development",
+      "Reported current or past practice",
+      "General opinion or interpretation",
+      "Hypothetical or conditional statement"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Hearsay"
+    ],
+    "destination": "T04",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K22",
+    "name": "Commercial expectations and AI cost stewardship",
+    "primary_rq": "RQ2",
+    "secondary_rqs": [
+      "RQ4"
+    ],
+    "definition": "Participants connect AI-assisted work to questions about professional remuneration, allocation of tool costs and responsibility for controlling AI expenditure.",
+    "inclusion_criteria": "Client questions about payment, opinions on passing on LLM costs, and architect cost-control responsibilities.",
+    "exclusion_criteria": "Do not infer fees actually fell or savings were measured. Near-zero rebuild narratives are K27; general market/geopolitical predictions remain contextual material.",
+    "qualifications": "I4 reports remuneration questions, not agreed fee changes. I6 describes cost stewardship as part of architectural responsibility without budgets or measured outcomes.",
+    "evidence_ids": [
+      "E070",
+      "E071",
+      "E119",
+      "E175",
+      "E176"
+    ],
+    "preferred_display_evidence": "E070",
+    "predecessor_ids": [],
+    "transition_type": "Addition — no predecessor",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Hearsay"
+    ],
+    "destination": "T05",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K23",
+    "name": "Safety and ethical reasoning beyond generated documents",
+    "primary_rq": "RQ3",
+    "secondary_rqs": [
+      "RQ2",
+      "RQ4"
+    ],
+    "definition": "Participants question whether generated compliance documents preserve the human reflection they were meant to support, and argue for contextual safety, ethical and lawful reasoning rather than paperwork alone.",
+    "inclusion_criteria": "Documentation as evidence of reasoning, societal responsibility, contextual ethics education and domain-dependent uncertainty or acceptable predictability.",
+    "exclusion_criteria": "Not legal guidance or proof of unsafe outcomes. Adoption permission is K11; general quality-risk correction K27; professional learning K19.",
+    "qualifications": "Predominantly I6’s interpretation; national stereotypes and unverifiable legal assertions are not treated as facts. Avoiding societal harm remains an expressed condition on embracing uncertainty.",
+    "evidence_ids": [
+      "E073",
+      "E109",
+      "E110",
+      "E121",
+      "E122",
+      "E123",
+      "E124",
+      "E223",
+      "E242",
+      "E275"
+    ],
+    "preferred_display_evidence": "E109",
+    "predecessor_ids": [],
+    "transition_type": "Addition — no predecessor",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation",
+      "Desired future development"
+    ],
+    "source_scopes_present": [
+      "Direct account"
+    ],
+    "destination": "T07",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K24",
+    "name": "Reassessing architectural significance through reversibility",
+    "primary_rq": "RQ3",
+    "secondary_rqs": [
+      "RQ1",
+      "RQ4"
+    ],
+    "definition": "Participants reconsider which decisions are architecturally significant when AI is perceived to make implementations cheaper to reverse, shifting emphasis toward business needs and risks that cannot simply be coded away.",
+    "inclusion_criteria": "Perceived reduced risk of reversible technology choices; business-risk emphasis; conditional cheap re-architecture qualified by tractability, product lifetime or compliance.",
+    "exclusion_criteria": "Modernization task choices are K15; commercial fees/cost stewardship K22. Do not infer all technical decisions are now cheap, safe or insignificant.",
+    "qualifications": "I13 supplies the central interpretation and future business emphasis. I10’s cheap-rewrite possibility is conditional; long-lived products and compliance qualify it. Earlier I1 cautions about non-coding rebuilding costs (E060).",
+    "evidence_ids": [
+      "E060",
+      "E195",
+      "E198",
+      "E257",
+      "E258",
+      "E260"
+    ],
+    "preferred_display_evidence": "E198",
+    "predecessor_ids": [],
+    "transition_type": "Addition — no predecessor",
+    "account_types_present": [
+      "General opinion or interpretation",
+      "Reported current or past practice",
+      "Hypothetical or conditional statement",
+      "Expected future development"
+    ],
+    "source_scopes_present": [
+      "Direct account"
+    ],
+    "destination": "T07",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K25",
+    "name": "Machine-representable and verifiable architectural reasoning",
+    "primary_rq": "RQ4",
+    "secondary_rqs": [
+      "RQ1",
+      "RQ3"
+    ],
+    "definition": "Participants treat the ability to encode architectural concepts, context and quality concerns in rigorous, machine-usable and checkable representations as a condition for reliable agent assistance and the extent of future human involvement.",
+    "inclusion_criteria": "Representation diversity/gaps, normalized model concepts, testable intent, inspectable explanations and machine-usable standards discussions; retain whether use is experimental, hypothetical or normative.",
+    "exclusion_criteria": "Supplying known architectural constraints to steer workflows is K09; actually checking work is K03. Do not claim a comprehensive formal language, proven correctness, or deployed machine-readable standard.",
+    "qualifications": "I11’s home-model experiments and standards discussion coexist with speculative assurance/role claims. I10 conditions reduced human involvement on validated explanations. I12/I13 emphasize tacit drivers not automatically captured by written documentation.",
+    "evidence_ids": [
+      "E199",
+      "E203",
+      "E210",
+      "E213",
+      "E216",
+      "E217",
+      "E218",
+      "E219",
+      "E220",
+      "E221",
+      "E222",
+      "E235",
+      "E243",
+      "E252"
+    ],
+    "preferred_display_evidence": "E199",
+    "predecessor_ids": [],
+    "transition_type": "Addition — no predecessor",
+    "account_types_present": [
+      "General opinion or interpretation",
+      "Hypothetical or conditional statement",
+      "Reported current or past practice",
+      "Desired future development"
+    ],
+    "source_scopes_present": [
+      "Direct account"
+    ],
+    "destination": "T02",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K26",
+    "name": "Architecting the AI-assisted delivery process",
+    "primary_rq": "RQ4",
+    "secondary_rqs": [
+      "RQ1",
+      "RQ2"
+    ],
+    "definition": "Participants describe, propose or question the architectural design of the software delivery process in which people and AI agents work together, including work decomposition, agent orchestration, staged handoffs and shared team execution or feedback mechanisms.",
+    "inclusion_criteria": "Code passages where the arrangement of delivery work is itself the object of design: dividing and integrating work, coordinating agents and people, sequencing design and implementation, or constructing shared execution and feedback contexts. Distinguish current arrangements, limited experiments, desired capabilities and forecasts.",
+    "exclusion_criteria": "Supplying architectural intent to an agent alone is K09; making that intent representable is K25; checking an output is K03; time allocation is K15; role or headcount redistribution alone is K21; interpersonal expectations alone are K13; embedding AI in the delivered product is K14. A mere mention of multiple agents is insufficient.",
+    "qualifications": "This is an analytical category, not evidence of a new formal job role or a generally deployed autonomous delivery system. I6’s organizational-design claim and I10’s direct work-decomposition account must not be collapsed into their desired or speculative orchestration futures. I7 provides a bounded existing team feedback mechanism. RQ mappings follow the v0.8 convention and should be checked against the study’s final RQ wording.",
+    "evidence_ids": [
+      "E088",
+      "E125",
+      "E149",
+      "E204",
+      "E205",
+      "E267",
+      "E268",
+      "E269",
+      "E270",
+      "E271"
+    ],
+    "preferred_display_evidence": "E267",
+    "predecessor_ids": [],
+    "transition_type": "New conceptual code",
+    "account_types_present": [
+      "Expected future development",
+      "Desired future development",
+      "Reported current or past practice",
+      "General opinion or interpretation",
+      "Hypothetical or conditional statement"
+    ],
+    "source_scopes_present": [
+      "Direct account"
+    ],
+    "destination": "T05",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  },
+  {
+    "code_id": "K27",
+    "name": "Contextual architectural judgment and risk stewardship",
+    "primary_rq": "RQ3",
+    "secondary_rqs": [
+      "RQ1"
+    ],
+    "definition": "Participants locate human architectural value in judging contextual appropriateness, prioritizing alternatives, negotiating trade-offs and maintaining attention to system risks and quality concerns when AI-enabled speed or rebuild narratives obscure them.",
+    "inclusion_criteria": "Context-sensitive design choices, business/domain interpretation and stakeholder negotiation; architectural risk framing, omitted quality attributes, maintainability concerns and qualification of simplistic acceleration or rebuilding claims. Preserve ordinary option judgment, interpersonal negotiation and speed/hype correction as distinct dimensions.",
+    "exclusion_criteria": "A generic output error or failed implementation alone is insufficient. Checking procedures are K03; accepting responsibility is K04; efficiency costs are K02; reflective safety/ethical reasoning is K23; a changed interpretation of architectural significance through reversibility remains K24.",
+    "qualifications": "All predecessor account-type and scope qualifications remain. Ordinary option judgment, stakeholder negotiation and speed/hype correction remain distinct dimensions. Suspected scalability, a heard rebuild claim, future debt and no observed disregard are not flattened into observed risk-remediation outcomes.",
+    "evidence_ids": [
+      "E015",
+      "E031",
+      "E032",
+      "E035",
+      "E036",
+      "E037",
+      "E080",
+      "E093",
+      "E120",
+      "E132",
+      "E165",
+      "E178",
+      "E180",
+      "E181",
+      "E186",
+      "E193",
+      "E207",
+      "E229",
+      "E238",
+      "E241",
+      "E243",
+      "E245",
+      "E252",
+      "E253",
+      "E254",
+      "E256",
+      "E257"
+    ],
+    "preferred_display_evidence": "E037",
+    "predecessor_ids": [
+      "K06",
+      "K07"
+    ],
+    "transition_type": "Merge",
+    "account_types_present": [
+      "Reported current or past practice",
+      "General opinion or interpretation",
+      "Hypothetical or conditional statement",
+      "Expected future development"
+    ],
+    "source_scopes_present": [
+      "Direct account",
+      "Colleague report"
+    ],
+    "destination": "T07",
+    "destination_role": "Core theme code",
+    "status": "Approved codebook"
+  }
+]

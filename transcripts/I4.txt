@@ -1,0 +1,721 @@
+INTERVIEW I4
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Transcript note
+Invitation to a study on the evolving role of software architects
+
+P0002 | Transcript note
+[Meeting date, time and recording identifier withheld.]
+
+P0003 | Interviewer 1
+started transcription
+
+P0004 | Interviewer 1 | 0:15
+All right, OK. I can see some of you.
+
+P0005 | I4-S2 | 0:21
+Interviewee 1, we can use “under” [unclear in the source], so we already have the names swapped.
+
+P0006 | Interviewer 2 | 0:24
+Yes.
+
+P0007 | I4-S1 | 0:27
+We can do what, sorry?
+
+P0008 | I4-S2 | 0:29
+Use “under” [unclear in the source] for the transcript.
+
+P0009 | Interviewer 1 | 0:37
+All right, then. There are about ten questions. As you probably expected, they are fairly open-ended, so that we can exchange views and hear your perspectives on these issues. Before we start with the actual questions, could you briefly summarize your professional experience, so that we have that information too?
+
+P0010 | I4-S2 | 1:15
+Go ahead, Interviewee 1.
+
+P0011 | I4-S1 | 1:16
+I’ll go. OK, so I have been working at Company for over 15 years now. I work on architecture and software development processes in general.
+
+P0012 | I4-S2 | 1:18
+[Unclear in the source: a remark about age.]
+
+P0013 | I4-S1 | 1:32
+And everything related to automation. It has been a gradual progression: developer, architect, IT solution architect, through to defining processes, so at the enterprise architecture level.
+
+P0014 | I4-S2 | 1:53
+Can I reuse everything Interviewee 1 said?
+
+P0015 | Interviewer 1 | 1:56
+Plus one, sorted. All right.
+
+P0016 | Interviewer 2 | 1:57
+As you like. Perhaps the timescales are a little different.
+
+P0017 | I4-S1 | 1:58
+More.
+
+P0018 | I4-S2 | 2:00
+Yes, the grey hair means a slightly longer timescale: over twenty years, anyway.
+
+P0019 | Interviewer 1 | 2:06
+More experience. Perfect. I have the questions written down here. The first questions are fairly open-ended, about when LLM technology and generative AI in general first affected your work. Do you have a particular moment or situation in mind when you introduced this technology, perhaps at company level? When did you notice that these technologies were changing, or would change, your approach to work?
+
+P0020 | I4-S1 | 3:07
+OK, perhaps I’ll speak and then Interviewee 2. We can complement each other; perhaps that makes sense. Interviewee 2, I would say we started talking about it four years ago now.
+
+P0021 | Interviewer 2 | 3:11
+Yes.
+
+P0022 | I4-S2 | 3:12
+Yes.
+
+P0023 | I4-S1 | 3:21
+If not longer, since we started working on machine learning and MLOps with [person redacted] some time ago. Then, over time, Gartner pushed it and the market pushed it, and the impact became much more pervasive. At first, the use cases seemed mainly business-related: AI helps us do something. What? Nobody knew, but they had to use it. Then it made a forceful entrance into the software lifecycle: testing first, perhaps that was what people initially discussed most, then code generation, development support, and so on. Today, at least from what I see, much more code is being generated, and validating it takes much more effort, because the speed is very different from before. That is the journey in a nutshell.
+
+P0024 | I4-S2 | 4:40
+Yes, I’m checking when I started using ChatGPT: 2023. I use it with anonymized information for all my architectural consulting work. I have also used it for assessments and checks on systems. It provides an unparalleled level of help, I would say.
+
+P0025 | Interviewer 1 | 5:16
+So recently, for example, I gather that both of you have had opportunities to use it for tasks that would previously have been carried out by an architect.
+
+P0026 | I4-S2 | 5:36
+Definitely. They provide substantial help at every level, both with consulting and presentations and at the technical level. Really, at every level.
+
+P0027 | Interviewer 2 | 5:53
+But is it support, or does it actually replace you? I mean...
+
+P0028 | I4-S2 | 5:57
+Support, support. Human feedback must always be there, because it goes badly off course. The difficult thing is remembering that...
+
+P0029 | Interviewer 2 | 5:58
+Support, always and in any case.
+
+P0030 | I4-S2 | 6:12
+That it makes mistakes, that it can be random. That is precisely what you must not overlook.
+
+P0031 | Interviewer 1 | 6:23
+Of course, of course.
+
+P0032 | I4-S1 | 6:25
+Yes, I... Go ahead.
+
+P0033 | I4-S2 | 6:25
+Then, after ChatGPT in 2023, as a company we also had to consider how to use these tools in a way that was GDPR-compliant, auditable, and so on. So we set up a proxy through which the company provides LLMs with enterprise features and GDPR compliance. And then, for clients... Go ahead.
+
+P0034 | I4-S1 | 7:11
+At the beginning, Interviewee 2... Go ahead, sorry.
+
+P0035 | Interviewer 2 | 7:11
+These... Do you only use these tools yourselves, or do you also provide them to clients? OK, OK.
+
+P0036 | I4-S2 | 7:14
+Go ahead. No, we use them internally. Clients typically already have their own LLMs.
+
+P0037 | Interviewer 2 | 7:23
+OK.
+
+P0038 | Interviewer 1 | 7:24
+Their own.
+
+P0039 | I4-S2 | 7:27
+At company level they usually have Copilot; others have...
+
+P0040 | Interviewer 2 | 7:30
+Thank you.
+
+P0041 | I4-S2 | 7:33
+[Unclear tool name in the source.] You wanted to say something, though.
+
+P0042 | I4-S1 | 7:39
+Yes, I was saying that, at first, some colleagues and even some clients asked: if you carry out activities with AI support, does it take less effort and less time? How should I pay you for that? Should I pay more, or the same? There were questions of that kind too.
+
+P0043 | I4-S2 | 8:03
+Personally, you need to...
+
+P0044 | Interviewer 2 | 8:03
+Interesting.
+
+P0045 | Interviewer 1 | 8:05
+Interesting. Since Interviewee 1 has brought it up, I’ll skip four or five questions in my list, because one of them...
+
+P0046 | Interviewer 2 | 8:07
+No.
+
+P0047 | I4-S2 | 8:12
+On that subject, Author 1, LLM costs should be passed on to the client anyway. They are costs the company incurs.
+
+P0048 | Interviewer 1 | 8:21
+Of course. Yes, but beyond the cost itself, which is certainly important, what I was going to ask later was whether you had noticed changes in different stakeholders’ expectations. Interviewee 1 has mentioned the client, but it could also be changes in team dynamics: perhaps a junior, with help from LLMs, feels more able, not necessarily to challenge a senior, but to suggest something that contradicts them. Dynamics of that kind. Have these technologies also affected stakeholder dynamics? I imagine they have.
+
+P0049 | I4-S1 | 9:30
+Juniors challenging us? No. Juniors using it uncritically and bringing you material that makes you say, “That isn’t right”? Unfortunately, that happens. That brings us back to what Interviewee 2 said. A senior reading it—I don’t want to say ********* in the transcript—but if they read *********, they may notice it. A junior who is not paying close attention may bring you the material as it is, and then you realize...
+
+P0050 | Interviewer 1 | 10:00
+It leaves it in, of course.
+
+P0051 | I4-S1 | 10:01
+You realize where it came from.
+
+P0052 | I4-S2 | 10:02
+Hi. Yes, you can see they have not thought about it. It is generated material without any reasoning behind it, just like generated code that they cannot explain or do not know the purpose of. Those are examples...
+
+P0053 | Interviewer 1 | 10:16
+Of course.
+
+P0054 | I4-S2 | 10:20
+Of unintelligent use of a tool that could actually be very useful.
+
+P0055 | Interviewer 2 | 10:29
+And generally, if we call it *********, is the mistake they make, or the material they bring you, at the architectural level, or also at code level because they have not read it? What I mean is: you are seniors, so you can look at what they bring you and judge it immediately because of your experience. But is that judgment about the architecture, including architectural decisions and so on?
+
+P0056 | I4-S2 | 10:46
+Both.
+
+P0057 | Interviewer 2 | 11:05
+Typically, I mean, I don’t know whether...
+
+P0058 | I4-S2 | 11:05
+Of course, yes. Ultimately, all the code gets generated, so yes, absolutely.
+
+P0059 | I4-S1 | 11:12
+Yes.
+
+P0060 | Interviewer 2 | 11:13
+OK.
+
+P0061 | I4-S2 | 11:15
+The code is generated, the sequence diagrams are generated, and so is the documentation—huge amounts of documentation. When you wrote it manually, you produced much less, perhaps thought about it a little more, and it was more focused on what you needed to do, right?
+
+P0062 | I4-S1 | 11:33
+Yes. The consequence is that you have a volume of work to review that might previously have arrived over a month, but now arrives in four days.
+
+P0063 | Interviewer 1 | 11:33
+Well, yes, of course.
+
+P0064 | I4-S1 | 11:47
+That is definitely one effect.
+
+P0065 | Interviewer 1 | 11:47
+In any case, of course.
+
+P0066 | Interviewer 2 | 11:50
+OK. Do you use tools to do a preliminary check of what they produce, or...?
+
+P0067 | I4-S2 | 11:58
+Some colleagues use AI to perform checks. You have to consider how much you trust it. Personally, I still trust my own judgment.
+
+P0068 | Interviewer 2 | 12:01
+OK, OK.
+
+P0069 | Interviewer 1 | 12:16
+Yes.
+
+P0070 | I4-S1 | 12:16
+Yes, so do I. They are services at your disposal that, in a sense, have to agree with you. If you ask, “Do you think this is well written?”, they say, “Yes, it is well written. I would just add this.” Or if you say, “I think this is badly written,” they say, “Yes, you’re right. I would correct this.” So...?
+
+P0071 | Interviewer 1 | 12:36
+Of course.
+
+P0072 | I4-S1 | 12:37
+Like Interviewee 2, I certainly trust my own judgment. Yes, I may ask, “Summarize it; tell me what doesn’t add up,” but then I look at it myself.
+
+P0073 | Interviewer 1 | 12:47
+This issue of quality assurance, or human oversight—I’m not sure what to call it in Italian—is obviously well known and discussed, and certainly difficult to manage.
+
+P0074 | Interviewer 2 | 12:47
+OK.
+
+P0075 | Interviewer 1 | 13:02
+The ease and speed of artifact production simply exceed what humans can handle. But we will see what the consequences are.
+
+P0076 | Interviewer 2 | 13:13
+Good.
+
+P0077 | Interviewer 1 | 13:18
+Another thing that emerged from this discussion: we have already mentioned various activities that generative AI has changed, tasks that have been automated or changed in other ways. Are there any activities that have stayed exactly the same? Tasks you do that have not been affected by these technologies?
+
+P0078 | I4-S1 | 14:04
+Definitely, yes. I’m trying to think of examples. Interviewee 2, I don’t know whether you have one ready.
+
+P0079 | I4-S2 | 14:14
+No, partly because the aim is actually to find ways of using them effectively. At least, that is the approach I am taking, including supporting clients and using them, with the client’s agreement, to work faster. For example, last year we had activities involving document analysis and Swagger production that we had partly automated. We had tools to help generate Swagger specifications, validate Word documents, and check consistency between the Word documents and Swagger. We had more or less addressed those areas, and the tools helped a lot. There were feedback loops directly involving AI algorithms: both generation and feedback were done with AI. We still reviewed the results. That is a small example from the analysis work we were doing. What we want to do this year is have an application with AI inside it and a predefined context. Anyone can use it as an algorithm, without interacting directly with the AI. An AI expert sets it up, and it is transparent to the user, making it easier to use and allowing us to control its use.
+
+P0080 | Interviewer 1 | 16:18
+OK.
+
+P0081 | I4-S2 | 16:20
+We would like to apply similar approaches to architectural topics, both solution architecture and the definition and production of architectural diagrams. Both production and verification: working in [person redacted] offices, we have to deal with both producing documents and checking documents received from outside.
+
+P0082 | Interviewer 1 | 16:47
+Of course.
+
+P0083 | Interviewer 2 | 16:50
+So you think there is no task that is unaffected by these technologies?
+
+P0084 | I4-S2 | 17:01
+Ultimately, it is a “little Indian” [literal wording in the source], someone to exchange ideas with, for better or worse. So that exchange can...
+
+P0085 | I4-S3 | 17:15
+Exactly.
+
+P0086 | I4-S2 | 17:16
+You can even use it for ideation, to come up with something. It is an exchange of ideas, and you give it whatever weight you think appropriate. But it is always available: a colleague who is always available, with varying degrees of reliability.
+
+P0087 | Interviewer 1 | 17:35
+So we can say that almost all the fundamental tasks have been affected, or that your focus is on integrating these technologies to speed up the tasks themselves, while constraining the use of the tool, as you said, Interviewee 2, and making it as transparent as possible to the team and the customer, I think.
+
+P0088 | I4-S2 | 18:14
+Yes. Another idea was: the internal team uses it, but we also want to give the same tool to suppliers to help them produce artifacts. At that point, we need to lock it down a little.
+
+P0089 | Interviewer 1 | 18:30
+Of course. Another thing you have just mentioned, and mentioned earlier, is the ease of generation. You said that when documentation was produced manually there was less of it. I imagine—although I don’t know whether this is true—that more architectural tasks might also see a proliferation of artifacts where previously there were fewer. Assuming that hypothesis, which might be wrong, have you noticed a change in the definition of architectural knowledge or architectural artifacts? Have these technologies changed the perception of what an architectural artifact is, or the validity of architectural artifacts and knowledge?
+
+P0090 | I4-S2 | 19:51
+They have certainly changed perceptions of how difficult it is to create documents. The other day a client told me that their goal for this year was to have an architectural document for every project. They said, “No problem. I’ll generate them; I’ll find a way to generate them.” Of course, we still have to see what they actually generate.
+
+P0091 | Interviewer 2 | 20:13
+OK. But the point is that even before, when I produced it manually, the question was whether it was used effectively. Beyond producing a nice document, does it have value for the client or whoever uses it? Or is it simply...?
+
+P0092 | I4-S2 | 20:36
+Yes, the client was producing it. The client was producing this document.
+
+P0093 | Interviewer 2 | 20:44
+OK.
+
+P0094 | I4-S2 | 20:44
+It was already the client who produced it.
+
+P0095 | Interviewer 1 | 20:44
+Thank you. Interviewee 3, you can join the conversation whenever you like. Yes, of course.
+
+P0096 | I4-S3 | 20:48
+Yes. May I jump in? Sorry I arrived late. I wanted to add that, from my perspective, where we are seeing contributions is where there was no knowledge about the architecture or particular components. AI is helping us reconstruct it, doing a kind of archaeology.
+
+P0097 | Interviewer 2 | 21:22
+Yes.
+
+P0098 | I4-S3 | 21:23
+It does not happen in isolation: you still need to think it through and build tools to help construct those pieces of context. But it is much more effective now to understand what a system does and how it is structured. At least in the projects I am working on, it has helped us understand pieces of code and very large projects that were not documented over time. It has helped us start understanding dependencies and relationships between the different parts, progressively. There are, of course, hallucinations, so you still need to investigate samples and run checks, but it speeds up this activity.
+
+P0099 | Interviewer 2 | 22:16
+So these tools have certainly helped with reverse engineering or re-architecting, an activity that people previously tended to disregard?
+
+P0100 | I4-S3 | 22:22
+Exactly. There are advantages.
+
+P0101 | Interviewer 2 | 22:31
+They did not pay much attention to it. OK, that is important.
+
+P0102 | I4-S3 | 22:33
+Or it took a very, very long time. Exactly. You were working partly by intuition; you could not examine everything. Now it is a little easier to have it perform a more comprehensive analysis. Of course, you still have to check the results. But when I start with nothing and am given 500 code repositories for a thirty-year-old project, these tools have enabled us to start navigating it in a short time. Transforming it afterwards required several stages of understanding particular parts to be sure. It has enabled things that used to be much more laborious.
+
+P0103 | Interviewer 1 | 23:23
+Of course.
+
+P0104 | Interviewer 2 | 23:25
+OK, that is interesting.
+
+P0105 | Interviewer 1 | 23:26
+Or impossible, yes.
+
+P0106 | I4-S2 | 23:28
+The scenario Interviewee 3 describes is definitely real. Some clients are also using it to recover knowledge of legacy COBOL systems, where there is obviously no one left...
+
+P0107 | Interviewer 1 | 23:46
+Of course. Usually they have retired or are no longer with us, and there are very few people who know those systems. Of course.
+
+P0108 | Interviewer 2 | 23:47
+Is that clear?
+
+P0109 | I4-S3 | 23:56
+Yes, that is exactly how it is. There are systems that are twenty or thirty years old, and no one knows them anymore. But I have also encountered Java projects where I could not find the people who built them...
+
+P0110 | Interviewer 2 | 24:06
+I knew... [unclear in the source].
+
+P0111 | Interviewer 1 | 24:09
+[Unclear in the source.]
+
+P0112 | Interviewer 2 | 24:14
+Clear.
+
+P0113 | I4-S3 | 24:14
+And why it was there, and what the rationale was behind particular choices.
+
+P0114 | Interviewer 1 | 24:18
+Of course. Moving on through the questions we noted down. Perhaps a slightly philosophical question, although from now on the questions will be a little more philosophical. Actually, this one was...
+
+P0115 | I4-S1 | 24:39
+OK.
+
+P0116 | I4-S2 | 24:39
+Go ahead, Interviewee 1.
+
+P0117 | Interviewer 1 | 24:46
+The question was: assuming these technologies are substantially changing how architects work, are there values—and by values we mean skills, ways of working, processes, broadly speaking—that are more important now than before the advent of LLMs and generative AI? Again, in relation to the architect’s role.
+
+P0118 | I4-S1 | 25:44
+Ah.
+
+P0119 | I4-S3 | 25:49
+Who’s going? Shall I?
+
+P0120 | I4-S1 | 25:49
+Go ahead. I was thinking about it, but...
+
+P0121 | I4-S3 | 25:52
+For me, the architect’s role becomes fundamental. An LLM is an accelerator, but if I cannot constrain its system design or give it a clear context for the boundaries of a solution—how I want to design it and structure it—I risk losing control and ending up with solutions that go nowhere. It fuels the chaos. If the architect can manage that boundary fairly formally, there are tools available today to communicate the intended architecture and structure to an LLM. That definitely helps, because I can then allow smaller, tightly bounded areas of development. Even if it produces something that is not particularly maintainable, I still have a controllable scope with a clear responsibility and a context with interfaces where I can run checks. That is one reason why the architect’s role becomes even more central. That is what comes to mind. I can see it happening: if you simply say, “I’ll implement the solution with an LLM,” it eventually blows up because it drifts into something unmaintainable.
+
+P0122 | I4-S1 | 27:24
+Yes, I agree.
+
+P0123 | Interviewer 2 | 27:43
+I don’t know whether Interviewee 2 wants to add anything.
+
+P0124 | I4-S3 | 27:43
+Just... [incomplete in the source].
+
+P0125 | I4-S2 | 27:46
+No, Interviewee 3 put it perfectly.
+
+P0126 | Interviewer 2 | 27:49
+OK.
+
+P0127 | I4-S3 | 27:49
+That was just my perspective, of course.
+
+P0128 | I4-S1 | 27:53
+It makes complete sense to me. I didn’t know how to express it, but you said it, so that is fine.
+
+P0129 | I4-S3 | 28:00
+I have seen situations where...
+
+P0130 | Interviewer 1 | 28:00
+Yes, all right.
+
+P0131 | I4-S3 | 28:04
+If you start without clearly defining the structure, interfaces, connection points, and checkpoints, you get a solution that works as a prototype, but when you try to work on it, you have lost control. Partly because, at some point, the LLM starts taking shortcuts. So I need to keep it within strict boundaries.
+
+P0132 | Interviewer 1 | 28:30
+A question—or rather a thought—that was not on our list, but you seem the right people to ask. So far, even before you arrived, Interviewee 3, we have talked about these tools as accelerators that can help us under certain conditions. One is being able to judge the output: having enough knowledge to decide whether, and to what extent, the output is valid. That seems to place a lot of emphasis on a person’s knowledge of code or architectural design. In a world where juniors enter a workplace in which LLMs are already being used, how do they build that knowledge? In ten, fifteen, or twenty years, will there still be people able to judge the output? Or might that no longer be necessary because LLMs, or the next generation of AI, will be so sophisticated that the output is already correct, almost deterministic?
+
+P0133 | I4-S1 | 30:07
+I think a lot also depends on how sophisticated the new juniors are. If they accept everything produced and have no critical mindset, we will be in a terrible position in ten years. If they develop a mindset that says, “This still has to be questioned,” we can probably manage.
+
+P0134 | Interviewer 2 | 30:34
+But this critical ability, or sensitivity as I call it: how do you help juniors understand its value? I imagine you do work on this, knowing you. I don’t know whether you do it explicitly or implicitly.
+
+P0135 | I4-S1 | 31:00
+Correct me if I’m wrong, Interviewee 2 and Interviewee 3, but today you have to tell them to be more careful than before. Previously, you would say, “This document comes from a supplier. You need to question it.” Not because I am better than the supplier, but because we have always had certain principles and ways of doing things in the company. Now you have to say, “Be more careful,” because there may be no one you can ask why they did it that way. Even the person who produced it may not know. So a junior validating a document written by another junior who used an LLM extensively without questioning it will accept whatever passes through their hands, unless they have been mentored and trained to think critically.
+
+P0136 | I4-S2 | 31:52
+For me, training does not change. The way of working changes, but the principles of people’s development must remain the same. Their critical thinking must develop regardless.
+
+P0137 | I4-S1 | 31:59
+Exactly.
+
+P0138 | I4-S2 | 32:09
+As before: working alongside people and helping them grow. Now it is much easier to produce documents, and Google is much more advanced, so to speak.
+
+P0139 | Interviewer 1 | 32:13
+Let’s say that this...
+
+P0140 | Interviewer 2 | 32:24
+Good.
+
+P0141 | I4-S2 | 32:24
+No.
+
+P0142 | I4-S3 | 32:26
+Yes, it is much easier to produce documents that may contain hidden points that are potentially very wrong.
+
+P0143 | Interviewer 2 | 32:26
+Exactly. I mean...
+
+P0144 | I4-S2 | 32:36
+They look credible.
+
+P0145 | I4-S3 | 32:40
+That brings me back to what Interviewee 1 said. Without enough seniority or experience—knowing the subject and how to approach it—I risk being misled. Take Interviewee 1’s example: a junior writes a beautiful document and passes it to another junior. It looks wonderful, everything seems perfect. But something inside it may be dangerous because someone underestimated it or did not pay enough attention. So I agree with Interviewee 1 and Interviewee 2 about critical thinking: people need to be trained to understand things and not accept everything they receive at face value.
+
+P0146 | Interviewer 1 | 33:25
+We have digressed a little. This is certainly not a problem that can be solved solely within a company, whichever company it is. It also involves the education and training systems, and so on.
+
+P0147 | Interviewer 2 | 33:25
+Hi. Yes.
+
+P0148 | Interviewer 1 | 33:43
+The point is that, beyond teaching people to be critical, there is also the question of technical knowledge. For example, I don’t know COBOL. So even if I question...
+
+P0149 | I4-S2 | 33:54
+Hello.
+
+P0150 | Interviewer 1 | 34:02
+ChatGPT’s output, I would not be able to say whether it was correct. Hypothetically, in ten years, many people entering the workforce may have less experience in...
+
+P0151 | Interviewer 2 | 34:08
+Is it correct?
+
+P0152 | Interviewer 1 | 34:22
+Writing code, creating an architecture, refactoring one, and so on. They will therefore be less able to recognize incorrect or poorly refined output.
+
+P0153 | I4-S3 | 34:35
+That is true, but you have a tool you can use for this: go back to the LLM and ask it to explain things.
+
+P0154 | Interviewer 1 | 34:45
+Yes, of course.
+
+P0155 | I4-S3 | 34:46
+That means having some critical judgment. It is not about assuming everything you receive is wrong, but trying to understand it. It makes me smile: we have a colleague who is a real tinkerer and sends you enormously long scripts, which you run without knowing what happens. You might say, “Perhaps I should look at it before running it.” Or you trust it and run it blindly, but you could cause damage.
+
+P0156 | Interviewer 1 | 35:15
+Of course, of course.
+
+P0157 | I4-S3 | 35:16
+From that perspective, I could use the same tool to explain something that is unclear: why was it done this way?
+
+P0158 | Interviewer 1 | 35:27
+OK, that interests me.
+
+P0159 | I4-S1 | 35:27
+Yes. It is a mindset. When I ask it to generate or do something, I say, “Explain what you have done, don’t just do it.” Another thing I always say is, “Question everything I tell you,” so that at least we understand what the ***** we are going to produce.
+
+P0160 | Interviewer 1 | 35:48
+Certainly, the prompts we use are more refined and provide context. That is true. It is interesting to summarize your experience this way: beyond technical knowledge, the really important thing is a very critical approach, a mindset that makes you want to understand and validate the output, regardless of whether it comes automatically from a tool, a script, or an LLM.
+
+P0161 | I4-S2 | 36:33
+Yes. We must not forget that LLMs do not eliminate the need for training. That remains.
+
+P0162 | Interviewer 1 | 36:41
+Yes. Then there is the question of who wants to learn, who has the willingness.
+
+P0163 | I4-S2 | 36:45
+We are talking about a lack of knowledge, but training will still exist. Perhaps it will be easier, but it is indispensable; otherwise, we end up with an ignorant world.
+
+P0164 | Interviewer 1 | 36:56
+Yes. Looking at how things are going at university over the years, I have another concern, but that is another subject. Let’s hope things change. All right.
+
+P0165 | I4-S1 | 36:59
+Yes.
+
+P0166 | I4-S2 | 37:10
+I wanted to share a thought. Recently, I have been trying non-agentic AI and then agentic AI. Agentic AI frightens me much more because you have much less control. It does whatever the hell it wants.
+
+P0167 | Interviewer 1 | 37:26
+Of course. Yes, well...
+
+P0168 | I4-S1 | 37:30
+Yes, you have to set boundaries. Otherwise, you find repositories and documents modified without... Yes, it can do damage.
+
+P0169 | I4-S2 | 37:36
+It really does...
+
+P0170 | Interviewer 1 | 37:41
+That is quite an extreme tool. Someone might use it for a little personal website project or something like that, but agentic solutions can cause damage, especially when you give them permission to open anything.
+
+P0171 | I4-S2 | 38:12
+We are experimenting internally, trying to set it up on local machines, obviously.
+
+P0172 | Interviewer 1 | 38:19
+Of course. Yes, this is what blew up a few months ago...
+
+P0173 | I4-S2 | 38:24
+Sorry, let me correct that: on dedicated servers, not local machines.
+
+P0174 | Interviewer 1 | 38:32
+Yes, but in a containerized environment, a restricted one. Exactly.
+
+P0175 | I4-S3 | 38:32
+We...
+
+P0176 | I4-S2 | 38:35
+Restricted, yes.
+
+P0177 | I4-S3 | 38:36
+Yes.
+
+P0178 | I4-S2 | 38:38
+Exactly.
+
+P0179 | I4-S3 | 38:39
+On other projects with clients, we have used it for activities that reduced the time required. These were fairly repetitive tasks combining an initial deterministic setup using scripts with manipulation tasks. We had to constrain it considerably, instructing it on a range of things to watch for. It works in a sandbox and produces an object without overwriting the original. We have used it extensively for migrations: modernizing projects that had not been modernized, using agents.
+
+P0180 | Interviewer 1 | 39:37
+Yes... [fragment unclear in the source].
+
+P0181 | I4-S3 | 39:39
+Yes.
+
+P0182 | Interviewer 1 | 39:41
+Interesting. I told Interviewee 1 we would take less than an hour, and we might run over, but we have actually reached the final questions. We can combine them into one or two questions. So far we have discussed what happened and what is happening. Now let’s imagine what could happen next. Based on your experience over these three or four years, can you imagine how the architect’s role might evolve over the next five or ten years? Will it broadly remain as we have discussed today, or do you foresee major positive or negative changes? I’ll also ask the last question now so you can start thinking about it. If, before the meeting, you had topics in mind that we have not asked about, or observations you think are important or interesting to share, please raise them before we close. Those two questions will conclude our conversation.
+
+P0183 | Interviewer 2 | 41:48
+Go ahead.
+
+P0184 | I4-S1 | 41:48
+The role over the next few years? I’m looking at it through the typical process an architect goes through. There is a project, a request for an architecture design; you design it, review it, meet the teams, and so on. There are fixed artifacts you always have to produce, with expected timescales based on project complexity. Tomorrow, I think many more projects will arrive, because ideation and requirements production may speed up and mockups will be immediate. The next day you get thirty projects instead of seven. That already makes validating the same deliverables much more demanding. Perhaps, because everything is generated quickly, some things will become disposable, where the risks and complexity allow it. Some deliverables and checks may no longer be needed. Something like that could happen. Automation will certainly increase. Earlier, I was thinking about the famous accelerators from a few years ago: you found some prewritten code of questionable quality. Today’s accelerators are faster than those accelerators. We need to understand that too. Over time, both the tools and architects will mature. Processes may become simpler or more complicated. I think it is highly variable, but that is roughly how I see it.
+
+P0185 | I4-S2 | 43:50
+I think verification will also become easier. We will certainly have to use these tools at that stage too, or it will become an unmanageable bottleneck.
+
+P0186 | I4-S1 | 44:09
+It is a bit like triage: you collect things, decide what needs attention and what does not. Like an emergency department: you examine some things and tell others to carry on.
+
+P0187 | I4-S2 | 44:20
+In theory, an emergency department sees everyone, with different priorities.
+
+P0188 | I4-S1 | 44:23
+Yes, but they may not see you until tonight, because...
+
+P0189 | Interviewer 1 | 44:25
+Well, there is a priority code, depending on the region. Exactly.
+
+P0190 | I4-S2 | 44:30
+Yes, with different waiting times, of course.
+
+P0191 | I4-S3 | 44:32
+I see it as I said before: a substantial definition phase that is even more fundamental than before, because it will be the first step in guiding and constraining what happens downstream, development with accelerators. So I see the architect’s role as central, with more hands-on involvement in that phase, and then in checking the work. Those checks will be easier because the initial work is preventive, using less paper-based documentation and more “as code” tools, as we have already started to see. These are fundamental because they structure the architecture and guide how it translates into infrastructure and everything supporting the running of the application. So I see the role moving upstream: still an architect, but also guiding the design of the part that manages the whole lifecycle.
+
+P0192 | Interviewer 1 | 45:53
+The whole lifecycle, yes.
+
+P0193 | I4-S3 | 45:54
+So I think they will also have that role.
+
+P0194 | Interviewer 2 | 45:54
+Yes. So rather than running away from the avalanche, you try to anticipate it.
+
+P0195 | I4-S3 | 46:04
+Partly. They will have to set some boundaries. It is not that we did not try to do that before, by defining solutions, but...
+
+P0196 | Interviewer 1 | 46:05
+You decide the avalanche’s direction; you send it towards a village.
+
+P0197 | Interviewer 2 | 46:08
+Exactly.
+
+P0198 | I4-S3 | 46:19
+I see that phase as even more important.
+
+P0199 | Interviewer 2 | 46:22
+Of course, because everything is generated and you cannot control it all.
+
+P0200 | Interviewer 1 | 46:28
+[Unclear in the source.]
+
+P0201 | I4-S3 | 46:28
+Exactly. Afterwards, it would just be an avalanche effect and you could not keep up. There will be automation, but without some way to contain and organize it... So I see...
+
+P0202 | Interviewer 2 | 46:36
+Yes.
+
+P0203 | I4-S3 | 46:42
+The role becoming even more central.
+
+P0204 | Interviewer 1 | 46:45
+Combining what you said, Interviewee 3, with what Interviewee 1 said, we could say that the initial phase becomes very important. There may still be detailed manual verification—manual in the sense of human verification. Once that part has been established and frozen, we may move into an even more agile process. As Interviewee 1 said, some things will be generated less and others more, and the verification itself may be highly automated, as Interviewee 2 said. At some point, it will probably—almost certainly—have to be entrusted to something that can keep up with the speed at which artifacts are created.
+
+P0205 | I4-S3 | 47:46
+Yes, correct.
+
+P0206 | Interviewer 1 | 47:47
+Interesting, yes.
+
+P0207 | I4-S1 | 47:49
+Yes.
+
+P0208 | Interviewer 1 | 47:50
+All right. Is there anything we have not covered? Notes, thoughts?
+
+P0209 | I4-S3 | 47:59
+One thought comes to mind, although I have not developed it yet. There will be an important question of how to manage the execution of those tools, how to create the ecosystems. “Darkness” is fashionable now [term unclear in the source].
+
+P0210 | Interviewer 1 | 48:04
+Yes, how?
+
+P0211 | I4-S3 | 48:17
+The whole AI area is moving in that direction. That is also an important role for the architect, because that element is fundamental to managing...
+
+P0212 | Interviewer 1 | 48:17
+Yes.
+
+P0213 | I4-S3 | 48:33
+The engine as well as possible. One complicated part will be where to run the LLM and how to build an ecosystem that supports lifecycles and applications that will become...
+
+P0214 | Interviewer 1 | 48:34
+Of course.
+
+P0215 | I4-S3 | 48:49
+Systems that incorporate the LLM. Today, LLMs are used to build them, and we are beginning to see cases where they are integrated. So the LLM no longer merely [unclear wording in the source] the application; it is part of the application itself.
+
+P0216 | Interviewer 1 | 48:59
+Of course. Yes.
+
+P0217 | I4-S3 | 49:05
+There are scenarios like that too. It will be quite an exercise to build something secure, with an architecture that becomes even more complicated because security, identity propagation, and management and assurance come into play...
+
+P0218 | Interviewer 1 | 49:20
+Yes.
+
+P0219 | I4-S3 | 49:25
+Including tracing who or what is acting on behalf of whom. The landscape becomes more complicated from that perspective.
+
+P0220 | Interviewer 1 | 49:36
+Yes, especially in critical settings, I imagine.
+
+P0221 | I4-S1 | 49:40
+Yes, from that...
+
+P0222 | I4-S3 | 49:45
+For example, in finance, some companies are beginning to experiment with providing financial advice through virtual advisers. It is clearly a supervised process, but the LLM embodies an agent, and that agent acts on behalf of a client. There is a whole range of issues that are no longer just about...
+
+P0223 | Interviewer 1 | 50:07
+Yes.
+
+P0224 | Interviewer 2 | 50:31
+Good.
+
+P0225 | Interviewer 1 | 50:32
+Adaptive systems and so on, of course.
+
+P0226 | I4-S1 | 50:35
+There is already movement on this at the governance level. I am currently analyzing policies for the security of AI components integrated into applications, and for managing boundaries, whether MCP or something else.
+
+P0227 | Interviewer 1 | 50:51
+Yes.
+
+P0228 | I4-S1 | 50:53
+They are defining rules and policies for these aspects.
+
+P0229 | Interviewer 1 | 50:58
+Of course.
+
+P0230 | I4-S1 | 50:58
+They will then have to be implemented, and we will have to see who actually implements them. But the legislative process has already begun.
+
+P0231 | Interviewer 1 | 51:07
+Yes, Interviewee 2, thank you for seeing the message. Thank you very much. Anyway...
+
+P0232 | Interviewer 2 | 51:09
+All right, thank you.
+
+P0233 | I4-S2 | 51:13
+You are in very good company, anyway.
+
+P0234 | Interviewer 2 | 51:16
+Thank you.
+
+P0235 | I4-S2 | 51:18
+Bye.
+
+P0236 | Interviewer 2 | 51:19
+Bye.
+
+P0237 | I4-S1 | 51:19
+Bye, Interviewee 2.
+
+P0238 | I4-S3 | 51:19
+Bye, Interviewee 2.
+
+P0239 | Interviewer 1
+stopped transcription

@@ -1,0 +1,282 @@
+INTERVIEW I13
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Interviewer 1 | 1:07
+Okay, we had the chance of talking with a few colleagues before this interview, because at the moment we have already done more or less 15 interviews. And the initial plan was about 10 questions, but now we are almost at the end, and so we will ask only the question for which we don't have clear direction. So probably the meeting will be a little shorter than one hour. But before starting, we would like to ask if you can briefly summarize your profile and your expertise in the field of software architecture.
+
+P0002 | I13 | 1:53
+Okay, I think I just did, but that was before the transcription started.
+
+P0003 | Interviewer 1 | 1:58
+Yes, yeah, you can, you can do go more briefly than at the beginning.
+
+P0004 | Interviewer 2 | 1:59
+Yeah.
+
+P0005 | I13 | 2:03
+Yeah.
+
+P0006 | Interviewer 2 | 2:04
+Yeah.
+
+P0007 | I13 | 2:05
+[Identifying professional background withheld. General participant perspective is recorded in the interview index.]
+
+P0008 | Interviewer 1 | 3:18
+OK, good. So, as first question, I would like to ask your opinion about the fact that you observed that Gen AI is changing the boundary between what you consider the architect jobs and what belongs to other roles.What do you think about this search?
+
+P0009 | I13 | 3:45
+Sorry, is that a is that a what you say about AI changing the boundary between architects jobs and other jobs? Is that one of your hypotheses or?
+
+P0010 | Interviewer 1 | 3:45
+Yeah.Yeah, yeah, no, I mean, what we notice is that these boundaries are a little bit blurring due to the Gen AI, and we wanted to know if in your context, this is true, or if your context is that these boundaries are still well defined.
+
+P0011 | I13 | 4:23
+I don't know.And.I, I haven't seen...That's as the primary impact of Gen. AI on the architect job. I see a lot of change inside the job.And what I also see is that other roles, such as software engineers, suddenly start to get interested in architecture without sometimes knowing its architecture, right? They suddenly become interested in, hey, wait a minute, AI is making these decisions. Now I need to make design decisions. I need to make sure I'm in control.So they invent all kinds of ways.to supervise what their coding agents are doing. And these new inventions, things like context engineering, right, are not new at all, because those are the things that architects, software architects have been doing for decades already, right? Understanding the context,making sure that it is documented properly, that that understanding is maintained, that it is validated, et cetera, right? So that has always been the domain of software architecture, and it still is. That doesn't change with AI. It's just that with respect to other roles, what we see is that software engineersare moving in their role more towards what we used to consider mostly the architects domain.
+
+P0012 | Interviewer 1 | 6:01
+Okay, so it seems that now you have, let's say, a new role that is dissolved engineering or engineer, right?Your, um, your domain.
+
+P0013 | I13 | 6:16
+No, I don't think that's a new role. It's just moving closer, moving closer together.
+
+P0014 | Interviewer 2 | 6:17
+I know.
+
+P0015 | Interviewer 1 | 6:24
+Okay. Okay.
+
+P0016 | Interviewer 2 | 6:25
+So, it seems that they are.
+
+P0017 | I13 | 6:25
+Yeah, the software engineers are shifting, their responsibilities are shifting more towards what we used to consider the responsibilities of the software architects, right, which is understanding the business goals rather than coding, right? The coding is now done by the coding agents.But in order to control the coding agents, now the focus now is more on engineering the context of those coding agents, which is making sure that the right decisions are made, that the right trade-offs are made. Andthinking outside the box, right? These are things that AI is not good at. So that is where humans now have to be more focused on.
+
+P0018 | Interviewer 2 | 7:17
+So it seems that the other roles are moving toward the software architect role, it seems, no?
+
+P0019 | I13 | 7:26
+Some of them, yes. It seems that, yeah, that is, that is, that is the main, that is a big impact I see, right? And they're inventing new words for things that we have always been doing for decades already as software architects, because they sometimes don't even realize, I mean, that they don't realize that.
+
+P0020 | Interviewer 2 | 7:27
+Yeah, yeah, some of them, of course, yeah.Yeah.
+
+P0021 | I13 | 7:47
+what they're doing is very close to what architects have been doing for decades. Because some of them have not even been trained in software architecture. What I see is that software architecture is barely taught anymore, right? If somebody is trained as a software engineer, software architecture is a very minortopic or sometimes ignored altogether. So many young software engineers don't even know of the existence of software architecture.
+
+P0022 | Interviewer 2 | 8:16
+Yeah.
+
+P0023 | Interviewer 1 | 8:18
+Okay, and just a question about the authority of the software architect, because in your blog post, you write that AI should be a source of proposal assisted of an architectural authority. And
+
+P0024 | I13 | 8:29
+Mhm.
+
+P0025 | Interviewer 1 | 8:37
+My question is, is this something that you already observed in practice or this is something that you think should happen also in the future, in the next few years?
+
+P0026 | I13 | 8:51
+Sorry, can you repeat what you said that I wrote?
+
+P0027 | Interviewer 1 | 8:55
+If I correctly understood your post, you wrote that AI should be a source of proposals. So a source of ideas, yes, instead of an architectural authority. And this is something that is already observed in practice in your
+
+P0028 | I13 | 9:02
+A source of proposals, yes.Yes.Absolutely, yes.
+
+P0029 | Interviewer 1 | 9:13
+Company or Di OK.
+
+P0030 | I13 | 9:17
+Yes. What I see is that, of course, if you are vibe coding, meaning that you are, you know, not seriously creating resilient systems, you are right. In that case, you actually leave that authority to the AI, right? So youYou say, tell the agent, okay, you make the right decision. You find out what the good alternatives are and make a decision about it. But that's not what we're doing here in [organization redacted]. We are building serious systems. And in those cases, yeah, you never let the AI makethe key architectural decisions because there's too much risk in it. And you can never be sure that they fully understand the impact of their decision. They can never understand all the business drivers, all the context drivers that should go into those decisions. I mean, they can understand written requirements, right?But, uh...Architectural decisions, they always take into account much more than just the written requirements. They take into account the understanding of the architect of the business side of things, but also moral, ethical, legal considerations, right, all kinds of stuff that is never written down, but it's in the head, in the mind ofthe architect. And that is the reason why in serious software engineering, the AI agent can never be more than a source of design alternatives, right, to choose between.and also an assistant in making the trade-off. They can assist in making the trade-off, for example, by quantifying things that the architect only has a gut feeling for, right? So there it can be very useful. But it is bad at two things. It's bad at understanding the drivers behind the written down requirements in its context.
+
+P0031 | I13 | 11:24
+And it's also bad at thinking outside the box.Right, if you, if we, as humans, if we try to create, to think of...design alternatives, right? So I need to solve this problem. I have, I want to have at least three alternatives before I make a decision, right? One of the alternatives should be do nothing, right? Leave it as it is. That's my baseline.
+
+P0032 | I13 | 11:56
+One is the thing that everybody else does, right? So if I'm thinking of a way of a deployment model, okay, I immediately go to microservices because that is what everybody else does. So I should consider that. And then I always also want an outside the box idea. I want an idea thatI can think of with my creative mind as a human, but that Gen. AI agents can never think of because they have been trained on statistics, right? It's A statistics engine. And they will always come up with the alternatives thatthat have already occurred before. And the whole creative idea that as a person, you can have, okay, well, wait a minute, maybe we can compare this to a game and maybe we can use a gaming engine instead of a building a whole microservices platform.Oh, okay. Yeah, that sounds like a ridiculous idea because this is a serious business application. But actually, the gaming engine already gives me 90% of the things that I need, right? This is an outside the box thinking that machines will, well, at least for now, right? Because they have not been trained on those kinds of ideas, they will give you the average of what everybody else has been
+
+P0033 | Interviewer 1 | 12:58
+Yeah.
+
+P0034 | I13 | 13:20
+Thinking.
+
+P0035 | Interviewer 1 | 13:24
+Okay.And could you describe...
+
+P0036 | I13 | 13:26
+Does it, does it answer your, does it answer your question?
+
+P0037 | Interviewer 1 | 13:29
+Yes, yes, yeah, we don't have the right answer. I mean, this is just a free discussion, and the question is just to keep the discussion going, but all the answers are correct from our perspective. OK, the next question is about if you can describe a case or an episode where Jenny and I met the rule of art.
+
+P0038 | Interviewer 2 | 13:29
+Yeah, yeah, yeah, yes, yes, yeah.Yeah.
+
+P0039 | I13 | 13:35
+Right.
+
+P0040 | Interviewer 1 | 13:53
+at less central or in particular, bypass the architecture or allow someone else to make an architectural decision.
+
+P0041 | I13 | 14:06
+Yeah, so, um...I have, you know, I have these examples, but only from word of mouth from my colleagues, because as I said, I am, I'm at a point in my career towards the end, I will retire in three years, two years, right? So I am never the lead architect on a project anymore. So I don't have these examples from firsthand.But because I lead the architecture community, I hear stuff, but I'm not sure that that is sufficient. Of course, I never know all the details about it, and I'm not sure that it's sufficient to base a piece of research on, right?So it's hard for me to give you a concrete case study that I can actually answer questions about.
+
+P0042 | Interviewer 1 | 15:00
+Okay, but okay, if...Also, your opinion if in if the is making the role of a a software architect less central, do you think this this is true or not?
+
+P0043 | I13 | 15:18
+No, no, I do not agree. I do not agree with that statement. I think Gen. AI makes the role of the software architect more central because it requires more of the trade-off analysis. It requires more of understanding context, which is for which the software architect is the...
+
+P0044 | Interviewer 1 | 15:19
+Okay.Okay.
+
+P0045 | I13 | 15:39
+is the most central role.
+
+P0046 | Interviewer 1 | 15:42
+OK, so your opinion is even more central now before the GNI adoption is in OK.
+
+P0047 | I13 | 15:48
+Absolutely, yes. But it's more central, but it does, its focus does change, right? Because you need...
+
+P0048 | Interviewer 2 | 15:50
+Yeah, yeah.
+
+P0049 | I13 | 16:01
+You still need to understand the risks.Right. So an architect needs a very good understanding of risks in the design that they are creating. Actually, that is almost a definition of an architect for me. An architect is the person that addresses the mostrisky concerns, right, in the design. So that has always been the case. But in the past, that risk was very much focused on technical, on the technical side. There were also many risks on the business side, which a good architect would understand, right?But the risks on the technical side, they, you know, experienced architects had seen technical problems in their careers and they knew them and this is how they got a feeling for where the risks in the technology decisions were.However, there is a big shift there now because it used to be that the technical side of the architecture job was easy, it was very hard to change afterwards, right? And this is why they were risky. These were risky decisions. Should I do, should I use Java or Python, right? This used to be a risky decision because once you had goneand created a few 1000 lines of code in one or the other, then it would become already very expensive to go back, right? We have, andThat now has changed tremendously because now it's far less risk. A few 1000 lines of codes now is no longer a few months of work, it's a few days of work, right? So now suddenly the choice between Java and Python is no longer a very risky decision. So it's no longer that.architecturally significant, right? It is now much more architecturally significant to understand what the real business needs are that we are that we are creating this software for. And which, you know, this technology choice is something that you can change in a week, right?Rather than in months, so, so that is where the focus shifts, so.Yeah, what was your question again? Oh, yeah, whether the content of the job is less significant. It's not less significant, but you do need to understand a different type of risks now, and you need to understand that the risks that you used to be worried about
+
+P0050 | Interviewer 1 | 18:31
+No.
+
+P0051 | I13 | 18:47
+For all your career, are no longer that architecturally significant.
+
+P0052 | Interviewer 1 | 18:53
+OK, and this is something that it is connected to the next question, because what we observed in the previous interviews is that some or some people say that the job marketis looking now for position labeled as software architect less and less. So it seems that the role of software architect is becoming less distinct or is disappearing. And do you think that this could be the case oris another scenario in which the software architect function could be redistributed across existing role in a company or in a software team, or now the role of software architect is shifted and tied into a new role.
+
+P0053 | Interviewer 2 | 19:54
+Or the job, I can add something, or the job market is changing the name of software architect.
+
+P0054 | I13 | 20:04
+That is something, right? I don't, I haven't seen job ads yet for context engineers, right? But they may be out there. But they are actually, they are doing the work that software architects used to do, which is understanding the context of the system that they are designing.and translating that into formal language, right? So that is context engineering, which is something that architects used to do. So yeah, so you see a little bit of that, that they change in the names of things that we have been doing for decades, which is why you might see lessLess demand for software architects.But I also see that there is a, there will be a backswing to that as well. I think.Yeah, agent-assisted coding.is still very young. And I think some people are misunderstanding the impact of it. And this is why they think they need less architects. I think once people see, and this may take a year or two, once people see that what happens,if you let these agents make all the architectural decisions without human supervision, that they will revert back to asking for humans to supervise these agents. And they may give these roles a different name than software architect, but they are basically the software architecture roles.Yeah, I think.that may be the case. Another shift I see is that, and I mentioned that in my blog, is that the role of business architects becomes more important because it is, because there's less focus on the technology side of architecture, then it's going to be more focused on the business side of software architecture.
+
+P0055 | Interviewer 2 | 22:16
+So, so it seems that the at the end, let's say the software architect role will move to the more a business-oriented role.
+
+P0056 | Interviewer 1 | 22:16
+Oh.
+
+P0057 | Interviewer 2 | 22:30
+Right.
+
+P0058 | I13 | 22:30
+Yeah, yeah, that is that is one of the transformations, and it's also that they are going to work on a higher level of abstraction, right? [person redacted].
+
+P0059 | Interviewer 2 | 22:41
+Yeah, okay, bye.
+
+P0060 | I13 | 22:45
+describes the history of software engineering as, you know, higher and higher levels of abstraction, right? It starts with machine code, then assembly language, then low level languages like C&C, then higher level languages. And he says, [person redacted], you know, he can explain this much better than I can.But he looks at this, and he looks at vibe coding or agent-assisted coding as just another increase in the level of abstraction at which architects work.
+
+P0061 | Interviewer 1 | 23:23
+
+
+P0062 | Transcript note
+Okay, so my last question is that if you see, do you see any specific conditions or boundaries that could make the evolution of the architectural architecture?The architectural different from what we have just described.
+
+P0063 | I13 | 24:00
+Changing conditions or boundaries, yeah, I think that's what we have been talking about the whole time, right? So I think I've already answered that question.
+
+P0064 | Interviewer 1 | 24:06
+Yes, no, I mean...No, no, no. The question is if there are some specific conditions that could make the evolution or the architectural different from what we described. For example, just to just say as example, if in certain domain generally should be prohibited or the safety regulator.or there are the company which the adoption of Genia is lower than other companies. Do you think that this could change the evolution of the software architecture?If we change this boundary.
+
+P0065 | I13 | 24:57
+No.
+
+P0066 | Interviewer 1 | 25:01
+Okay.
+
+P0067 | I13 | 25:02
+I don't think so, no.No, it will slow it down a bit. The evolution that we have been talking about, right? It will be slowed down a little bit if there's more AI regulation, right? ButNo.I can't, no, I can't think of anything.Yeah.
+
+P0068 | Interviewer 1 | 25:29
+Okay.Okay, I don't know if I'm later with other questions, so...
+
+P0069 | Interviewer 2 | 25:38
+No, I have. OK, in order to connect what you said about which say no, he said that, OK, we are the the in let's say in the last 40 years, the level of our bus.
+
+P0070 | Interviewer 1 | 25:39
+Hmm.
+
+P0071 | Interviewer 2 | 25:56
+abstraction increased, no, with the many different tools. But I think that, okay, now we use the AI agent for generating code, no, generate code. But in the end, okay, we are not
+
+P0072 | I13 | 26:00
+Yes.
+
+P0073 | Interviewer 2 | 26:15
+not switching, we are not abstracting because we are using the same tools for generating code as we did five years ago. So we are not moving to a more abstraction. I think that
+
+P0074 | I13 | 26:33
+But the humans are, I mean, right? Yeah, because the AI agents are using those tools that the humans used to use five years ago, right? Yeah, so for the humans architects, they are at a higher level of abstraction now. They are talking in natural language now instead of in...
+
+P0075 | Interviewer 2 | 26:33
+We should.Yeah, they, yeah, they, they, they wrote, yeah.Yeah.
+
+P0076 | I13 | 26:55
+Code, right?
+
+P0077 | Interviewer 2 | 26:57
+Yes, but in the end, we generate code that we need to test to do to do to verify, let's say, in some sense. No, it's different, for example, from, OK, when a C was invented, OK, we abstracted the we used with the.They define the tool to write something that is different from the assembled language. Now, we are using AI agents to always generate the same code. What I'm trying to say is that maybe a next step should be to ask to the...
+
+P0078 | I13 | 27:18
+Yeah.
+
+P0079 | Interviewer 2 | 27:36
+Let's say to agents to generate something that it should be executable in some sense.
+
+P0080 | I13 | 27:46
+Okay, I see what you mean. Yeah, because I think the first C compilers or Pascal compilers, they would not compile directly into binary. They would compile first to machine code, sorry, to assembler, right? And then the assembler had to be compiled. And it took a few years before they directly couldproduce machine code. And I think we are at that stage now. Maybe, yeah, that may be the case. I don't know. And maybe, you know, because of course, programming languages have been designed for humans to be able to read, right? And it might be
+
+P0081 | Interviewer 2 | 28:10
+Yeah, yeah, yeah, yeah, yeah.
+
+P0082 | I13 | 28:25
+that in the future, that step of first using a programming language and then compiling that, maybe that can be skipped over. Maybe the latent, right, the latent code
+
+P0083 | Interviewer 2 | 28:42
+Yeah, yeah, yeah.
+
+P0084 | I13 | 28:44
+Doesn't first have to be.translate it into human rebuild code and then compiled again into machine code. Maybe that step can be skipped in the future. I don't know. That is a nice idea, but that's your idea. It's not my idea. So yeah.
+
+P0085 | Interviewer 2 | 28:56
+Yeah.Yeah.Oh, okay, okay, okay, right. It's an interesting aspect, yeah.
+
+P0086 | Interviewer 1 | 29:04
+Yes.
+
+P0087 | I13 | 29:06
+Yeah, it's all, I find it fascinating and I think this is, I could not have imagined, I studied artificial intelligence in the 80s, in the 1980s, and I could not have imagined that I could be alive in a time when this artificial intelligence was suddenly so powerful that it could write code.that is at this speed that it's currently doing. And it has also, I think it's a great time to be alive for us in the software engineering world to see this happening. I know that many software engineers are very unhappy about it.because they consider a lot of what the AI is now doing as part of their job and that which gave them a purpose in life. But, you know, that is...I think that's just a temporary thing.It's a fascinating time.And I have also sort of rediscovered the joy of coding. I used to code until about halfway in the 1990s. I used to be a pretty good developer. But then I became a project manager and an architect.and I didn't write code anymore, and I missed it ever since. I have missed writing code for 25 years, and then suddenly now I find myself writing code again, but AI assisted, so I don't have to learn all the new languages like Python anymore, becauseAnd I can read it, of course. I mean, everybody who has ever written code like C or C or Java, they can read Python. But yeah. And I make sure I understand what the AI is doing. But yeah, it's very nice. I think it's a very interesting time also to be a researcher into this stuff.Although I do.I have to say that research into software engineering, you already used to be sort of limited lifespan, right? If you research a particular technology, right, in software engineering, that technology 5 or 10 years later would be obsolete. I think with AI, it's even shorter.
+
+P0088 | Interviewer 1 | 31:18
+Yes.
+
+P0089 | I13 | 31:29
+right? If you now do research into AI, what you write now, you better publish fast because probably in one or two years, it's completely obsolete. All the numbers have changed, right? All the capabilities have changed. The way that people, the language that people use to describe it will be changed, right? So it's going to be very short-lived.Research, but it's still very interesting.
+
+P0090 | Transcript note
+
+
+P0091 | Transcript note
+
+
+P0092 | Transcript note
+
+
+P0093 | Transcript note

@@ -1,0 +1,261 @@
+[
+  {
+    "code_id": "K01",
+    "code_name": "Accelerated production and exploration",
+    "primary_destination": "T01",
+    "role": "Core theme code",
+    "related_themes": [
+      "T06"
+    ],
+    "rationale": "Participants describe quicker production and exploration, while effort shifts toward specifying, understanding, reviewing and coordinating work; the time saved can support additional ambitions and workload rather than simply reduce work."
+  },
+  {
+    "code_id": "K02",
+    "code_name": "Qualified efficiency gains",
+    "primary_destination": "T01",
+    "role": "Core theme code",
+    "related_themes": [],
+    "rationale": "Participants describe quicker production and exploration, while effort shifts toward specifying, understanding, reviewing and coordinating work; the time saved can support additional ambitions and workload rather than simply reduce work."
+  },
+  {
+    "code_id": "K03",
+    "code_name": "Verification around AI-assisted work",
+    "primary_destination": "T03",
+    "role": "Supporting assurance code",
+    "related_themes": [
+      "T01",
+      "T02",
+      "T06"
+    ],
+    "rationale": "Participants distinguish AI performing tasks from people reviewing, accepting and remaining answerable for outcomes. Human decision control is retained in several accounts, while who can meaningfully take responsibility remains contested and conditional."
+  },
+  {
+    "code_id": "K04",
+    "code_name": "Human oversight and responsibility for AI-assisted outcomes",
+    "primary_destination": "T03",
+    "role": "Core theme code",
+    "related_themes": [
+      "T02",
+      "T04",
+      "T06"
+    ],
+    "rationale": "Participants distinguish AI performing tasks from people reviewing, accepting and remaining answerable for outcomes. Human decision control is retained in several accounts, while who can meaningfully take responsibility remains contested and conditional."
+  },
+  {
+    "code_id": "K05",
+    "code_name": "Uneven impact across architectural work",
+    "primary_destination": "T02",
+    "role": "Core theme code",
+    "related_themes": [],
+    "rationale": "Architecture knowledge is valued not only as documentation for people but as context, constraints and checkable intent for agents; making it explicit does not ensure that it is complete, usable or reliably applied."
+  },
+  {
+    "code_id": "K08",
+    "code_name": "Continuity of architectural purpose and method",
+    "primary_destination": "T07",
+    "role": "Supporting continuity code",
+    "related_themes": [
+      "T03"
+    ],
+    "rationale": "Participants attribute architectural value to interpreting business and system context, weighing consequential trade-offs, negotiating stakeholder needs and reasoning about risks that generated artifacts alone may not capture. Some see cheaper technical reversal as shifting attention toward business consequences, while stakeholder purpose is described as continuing."
+  },
+  {
+    "code_id": "K09",
+    "code_name": "Explicit architectural knowledge for steering agents",
+    "primary_destination": "T02",
+    "role": "Core theme code",
+    "related_themes": [
+      "T05",
+      "T07"
+    ],
+    "rationale": "Architecture knowledge is valued not only as documentation for people but as context, constraints and checkable intent for agents; making it explicit does not ensure that it is complete, usable or reliably applied."
+  },
+  {
+    "code_id": "K10",
+    "code_name": "Retaining, retrieving and using architectural knowledge",
+    "primary_destination": "T02",
+    "role": "Core theme code",
+    "related_themes": [
+      "T04",
+      "T07"
+    ],
+    "rationale": "Architecture knowledge is valued not only as documentation for people but as context, constraints and checkable intent for agents; making it explicit does not ensure that it is complete, usable or reliably applied."
+  },
+  {
+    "code_id": "K11",
+    "code_name": "Governance and organizational conditions of adoption",
+    "primary_destination": "T05",
+    "role": "Core theme code",
+    "related_themes": [
+      "T03"
+    ],
+    "rationale": "Beyond architecting the target software, participants describe or envisage shaping the delivery arrangement itself: coordinating people and agents, setting permissions and boundaries, sequencing work, sharing feedback and managing the terms and costs of AI use."
+  },
+  {
+    "code_id": "K12",
+    "code_name": "Influence and authority in AI-assisted work",
+    "primary_destination": "T04",
+    "role": "Core theme code",
+    "related_themes": [
+      "T03"
+    ],
+    "rationale": "Participants distinguish architecture as work from architect as a title: some describe broader engineer ownership and altered interaction, while others retain dedicated architects and established role boundaries."
+  },
+  {
+    "code_id": "K13",
+    "code_name": "Changing expectations and relationships",
+    "primary_destination": "T04",
+    "role": "Core theme code",
+    "related_themes": [
+      "T05"
+    ],
+    "rationale": "Participants distinguish architecture as work from architect as a title: some describe broader engineer ownership and altered interaction, while others retain dedicated architects and established role boundaries."
+  },
+  {
+    "code_id": "K14",
+    "code_name": "Architectural value of integrating GenAI into systems",
+    "primary_destination": "P01",
+    "role": "Peripheral scope finding",
+    "related_themes": [],
+    "rationale": "Participants connect AI-containing products with nondeterminism, security, assurance and new technical expertise. This concerns architecture of the delivered product, distinct from using AI to develop it."
+  },
+  {
+    "code_id": "K15",
+    "code_name": "Reallocation of architectural effort and modernization choices",
+    "primary_destination": "T01",
+    "role": "Core theme code",
+    "related_themes": [
+      "T05",
+      "T07"
+    ],
+    "rationale": "Participants describe quicker production and exploration, while effort shifts toward specifying, understanding, reviewing and coordinating work; the time saved can support additional ambitions and workload rather than simply reduce work."
+  },
+  {
+    "code_id": "K16",
+    "code_name": "Contingency of the future role",
+    "primary_destination": "X01",
+    "role": "Cross-cutting qualifier",
+    "related_themes": [
+      "T03",
+      "T07"
+    ],
+    "rationale": "Changing appraised usefulness, continuing skepticism and conditional future capabilities qualify the direction and pace of the thematic structure. The analysis does not establish a common adoption-stage model or a fixed future role."
+  },
+  {
+    "code_id": "K17",
+    "code_name": "Adoption trajectory and stance",
+    "primary_destination": "X01",
+    "role": "Cross-cutting qualifier",
+    "related_themes": [],
+    "rationale": "Changing appraised usefulness, continuing skepticism and conditional future capabilities qualify the direction and pace of the thematic structure. The analysis does not establish a common adoption-stage model or a fixed future role."
+  },
+  {
+    "code_id": "K18",
+    "code_name": "Validation capacity and expanding workload",
+    "primary_destination": "T01",
+    "role": "Core theme code",
+    "related_themes": [
+      "T06"
+    ],
+    "rationale": "Participants describe quicker production and exploration, while effort shifts toward specifying, understanding, reviewing and coordinating work; the time saved can support additional ambitions and workload rather than simply reduce work."
+  },
+  {
+    "code_id": "K19",
+    "code_name": "Developing and sustaining professional judgment",
+    "primary_destination": "T06",
+    "role": "Core theme code",
+    "related_themes": [
+      "T02",
+      "T03",
+      "T04",
+      "T07"
+    ],
+    "rationale": "Participants connect continued human involvement with opportunities to develop judgment and retain purpose, creativity and enjoyable work; AI assistance can support learning and enjoyment as well as raise concerns about review-only work and access to experience."
+  },
+  {
+    "code_id": "K20",
+    "code_name": "Preserving agency creativity and rewarding work",
+    "primary_destination": "T06",
+    "role": "Core theme code",
+    "related_themes": [
+      "T01",
+      "T07"
+    ],
+    "rationale": "Participants connect continued human involvement with opportunities to develop judgment and retain purpose, creativity and enjoyable work; AI assistance can support learning and enjoyment as well as raise concerns about review-only work and access to experience."
+  },
+  {
+    "code_id": "K21",
+    "code_name": "Redistributing architectural work roles and staffing",
+    "primary_destination": "T04",
+    "role": "Core theme code",
+    "related_themes": [
+      "T03",
+      "T05",
+      "T06",
+      "T07"
+    ],
+    "rationale": "Participants distinguish architecture as work from architect as a title: some describe broader engineer ownership and altered interaction, while others retain dedicated architects and established role boundaries."
+  },
+  {
+    "code_id": "K22",
+    "code_name": "Commercial expectations and AI cost stewardship",
+    "primary_destination": "T05",
+    "role": "Core theme code",
+    "related_themes": [],
+    "rationale": "Beyond architecting the target software, participants describe or envisage shaping the delivery arrangement itself: coordinating people and agents, setting permissions and boundaries, sequencing work, sharing feedback and managing the terms and costs of AI use."
+  },
+  {
+    "code_id": "K23",
+    "code_name": "Safety and ethical reasoning beyond generated documents",
+    "primary_destination": "T07",
+    "role": "Core theme code",
+    "related_themes": [],
+    "rationale": "Participants attribute architectural value to interpreting business and system context, weighing consequential trade-offs, negotiating stakeholder needs and reasoning about risks that generated artifacts alone may not capture. Some see cheaper technical reversal as shifting attention toward business consequences, while stakeholder purpose is described as continuing."
+  },
+  {
+    "code_id": "K24",
+    "code_name": "Reassessing architectural significance through reversibility",
+    "primary_destination": "T07",
+    "role": "Core theme code",
+    "related_themes": [
+      "T01"
+    ],
+    "rationale": "Participants attribute architectural value to interpreting business and system context, weighing consequential trade-offs, negotiating stakeholder needs and reasoning about risks that generated artifacts alone may not capture. Some see cheaper technical reversal as shifting attention toward business consequences, while stakeholder purpose is described as continuing."
+  },
+  {
+    "code_id": "K25",
+    "code_name": "Machine-representable and verifiable architectural reasoning",
+    "primary_destination": "T02",
+    "role": "Core theme code",
+    "related_themes": [
+      "T03",
+      "T07"
+    ],
+    "rationale": "Architecture knowledge is valued not only as documentation for people but as context, constraints and checkable intent for agents; making it explicit does not ensure that it is complete, usable or reliably applied."
+  },
+  {
+    "code_id": "K26",
+    "code_name": "Architecting the AI-assisted delivery process",
+    "primary_destination": "T05",
+    "role": "Core theme code",
+    "related_themes": [
+      "T01",
+      "T02",
+      "T04",
+      "T06"
+    ],
+    "rationale": "Beyond architecting the target software, participants describe or envisage shaping the delivery arrangement itself: coordinating people and agents, setting permissions and boundaries, sequencing work, sharing feedback and managing the terms and costs of AI use."
+  },
+  {
+    "code_id": "K27",
+    "code_name": "Contextual architectural judgment and risk stewardship",
+    "primary_destination": "T07",
+    "role": "Core theme code",
+    "related_themes": [
+      "T02",
+      "T03",
+      "T05"
+    ],
+    "rationale": "Participants attribute architectural value to interpreting business and system context, weighing consequential trade-offs, negotiating stakeholder needs and reasoning about risks that generated artifacts alone may not capture. Some see cheaper technical reversal as shifting attention toward business consequences, while stakeholder purpose is described as continuing."
+  }
+]

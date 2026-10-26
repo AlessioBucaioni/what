@@ -1,0 +1,332 @@
+[
+  {
+    "theme_id": "T01",
+    "rq_id": "RQ1",
+    "contribution_role": "Primary",
+    "contribution": "Participants describe faster exploration and generation, continuing correction needs, more planning/review and expanding workload.",
+    "evidence_ids": [
+      "E003",
+      "E012",
+      "E078",
+      "E140",
+      "E161",
+      "E234"
+    ],
+    "account_basis": "Reported current/past work and professional interpretation",
+    "qualification": "This directly answers changes and continuities in work; speed and workload claims remain self-assessed rather than measured outcomes."
+  },
+  {
+    "theme_id": "T01",
+    "rq_id": "RQ4",
+    "contribution_role": "Supporting",
+    "contribution": "Participants envisage less administrative effort, more stakeholder attention and additional projects or improvement ambitions.",
+    "evidence_ids": [
+      "E045",
+      "E046",
+      "E047",
+      "E086",
+      "E202"
+    ],
+    "account_basis": "Expected future developments",
+    "qualification": "These are anticipated directions and conditions, not realized future outcomes."
+  },
+  {
+    "theme_id": "T02",
+    "rq_id": "RQ1",
+    "contribution_role": "Primary",
+    "contribution": "Knowledge is recovered and shared, and intent becomes more explicit for agents, while core design rules and the need for context continue.",
+    "evidence_ids": [
+      "E078",
+      "E101",
+      "E131",
+      "E170",
+      "E172",
+      "E192"
+    ],
+    "account_basis": "Direct practices, professional interpretations and a colleague report",
+    "qualification": "Knowledge access and codification attempts are described; reliable agent enforcement or a universal change in artifacts is not established."
+  },
+  {
+    "theme_id": "T02",
+    "rq_id": "RQ4",
+    "contribution_role": "Supporting",
+    "contribution": "Participants envisage agent-consumable knowledge and testable intent; representation and validated explanation are conditions that could alter human involvement.",
+    "evidence_ids": [
+      "E038",
+      "E043",
+      "E235",
+      "E203",
+      "E219"
+    ],
+    "account_basis": "Desired/expected developments and conditional possibilities",
+    "qualification": "Desired knowledge tools complement, rather than establish, expected role change; representations and explanations are not assumed complete or reliable."
+  },
+  {
+    "theme_id": "T02",
+    "rq_id": "RQ3",
+    "contribution_role": "Supporting",
+    "contribution": "Participants attribute a specific contribution to supplying architectural context and meaningful solution boundaries for agents.",
+    "evidence_ids": [
+      "E080",
+      "E237"
+    ],
+    "account_basis": "Conditional value argument and reported colleague concerns",
+    "qualification": "This supports one mechanism of architectural contribution. Broader domain judgment, trade-offs and risk stewardship are central to T07; knowledge access alone is not proof of professional value."
+  },
+  {
+    "theme_id": "T03",
+    "rq_id": "RQ1",
+    "contribution_role": "Supporting",
+    "contribution": "Participants describe continued human checking, architectural review and acceptance alongside delegated execution.",
+    "evidence_ids": [
+      "E009",
+      "E075",
+      "E130",
+      "E153",
+      "E206",
+      "E242"
+    ],
+    "account_basis": "Personal/organizational practices and a professional interpretation of testing continuity",
+    "qualification": "This is the work-continuity aspect of an allocation theme; it does not establish unchanged architectural work in general or universal human-only verification."
+  },
+  {
+    "theme_id": "T03",
+    "rq_id": "RQ2",
+    "contribution_role": "Primary",
+    "contribution": "Participants distinguish delegated execution from retained human acceptance, decision control and answerability, with different role-holders and responsibility tensions.",
+    "evidence_ids": [
+      "E139",
+      "E153",
+      "E156",
+      "E190",
+      "E228",
+      "E229",
+      "E251",
+      "E197"
+    ],
+    "account_basis": "Own and organizational accounts, a colleague report, professional interpretations and a conditional responsibility argument",
+    "qualification": "Review, authority and accountability are separate properties. These are situated perceived allocations, not verified legal duties or evidence that architects alone remain responsible."
+  },
+  {
+    "theme_id": "T03",
+    "rq_id": "RQ4",
+    "contribution_role": "Supporting",
+    "contribution": "Participants discuss difficulty taking responsibility for delegated work, desire retained sign-off and envisage validated explanations as a condition changing human involvement.",
+    "evidence_ids": [
+      "E197",
+      "E214",
+      "E203"
+    ],
+    "account_basis": "Conditional scenarios and a normative desire",
+    "qualification": "A wish to retain sign-off is not a prediction; conditional explanation-based changes are not achieved capability. This is a specific future condition, not a comprehensive role trajectory."
+  },
+  {
+    "theme_id": "T04",
+    "rq_id": "RQ1",
+    "contribution_role": "Supporting",
+    "contribution": "Some accounts describe wider engineer ownership of architectural tasks; others describe already-shared architecture and no observed reallocation.",
+    "evidence_ids": [
+      "E116",
+      "E154",
+      "E190",
+      "E191",
+      "E225"
+    ],
+    "account_basis": "Reported task arrangements and organizational interpretation",
+    "qualification": "I8 lacks a reliable pre-adoption company comparison. Changes and continuities in work are retained without attributing every shared arrangement to GenAI."
+  },
+  {
+    "theme_id": "T04",
+    "rq_id": "RQ2",
+    "contribution_role": "Primary",
+    "contribution": "Participants describe varied effects on professional boundaries, apparent influence, communication and relationships, including accounts of no authority or boundary change.",
+    "evidence_ids": [
+      "E021",
+      "E024",
+      "E025",
+      "E072",
+      "E135",
+      "E157",
+      "E191",
+      "E227",
+      "E249"
+    ],
+    "account_basis": "Reported interactions, own/organizational accounts and role interpretations",
+    "qualification": "Apparent competence, communication, work ownership and formal decision authority are different properties; no uniform disappearance or authority redistribution is inferred."
+  },
+  {
+    "theme_id": "T04",
+    "rq_id": "RQ4",
+    "contribution_role": "Primary",
+    "contribution": "Participants envisage convergence, different role titles or continued specialization, shaped by product complexity and established organizational/team arrangements.",
+    "evidence_ids": [
+      "E146",
+      "E147",
+      "E196",
+      "E241",
+      "E259"
+    ],
+    "account_basis": "Conditional scenarios, contextual interpretation and expected developments",
+    "qualification": "These are divergent possible trajectories, not verified employment trends or inevitable loss of the architect role."
+  },
+  {
+    "theme_id": "T05",
+    "rq_id": "RQ1",
+    "contribution_role": "Primary",
+    "contribution": "Participants report AI policy work, shared feedback and work decomposition, while interpreting the delivery process itself as an architectural concern.",
+    "evidence_ids": [
+      "E118",
+      "E149",
+      "E204",
+      "E267"
+    ],
+    "account_basis": "Direct personal/organizational work and architectural interpretation",
+    "qualification": "Current mechanisms are distinguished from prospective orchestration; this does not imply governance or coordination was absent before GenAI."
+  },
+  {
+    "theme_id": "T05",
+    "rq_id": "RQ2",
+    "contribution_role": "Supporting",
+    "contribution": "Participants perceive responsibilities around permissible AI use, cost stewardship and commercial expectations for AI-supported professional work.",
+    "evidence_ids": [
+      "E027",
+      "E070",
+      "E118",
+      "E119"
+    ],
+    "account_basis": "Reported permissions, client questions and own policy work, plus professional interpretation",
+    "qualification": "Client approval and remuneration questions are not evidence of changed legal authority, actual fee changes or measured cost savings."
+  },
+  {
+    "theme_id": "T05",
+    "rq_id": "RQ4",
+    "contribution_role": "Primary",
+    "contribution": "Participants expect more upstream process design and envisage staged/coordinated agent work, qualified by shared execution needs, organizational readiness and the limits of excessive constraint.",
+    "evidence_ids": [
+      "E088",
+      "E112",
+      "E205",
+      "E268",
+      "E269",
+      "E245"
+    ],
+    "account_basis": "Expected/conditional developments, desired collaboration and reported contextual constraints",
+    "qualification": "Desired shared execution is not itself a forecast; current organizational immaturity and constraint trade-offs delimit envisaged role evolution."
+  },
+  {
+    "theme_id": "T06",
+    "rq_id": "RQ4",
+    "contribution_role": "Primary",
+    "contribution": "Participants expect broader expertise demands and see continued skill formation, trustworthy assistance and opportunities to learn through review as shaping future human participation.",
+    "evidence_ids": [
+      "E106",
+      "E145",
+      "E177",
+      "E201",
+      "E276"
+    ],
+    "account_basis": "Expected proficiency/skill needs and normative or desired learning pathways",
+    "qualification": "Desired learning and agency conditions are distinguished from predicted outcomes; loss-only trajectories are qualified by positive learning and enjoyment cases."
+  },
+  {
+    "theme_id": "T06",
+    "rq_id": "RQ3",
+    "contribution_role": "Supporting",
+    "contribution": "Participants value critical understanding, creativity and meaningful human participation that work and learning arrangements can sustain.",
+    "evidence_ids": [
+      "E104",
+      "E254",
+      "E265"
+    ],
+    "account_basis": "Value interpretations and reported effort to understand AI output",
+    "qualification": "This supports capacities and participation valued alongside architectural judgment. Enjoyment or learning alone does not establish the architect’s comparative contribution; T07 carries the central attributed-value claim."
+  },
+  {
+    "theme_id": "T07",
+    "rq_id": "RQ1",
+    "contribution_role": "Supporting",
+    "contribution": "Participants describe continuing stakeholder purpose and business interpretation, while some interpret cheaper technical reversal as changing which risks deserve architectural attention.",
+    "evidence_ids": [
+      "E015",
+      "E019",
+      "E020",
+      "E174",
+      "E257",
+      "E258"
+    ],
+    "account_basis": "Explicit continuity account and professional interpretations of continuity and changing significance",
+    "qualification": "Actual, interpreted and desired continuity remain distinct. Perceived reversibility is not measured and is not assumed to apply to all technical decisions."
+  },
+  {
+    "theme_id": "T07",
+    "rq_id": "RQ3",
+    "contribution_role": "Primary",
+    "contribution": "Participants attribute architectural value to domain and business understanding, stakeholder trade-offs, identifying significant risks and contextual ethical reasoning.",
+    "evidence_ids": [
+      "E015",
+      "E032",
+      "E037",
+      "E120",
+      "E165",
+      "E178",
+      "E256",
+      "E257",
+      "E275"
+    ],
+    "account_basis": "Situated value interpretations and an explicit continuity account",
+    "qualification": "Attributed value is not proof of increased formal authority, permanent AI incapability or measured superiority. The accountability allocation is analyzed separately in T03."
+  },
+  {
+    "theme_id": "X01",
+    "rq_id": "RQ1",
+    "contribution_role": "Contextual",
+    "contribution": "Different adoption experiences and appraised usefulness help explain variation in described work changes and continuities.",
+    "evidence_ids": [
+      "E065",
+      "E066",
+      "E167",
+      "E187"
+    ],
+    "account_basis": "Retrospective adoption and usefulness accounts",
+    "qualification": "These are participant appraisals, not a verified model-development timeline or a universal adoption-stage model."
+  },
+  {
+    "theme_id": "X01",
+    "rq_id": "RQ4",
+    "contribution_role": "Contextual",
+    "contribution": "Uncertain capability, changing usefulness and representation/explanation conditions qualify all future role trajectories.",
+    "evidence_ids": [
+      "E050",
+      "E166",
+      "E183",
+      "E203",
+      "E219"
+    ],
+    "account_basis": "Future uncertainty and conditional scenarios",
+    "qualification": "No single expected trajectory is imposed on the differing accounts."
+  },
+  {
+    "theme_id": "P01",
+    "rq_id": "RQ3",
+    "contribution_role": "Peripheral",
+    "contribution": "Participants attribute value to architecture expertise when combining nondeterministic AI features with deterministic systems.",
+    "evidence_ids": [
+      "E033",
+      "E034",
+      "E089"
+    ],
+    "account_basis": "Conditional attributed value, a scope qualification and a future complexity account",
+    "qualification": "Retain the qualification that strategic architectural value may continue rather than universally increase. Theme P01 remains peripheral pending scope review."
+  },
+  {
+    "theme_id": "P01",
+    "rq_id": "RQ4",
+    "contribution_role": "Peripheral",
+    "contribution": "Participants envisage security, identity and assurance complexity when AI is embedded in a delivered system.",
+    "evidence_ids": [
+      "E089"
+    ],
+    "account_basis": "Expected product-architecture development",
+    "qualification": "This is not evidence of deployed future capability or a central delivery-process role trajectory."
+  }
+]

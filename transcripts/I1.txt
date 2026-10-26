@@ -1,0 +1,285 @@
+INTERVIEW I1
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Interviewer 1 & 2 | 0:16
+Yes, perfect.Good. So, I mean, to start with, it would be, of course, good to get some brief information on your role and experience and context of your, yeah, your position, focusing on, yeah, maybe the last.Yes.
+
+P0002 | I1 | 0:40
+[Identifying professional background withheld. General participant perspective is recorded in the interview index.]
+
+P0003 | Interviewer 1 & 2 | 1:46
+Yeah, yeah.Great. So, as you, as you know, we are interested in understanding how AI and if AI is affecting the role of the software architect. So, we will skip the question or, yeah, the comments on what the role of the software architect was before Jan AI, becauseThis is more or less known to some degrees. We would like to maybe start the discussion by asking if you recall when more or less Jenny and I started to affect your daily work as an architect, and if you maybe have oneepisode that really comes to your mind when thinking of that period.
+
+P0004 | I1 | 2:41
+I think it's been quite a compressed period, but during that period it has been, for me, it's been quite a gradual, incremental thing. It's largely mirrored the development of the sophistication of the models, really.From the launch of ChatGPT onwards, though, it was obvious that this was a useful tool. It was a question of...where it could be used and what its capabilities were. And I would say, funny, I was talking to a colleague about this. He's not independent, but I work with him quite a bit in other things. He works for a company that produces software in the ad tech industry. Yeah, he was saying, and I think I agree with him, in terms ofhow it impacts software development deeply. There was maybe the start of 26, middle of 25 onwards. I don't, not exactly sure which model it was, but suddenly when Claude Code was released and I can't remember which model it was, but one of the anthropic models was released, suddenlyThis became a very, very capable tool and caused a lot of people, not just architects, to question what their future in the industry looked like. I think that's probably what happened. And the other aspect of it would simply be thatthe chat systems. I should also prefix my remarks by saying I almost exclusively use anthropic technology, not for any great philosophical or technical reasons, simply I have to back something and I've sort of backed anthropic. And a lot of people I work with use anthropic, so that kind of works. Using the Claude chatbot for the last two years.Um, it's there hasn't been a single moment when it's suddenly become the architect's assistant, but there's been a...It's been improving and also I've been getting more aware that can do ever more capable things. So for me, there wasn't one moment. It was, for example, I needed to, I needed to very quickly get together some thoughts for a particular client ontrade-offs and quality attributes and historically I'd have looked at all my material and the books and gone to O'Reilly and got my thoughts together and put bullet points in and then slowly fleshed it out. I put together my outland bullet points, I put it into Claude, it pointed out what I'd got wrong. I said why do you say that?It cited a lot of resources back to me, including my own books, and then said, if I were you, I'd shape it like this. And I went, yeah, exactly. That's probably where I would have got to after two or three hours. And then it helped produce the actual material. So that was probably the day when I thought this really is very useful and does speed things up.
+
+P0005 | Interviewer 1 & 2 | 5:26
+Yeah, so one thing may be off the script, but I think it's interesting, would you, because you say that basically you could not, you cannot really point at a specific episode or time or period, but would you say that thiswave of LLM and Jan AI was more like a shift that you felt coming as an opportunity to do things different and improving or was more like a sort of a peer pressure because everybody was slowly migrating.
+
+P0006 | I1 | 6:05
+I went through the classic stages of, I mean, I started this actually at my last employer where I was responsible for, you know, how we did delivery. So, and back then the tools were, I mean, I left that company at the end of 24. So the tools were quite primitive. Yeah, I went through sort of denial.This is probably never going to work. I think this is just, this will be very useful for summarizing documents. It's never going to be very useful for something as complicated as software development, which to be fair to me, I was largely right for 12 to 18 months. You can't see the future. At that point, it wasn't actually that useful. It was useful for other things. And then I sort of went through slow acceptance. And then I think I've got tothe point now of being quite enthusiastic about it. There are lots of, of course, being an architect, we would think of lots of trade-offs and secondary factors, but I'm just talking about what the things can do. I definitely went through a, this will never work. This is a phase, it'll go away. Oh, this seems to besomewhat useful, but it'll need, you know, it'll always be kind of minor to actually, this can do quite large tasks, perhaps under supervision, but can do quite large tasks that would have taken me a long time beforehand. So it's actually a huge, huge change to how we work.
+
+P0007 | Interviewer 1 & 2 | 7:23
+Yeah.Relating to to to this.Do you already feel that, for instance, nowadays, there are, I mean, LLM and Gen. AI in general, change some aspect of your work as an architect? And also, can you see someOf the, let's say, task, or yeah, let's focus on the task that actually didn't change at all, despite the...
+
+P0008 | I1 | 7:59
+Oh, definitely. Of course, there are different sorts of architects who do twin kinds of work. We should say that immediately. Some people called architect, you know, are really very concerned about the structure of code and they are in code all day and working in teams all day. And they don't deal a lot with stakeholders, actually, despite being architects. They're veryHopefully, they're very aware of them, but there are other people probably working alongside them, you know, doing the stakeholders much more. They're very heavily impacted the whole time. I'd say for someone who does the whole range of software architecture activities, though, there are some parts of it, such as negotiating trade-offs with stakeholders who don't like each other.I mean, I wouldn't put an LLM in that mix. I think that would be a very unwise thing to do. That hasn't changed at all.There are relatively few tasks, I'd say, that are totally untouched. For example, if you have to understand the regulation in a business domain, then that's something that many LLMs are not competent at doing, but they're a useful tool. You can feed them a lot of information and they're pretty good at summarizing it. They're pretty good at pulling out the main points.
+
+P0009 | Interviewer 1 & 2 | 9:04
+Mm.
+
+P0010 | I1 | 9:11
+They're very good at spotting differences, all stuff that would have taken us hours beforehand. So there's relatively little that's, I think, untouched, but there's a continuum from the closer you are to strategy, direction, big decision making,really challenging quality attributes, the less impact it has, although you might still use them, the closer you get to the implementation of the software, the more impact it has. So I think I haven't thought all this out in great detail. Maybe there's a conference talk here, but I'm not sure if it's a straight line. I'm not sure if it goes up and down, but I think if you go sort of from strategic to, it's unfair to call it tactical.
+
+P0011 | Interviewer 1 & 2 | 9:34
+Yeah.Yeah, yeah.Yeah.
+
+P0012 | I1 | 10:09
+can change how you have to work.
+
+P0013 | Interviewer 1 & 2 | 10:11
+I know it makes it makes sense, of course. Also checking that, of course, I'm glad he's here, so if you want to step in, feel free and same for Author 3. I don't want to monopolize the discussion. And so, also, this maybe goes back to what you said at the beginning.when you say that you currently work with people, which is a good, also special place to be. So have you noticed like Jan AI changing the way that you interact with people of different, I mean,Different stakeholders, clearly, but here we are thinking about, you know, technical stakeholders such as, you know, other developers, managers, and this also change a little bit the boundaries within what is expected from the architect or what you expect as an architect.That.I don't know if I explained the...
+
+P0014 | I1 | 11:18
+Yeah, I think so. Does it affect the...People, relationships, and the communication.
+
+P0015 | Interviewer 1 & 2 | 11:23
+Yeah, so one thing is maybe the first part is about the relationship, if Jan AI affected, but then related to this, but even further is if Jan AI affected the relationship, did it also affect the way you expect other people to do?
+
+P0016 | I1 | 11:28
+Yeah.
+
+P0017 | Interviewer 1 & 2 | 11:42
+their job and those people, if they change their expectation on your job as an activist, let's say.
+
+P0018 | I1 | 11:43
+Who?Mhm.Taking the first question, I don't think it changes a lot how I interact with other people.People are very on this. It's funny, I'm doing some...sort of AI, it's not exactly training, it's a series of workshops with other quite experienced people at the moment who are exploring different topics. And what's really interesting is I fed all the outputs from the first couple of sessions into one of the AI text generators. Now I know they're not fully, they're not fully reliable. What was really interesting was every single deliverable apart from my two,came up 100% AI. And my both came, you know, whatever it was, 80% human, 20% AI. Funnily enough, I'd used AI extensively to produce mine, but I hadn't let it write the final deliverable. And I think some people feel it's absolutely fine to interact with other people via LLMs.you know, they'll get them to write their emails for them. They will produce presentations or briefing papers. They'll just get the LLM to write the stuff and then they'll send it. And I think that in a sense does disconnect you a bit from the other person. And then there's people like me who think these are very useful tools, but I'm not losing my voice. I mean, they're dealing with me as an individual and they know me and I have a particular style.And actually, I don't really care if the LLM can fake the style. I don't want it to. I'm prepared to put that extra 10% in to make sure I'm actually, you know, representing myself. So I think people vary. I personally don't use LLMs to get in the way, if you like, of communication with others. So it hasn't really changed my interaction with others.
+
+P0019 | Interviewer 1 & 2 | 13:13
+Mm.
+
+P0020 | I1 | 13:28
+Not that I'm conscious of, I suppose if you ask others. I don't think so though. And then does it change expectations? Yes, sometimes positively, sometimes negatively. I pretty well expect everyone who I work with now who touches code to be using an agentic based software development platform. Different levels of sophistication, some of them aren't doing much more thanasking Claude to give them a hand, look at this, give me advice, change this for me. Others, you know, these are tiptoeing towards these so-called dark factories where they really just put in requirements and they expect finished software at the end. Different levels of use, but everybody's using it. Other people, I mean, I'm not really.I quite often deal with quite senior people. I'm not really expecting them. Well, it's up to them. I don't really care. I suppose I don't really care if they're using Gen. AI as long as they're using it thoughtfully. If they're not using it, I think that's fine. I think that's a choice. And not all of them need to use it. They need to understand it.If they're using it and they're using it stupidly, that's a problem, but generally it's fine. The thing that I think it can be a problem for architects is where you can have quite inexperienced people, sometimes non-technical people, asking chatbots for technical advice, getting the output, they then ask it to summarize it.they memorize the keywords and then they turn up to a meeting, a call, a workshop, sounding, until you scratch the surface, sounding very suddenly knowledgeable and capable. And that can be very disorienting because you sort of think, well, I mean, now you just go, oh, you asked Claude. But I mean, six months ago we were going,That's a bit strange, and I was meeting didn't know what authentication was.
+
+P0021 | Interviewer 1 & 2 | 15:07
+Yes, that's this.Does this affect somehow the your or anybody has authority or yeah, accountability or whatever?
+
+P0022 | I1 | 15:22
+It can do. It hasn't happened to me, but then I'm quite lucky because I tend to deal with people who rate me quite highly and, you know, I'm not having to be in a big organisation where there's a lot of politics and, you know, different people having different agendas and, you know, I've worked in those environments. I feel in those environments, this kind of...I mean, people have always been able to read a blog, right, and then turn up to a meeting, pretend to understand something. It's just that Gen. AI does such a good job of briefing them. They can turn up and they can, and also of course, airlines tend to be self-reinforcing. So some senior manager says, give me the arguments that we should do this. The LLM obligingly gives all the arguments for it.and none of them against. And unless that person is thoughtful and, you know, reflective about how they're using it, they'll just turn up with one side of the story, convinced that that it's right. And that that can definitely be a problem. I think, as you know, there's this phrase that AI amplifies, it doesn't fundamentally change. I think it's just another example of that.People who always turned up to the meeting with a load of buzzwords in their head from a Gartner report, who then tried to influence the debate, not really understanding it, they've just become more dangerous. They have fundamentally changed. People who had a bit of humility and knew what they didn't know, hopefully, I've not really come across either way, but I would expect them to be usingthis technology in a much more thoughtful and reflective way and actually using it to understand the whole problem, not just trying to bulldoze their point of view.
+
+P0023 | Interviewer 1 & 2 | 16:52
+So, maybe...Now we have the most philosophical or important question of the session.So.If we look at now, again, with this Jan AI and all this new technology, do you think they are making the role of the architect more or less valuable? And I mean,How or why? Let's see.
+
+P0024 | I1 | 17:31
+Um...If you're thinking about integrating Gen. AI features into your system, I'd say probably the role of the architect, understanding quality attributes, understanding trade-offs, understanding stakeholders, understanding a broad range of technical solutions rather than just the latest thing, it's probably more valuable than ever becauseI don't need to explain it to this audience, but you know, the whole idea of bringing non-deterministic software and deterministic software together is quite complicated. If it comes to AI and the SDLC, I think unless they're very up to date with it and very up to date with the software development technology in use, architectsprobably just need to stand back, observe, learn, bit of humility, let the development teams find the right way forwards. The thing that they probably do need to just respectfully be reminding the development teams is something development teams, with all due respect, often tend to forget is quality attributes. And I've had this myself. You can get so excited using Claude to develop an application that seems to be moving so fast.you can just forget the fact that you didn't mention scalability at all. And then you go and look at the code and you go, oh, it's not obvious to me, we're going to have to test it, but that doesn't look very scalable. So there's a reinforcing function there. But I think in the Aon SDLC, if you're primarily dealing with the level I deal with in software architecture,
+
+P0025 | Interviewer 1 & 2 | 18:42
+Yeah.
+
+P0026 | I1 | 18:56
+I think, frankly, you should probably just shut up and let teams find the right way forwards. When it comes to the...When it comes to the kind of strategy and direction on that side of it, I don't think it's changed it hugely. It's yet another thing that's arrived. But when SAS arrived, of course, the whole question, what do we do with it? Public cloud arrived, what do we do with it? Where does it fit? Things like, well, blockchain, which is now, of course, crashed and burned. But you may remember,About 6, seven years ago, there was this big question about should we be using distributed ledgers as data stores in our distributed systems? I mean, all these questions have always turned up. I don't think that's fundamentally made change the value of the architect. Good architects are still doing good architecture work.
+
+P0027 | Interviewer 1 & 2 | 19:35
+Mm.Yeah, of course. Maybe complementary to this standard, you know, this like any...Change in the meaning of architectural artifacts or knowledge, and how this has impacted your, I mean, again.
+
+P0028 | I1 | 19:58
+So I don't think we've come to a view on that yet.My, I think it's moving really quickly in all of this stuff, AI in software delivery and in mainstream business systems. I think anyone who claims they have the answers didn't understand the question to be slightly facetious. It's just moving so fast and no one really has the answers. Talk to three experts and you'll get three different answers about this. But
+
+P0029 | Interviewer 1 & 2 | 20:23
+Mm.
+
+P0030 | I1 | 20:23
+I'm quite a strong advocate of...
+
+P0031 | Interviewer 1 & 2 | 20:24
+Yeah.
+
+P0032 | I1 | 20:27
+I mean, I've been a strong advocate for nearly 10 years now for this continuous architecture approach, which I call democratizing it, which is making everything very lightweight, putting it in the teams, distributing authority, blah, blah, blah. I think that fits very well with the way I put it. It's a mixed human and AI team. What you have to think about
+
+P0033 | Interviewer 1 & 2 | 20:34
+Yeah.
+
+P0034 | I1 | 20:46
+is not, in my view, is not changing those fundamental artifacts. It's making sure that they're consumable by AI agents and that they're injected into the AI workflows at the right points to make sure that they have the right effect. And that, I mean, my experimentation and some others suggest that's quite tricky.It's a lot of people make it sound very simple. You just stick it in your code.md file. I don't actually think that works terribly well, as far as I can make it apart from very simple things. So.Does it change?I think there's been a big change in what people think of as valuable software architecture artifacts anyway, but now I have a very particular view of the world. I don't think those artifacts are any less useful. I think the challenge is simply how you get them used reliably by AI agents.and also how you check that they're true. And that's not necessarily very easy if you've got an architecture principle.I don't think I'd trust an LLM, even a third party one, you know, looking at some code it hadn't developed. I don't think I'd trust it to check an architecture principles enforced on anything apart from a very small code base.
+
+P0035 | Interviewer 1 & 2 | 21:59
+Okay. I was thinking maybe when you were talking about this, yeah, the architectural knowledge and artifacts, I was thinking like that.in a way, because there may be like the...belief that, to some extent, Jan AI can make the creation or management on some of the architectural artifacts more, I mean, much easier, much faster, or whatever, is that ifthen people and different stakeholders have also different, I mean, new expectation on architects because of Jan AI. So if maybe before some of these steps or the artifacts were, let's say, not mandatory in a typical process, now they become sort of customary or things like that or expected.
+
+P0036 | I1 | 23:01
+Possibly. I mean, I think it's very context dependent. My view has always been, if you're, yeah, so if you're creating an artifact, it has to be valuable to someone. If it's valuable to someone, you should be creating it. If it's got no value to anyone, obvious, then don't create it. So therefore, to me, Gen. AI doesn't change that very much. I think
+
+P0037 | Interviewer 1 & 2 | 23:05
+Yeah, I mean, in your in your experience, of course, sorry.
+
+P0038 | I1 | 23:21
+where you've got, for example, wikis as knowledge bases. I mean, that's quite accessible to general agents, but you have to make sure that you're prompting off them or your skills that you reuse or whatever it is, make sure that when they make a change, they update the right parts of the confluence. ButAs I said a few minutes ago, no one knows where this is going. Right now, even the most sophisticated agents like Codex and Cloud Code, in my experience, this is just my experience, others know what very good, they do not excel at the architecture and above level of reasoning, generation, summarization, analysis.
+
+P0039 | Interviewer 1 & 2 | 23:52
+Yeah.
+
+P0040 | I1 | 24:04
+they can kind of bluff it, well, bluffing everything, aren't they? It's just pattern matching, but the bluffing doesn't work so well at that level. So I think there's still, I think you can definitely, they should, you know, the agents should fill in the Jira tickets and close them. I think the agents, you perhaps can get an agent to scan part of the confluence.to check that it hasn't changed anything that needs change and it could flag it. I personally, again, based on my limited experience, I probably wouldn't today try and get agents to be updating the architecture documentation or anything like that. On the other hand, there are situations, I mean, I came across one of these fairly recently for one of my
+
+P0041 | Interviewer 1 & 2 | 24:32
+Yeah.
+
+P0042 | I1 | 24:45
+very small startup type clients, where I needed to understand the code quite quickly. And I did use Claude Code to say, and it's not a huge system, you know, it's 10s of thousands of lines rather than hundreds or millions. You know, I said to Claude Code, just, I think this is roughly what I've got. There's 2 repos.I think they split like this. Go and have a look and tell me what you can find. Of course, there was a bit of back and forth and it asked a few questions and I said, I don't think that's right. And it came back and went, yeah, it is. Here's the evidence. Oh, fair enough. Well done. And then other things were, you know, I deduced that, no, that's definitely not true. I can explain that. And, you know, half an hour in,I think I knew a lot more about the system than I did without it. And that definitely could have been a simple architecture artifact. So there's definitely the ability to generate, but I think most of their power today is inside the delivery teams, keeping developer level, generating developer level documentation.
+
+P0043 | Interviewer 1 & 2 | 25:27
+Mmh.
+
+P0044 | I1 | 25:46
+keeping things up to date, making sure that they follow a very structured workflow. So that, for example, they actually put a description in to Jira or whatever you're using as they close the ticket, that kind of thing. Automatically flagging up security problems that it has spotted as it goes through.
+
+P0045 | Interviewer 1 & 2 | 26:04
+Mm.
+
+P0046 | I1 | 26:07
+There was something the other day, actually, I was working on a small application and I was getting it to add something to quite a straightforward web app built and reacted. It's not clever at all. It involved adding a button to modify something. And actually, as it was working,
+
+P0047 | Interviewer 1 & 2 | 26:23
+Bye.
+
+P0048 | I1 | 26:25
+It came back and said, I have found two things which are of concern and it sort of printed them up and I said, that's okay, I'll take those risks. They were basically state management. It had spotted that state management wasn't safe. So I said, save those for me and it saved them. I said, I said, I just, I didn't tell it what to do. I just said, keep track. And it kept.it created 2 little dot MD history files that it said, you just have to remember this name and tell me to go back and look. And again, very sort of developer-centric stuff. What it didn't come back with and say is, I've been scanning your code base and actually I think this would work much better with the back end for front end pattern.I've never seen them do that, but they're always, they're almost superhuman at picking up the detail. They're not very good at saying, you've got the wrong architectural style here, this should be event driven.
+
+P0049 | Interviewer 1 & 2 | 27:18
+Yeah, makes sense, and...Related to this, of course, we're also almost done with the with the time allocated, so maybe...
+
+P0050 | I1 | 27:33
+I don't have a hard stop till 11 o'clock or 5 to 11 if you want to continue.
+
+P0051 | Interviewer 1 & 2 | 27:35
+Before concluding, we want to touch upon the, the, the, let's say, the future.And I don't know if I guess you're familiar, you know, there is this paper that it's titled What Architect, What Software Architects Really Do, which is a little bit old paper, but exploring what, yeah.
+
+P0052 | I1 | 27:57
+That was [person redacted] paper, wasn't it?
+
+P0053 | Interviewer 1 & 2 | 28:00
+Yeah. So, but the, so if we look ahead, maybe three, five years ahead, so what do you think that architects, software architects will really do?
+
+P0054 | I1 | 28:15
+Sure, I don't know. This is pure speculation. It all depends. It all depends whether...
+
+P0055 | Interviewer 1 & 2 | 28:17
+Yeah.Of course.
+
+P0056 | I1 | 28:23
+Either independent companies fine tune and extend models to solve architecture level problems, or the general purpose models get good at this as well. But I keep coming back to what is the core of software architecture. And for me, it's about understanding what the needs of the system are across it.and for a stakeholder group. It's about understanding the sort of quality attributes that those stakeholders require, even though they don't know they require them. And it's about how you achieve those quality attributes in the system, dealing with the trade-offs that are inherent in doing that. It is not impossible that in five years time we will have LLMs that canyou can say the stakeholder group is the following, communicate with them via Slack and Teams. I need a system that does this. Go and gather all the requirements, analyze it, produce the right architectural style and so on. I'm not for a moment saying that's not possible because we've seen such progress in a couple of years. Just like, because as we were saying, it was onlyEighteen months ago, that the co-generation agents became really useful, so five years, who knows, especially the amount of money that's pouring into this, but...Given where I am now, I think the architects will carry on roughly following the cryptan paper split of things. In terms of communicating and documenting, that will probably go down a bit, simply because they can use LLMs to produce the materials for them.Whereas, you know, producing, keeping lists up to date and producing presentations and things used to be quite time consuming. I can see that shrinking, not going away, but shrinking. So maybe they get more, I mean, most people complain they don't have enough time to really understand.stakeholder needs and particularly motivations, and perhaps they'll have more time speaking to people. But every architect you talk to is frustrated that the system has got these limitations that they can't do anything about because everybody says the job's just too big. Well, that might be the thing that willreally change is that we can be more ambitious about improving systems, making them more efficient, effective, secure, whatever it is, because of two ends. One, architects could get a lot of busy work taken away from them, things that are to do with documentation, administration, and maybe even their planning.And at the other end, the implementation.Changes are dramatically, dramatically more efficient because of Jan AI agents.
+
+P0057 | Interviewer 1 & 2 | 31:05
+Related to this, I was thinking like, of course, it's very difficult, always very difficult to look ahead of three, five years, especially with this piece of innovation, of course. But is there maybe if we look it on from another angle, is there anything thatorganisations, and I mean, of course, mostly companies should, you know, preserve, change, or create when it comes of, yeah, the role of the software architect and the value that architects provide moving forward. So, independently on whatWill happen, because maybe, as you say, these are to to to predict.
+
+P0058 | I1 | 31:53
+My advice to them is if they want to keep control as agents become ever more powerful, they need to be thinking seriously about architecture knowledge. It's, you know, I have been preaching viewpoints, views, principles, ADLs for, you know, 20 years.
+
+P0059 | Interviewer 1 & 2 | 32:01
+Mm.Yes.
+
+P0060 | I1 | 32:11
+Most places you go, not all by any means anymore, it's more popular now to do some of this than to [person redacted] and [person redacted], but really, but most places you go, they haven't got good architecture knowledge. With a bit of thought, they probably should be able to make that.
+
+P0061 | Interviewer 1 & 2 | 32:14
+Yeah.
+
+P0062 | I1 | 32:30
+a bit easier or a bit, you know, reduce the friction of doing that by using special purpose agents, which can, you know, run on their code base and spot anomalies and that kind of thing. But yeah, yeah, if they want to keep control when there are lots of autonomous things, autonomous machines running over their code base,They had better be clear what it is they want them to do. The only way you can be clear what you want them to do is to have some architectural knowledge.
+
+P0063 | Interviewer 1 & 2 | 32:58
+Yeah, makes sense. Yes, so I mean, we are, I guess, more or less done and maybe, of course, before ending, we want just to check if there is anything that, you know, we didn't discuss and maybe you thought.we would have been discussing or you want to share anyhow. And another, maybe as more just clarification, if you think that when we were talking about the future, if you think that any of these, let's say, teams that we touch upon as control and retaining control and things like that,are through under specific, let's say, in specific context, or it's something that you see as a, yeah, more general, let's say, advice or direction, independent by the context, let's say.
+
+P0064 | I1 | 33:55
+Sure, to take the second one first. I think that's pretty general advice. Most people who've got software, even when you go into some quite critical domains, it tends to be understood less well than you would hope, and particularlyarchitectural decision. There's a lot of architectural decisions and drivers and principles are quite implicit.Well, implicit's no good with an AI agent. It's just going to do the thing that pops up in its pattern space. It's going to do the first thing it runs into, unless you drive it to something else.The first question was...
+
+P0065 | Interviewer 1 & 2 | 34:34
+If you had anything that, I mean, before joining the interview, if you have anything in mind that we didn't touch upon.
+
+P0066 | I1 | 34:38
+Ohh yeah, anything else?Yeah, there was one thing I thought you were going to ask about, which was legacy systems.Um...Legacy systems.
+
+P0067 | Interviewer 1 & 2 | 34:49
+A legacy system, yeah, of course.
+
+P0068 | I1 | 34:49
+I do think, yeah, I do think use of sort of agentic development technology on a legacy code basis can be quite transformative just because they can make.They can, for example, wrap old monoliths in a protective wrap of unit tests, or they can take out all of the direct database access and replace it with a database layer quite quickly. They can do analysis quite well. They certainly don't replace the need for people. You need really skilled people working on legacy systems, particularly ones that understand the domain.but they can do tremendous amounts of analysis. They can spot edge cases. You can give them a theory which says we believe the taxation calculation works like this and they're pretty good at going and looking at 100,000 lines of tax code and coming back and saying most of that's true. I find these anomalous cases.which humans find quite hard to do, I think. So I think that for many software architects, dealing with their legacy systems is quite an important thing. I think they can be quite transformative there. They also, of course, they can change the, what I call the renovate or rebuild question, because it's cheaper now to rebuild.not cheap. There's a lot that there's a lot that's not writing the code, but the writing the code bit of the rebuild is cheaper. They can change that equation. So I think for most of software architects in industry have legacy systems that are dealing with them. I think that's quite an important dimension.
+
+P0069 | Interviewer 1 & 2 | 36:10
+It's cheaper, yeah, yeah.
+
+P0070 | I1 | 36:27
+which just from looking across around the web, there's not that many people actually looking at very seriously, which is quite interesting. But yes, I think that's a whole dimension maybe by itself.
+
+P0071 | Interviewer 1 & 2 | 36:35
+Yeah.So I have this thought in mind. I'm not sure I am able to express it properly, but I was thinking that maybe what you just described for the legacy systems, it may...It may be.Due to the fact that clearly, as you said, we are starting from a code base, which is sounding where Gen. AI excels, and then we can do, we can provide the Gen. AI systems with a lot of assumption, as you say, that other things. So, to some extent, we are
+
+P0072 | I1 | 37:03
+Ohh.
+
+P0073 | Interviewer 1 & 2 | 37:22
+doing quite a bit, quite of the opposite work that we will do in a normal, you know, development where the role of the architect, as you said earlier, is, you know, to put together the business constraints, business goals, and express them in terms of requirements, quality attributes, and so on.And that part.is more lacking currently.
+
+P0074 | I1 | 37:51
+Yes.Yeah, though, I mean, in the legacy systems domain, stop me if you need to go. I've got another 10 minutes. So in the legacy systems area, I've not done this for a number of years, let's be clear. I mean, I've been at a more strategic level for a while now, but although with my small clients, I'm suddenly straight back into the code again, which is quite interesting.
+
+P0075 | Interviewer 1 & 2 | 37:57
+I don't know how, just right.Yeah.
+
+P0076 | I1 | 38:12
+Yeah, I mean, when you're dealing with a legacy system, what you're often trying to do is understand.with very little documentation or very flawed documentation, how it works at an architectural level. And my goodness, the amount of legacy Java that I've read over the years, trying to figure out what on earth is going on and what the structure really is. Because everyone says, oh, I've drawn the whiteboard. And you go to two different teams who are drawing the whole system, not just their bit.and they draw different pictures and you suddenly go, well, that's fascinating. I wonder which, they're both probably wrong. I just think you can assert a load of theories and I think LLMs can really, I mean, they're not perfect. They're like humans, they'll miss things, but they can really help you at a level of detail.
+
+P0077 | Interviewer 1 & 2 | 38:40
+Yeah.
+
+P0078 | I1 | 39:01
+to validate your theories or disprove your theories or even just come up with a set of working theories as to, I do not understand how the database access works in the system. Go and investigate it for me. The modules I need you to look at are the following six and it will, you maybe break it down a bit more than that actually.thinking aloud, but conceptually, that's what you're saying. And it just comes back with a lot of very useful information that would have taken you, you know, possibly weeks of reading code and running unit tests and so on to actually figure out. I just think that that's very useful.
+
+P0079 | Interviewer 1 & 2 | 39:30
+Yeah, I mean.I definitely agree and I see value. I think that also, as you rightly mentioned, then it's this sort of thinking is sort of entangled with the fact that it becomes increasingly cheaper to build again rather thanRevise and refine, and all this kind of thoughts.
+
+P0080 | I1 | 39:59
+Although it's no one, just an interesting thing on that. I had a long discussion with some of my colleagues in one of my CTO kind of groups recently about this. Funnily enough, we started almost arguing, but we actually ended up very, very aligned on it. And there is a view floating around the investment industry, private equity, venture capital, that
+
+P0081 | Interviewer 1 & 2 | 40:17
+Yeah.
+
+P0082 | I1 | 40:18
+the cost of rebuilding a system now is close to zero. I've actually heard this repeated with a straight face by a PE operating partner. I've never heard a PE technology partner say it, but I've heard an operating partner say it. And PE are like sharks or something, you know, but they all kind of hunt in packs and they all think broadly the same at any moment in time.
+
+P0083 | Interviewer 1 & 2 | 40:28
+Yeah.
+
+P0084 | I1 | 40:36
+Hence, four years ago, they were all convinced that blockchain was going to revolutionize every system in front of them. And then when they dropped that, it suddenly vanished very, very fast. And now it's AI, you know. Not that they're wrong with AI. I think that they're on to something much bigger this time. But there is conventional wisdom
+
+P0085 | Interviewer 1 & 2 | 40:42
+Yeah, of course.
+
+P0086 | I1 | 40:55
+in the PE community that rebuild is close to 0. And as we all know, that's an incredibly dangerous misapprehension to be on. And I do think there'll be quite a few attempts to rebuild old platforms, which, you know, it's been, you know, where PE works as often M&A. They're relatively small firms. There's a PHP platform here. There's an old Java platform here.
+
+P0087 | Interviewer 1 & 2 | 41:01
+Yeah, of course.
+
+P0088 | I1 | 41:16
+Brand new TypeScript platform here, the PE guys to go just rewrite the lot using Claude and expect it all done in four months, and actually they write it off after two years because it never got near, you know, full production. I think that's something which that's a real role of the architect is to understand where the real risks and challenges are and to make it clear that it's typing the code.In that situation, is not the hard bit, and the hard bit does not play to the strengths of the LLMs.
+
+P0089 | Interviewer 1 & 2 | 41:43
+Yeah. Okay. I think we are, yeah, 2 minutes to the to the end of allocated time. So, I mean, we I think we touched upon most of the areas that we want to cover, of course, without being very strict and allowing to.some interesting discussion. I don't know if Author 3 and Author 2 you want to add anything.
+
+P0090 | Interviewer 3 | 42:09
+No, no, no, I'm trying.
+
+P0091 | Interviewer 1 & 2 | 42:11
+Great. But then, we thank you so much. 
+
+P0092 | I1 | 42:15
+Good luck again.
+
+P0093 | Transcript note
+
+
+P0094 | Transcript note

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "design",
+    "title": "Research design",
+    "status": "Qualitative interview study",
+    "paragraphs": [
+      "We studied participants’ perspectives through interviews and inductive codebook thematic analysis. Our interpretivist approach treats their accounts as perspectives shaped by experience and context.",
+      "The research questions guided the interviews without fixing the coding categories in advance. We developed codes from the transcripts, compared accounts and considered both recurring patterns and contrasting experiences. The study did not aim to construct a new theory."
+    ]
+  },
+  {
+    "id": "sample",
+    "title": "Participants and recruitment",
+    "status": "15 participants · 13 sessions",
+    "paragraphs": [
+      "We recruited 15 participants through professional networks and software-architecture communities. This convenience sample included architects, architecture researchers, and people with relevant engineering or leadership experience.",
+      "Participation and interview order followed availability. Emerging findings changed the questions and probes used in later interviews; they did not determine which additional participant profiles we recruited.",
+      "The corpus contains 12 individual interviews and one group interview with three people from the same company. These sessions took place in September 2026."
+    ]
+  },
+  {
+    "id": "collection",
+    "title": "Interviews and transcripts",
+    "status": "Automatic transcripts · no recordings",
+    "paragraphs": [
+      "Interviews took place in English through Microsoft Teams and lasted approximately 60 minutes. At least two researchers attended each session. One led the discussion; others asked follow-up questions and took notes. During the group interview, the interviewer encouraged quieter participants and differing views.",
+      "The first interview served as a pilot and was retained. The initial guide contained 14 questions. Following preliminary assessments after I6 and I9, we added questions and focused later interviews on issues that needed further examination.",
+      "Teams produced live automatic transcripts. No audio or video recordings were made, so transcription accuracy could not be checked against recordings. The transcripts were the sole empirical data source; researcher notes were not analyzed separately."
+    ]
+  },
+  {
+    "id": "analysis",
+    "title": "Coding, comparison and theme development",
+    "status": "Researcher-reviewed analysis",
+    "paragraphs": [
+      "Analysis began during data collection. We compared each interview with earlier accounts, looking for new codes, properties, relationships and contrasting cases, as well as repetition. Preliminary assessments after I6 and I9 informed the interview refinements.",
+      "GPT-6 Astra suggested codes linked to passages from de-identified transcripts and later assisted coding and candidate-theme development. The first and second authors checked these suggestions, definitions and excerpts against the transcripts and their surrounding context. The authors made the final decisions about the codebook, interpretations, interview refinements and stopping data collection.",
+      "Codes were added, merged, separated or redefined as the analysis developed. Earlier coding was revisited after substantive changes. The approved codebook contains 25 codes and 276 registered evidence records.",
+      "We developed themes around patterns of meaning, relationships and tensions across accounts. We assessed their coherence, distinctiveness and evidential support, checked supporting and challenging passages in context, and retained the relevant qualifications. The final analysis contains seven themes, a cross-cutting qualifier, a peripheral finding and nine interpretive relationships.",
+      "We also reviewed a varied subset of complete transcripts to look for omissions and alternative interpretations beyond the coded excerpts. Disagreements were discussed with reference to the source; unresolved alternative readings were retained where relevant.",
+      "After I13, the authors judged that later interviews no longer added new codes, substantive code refinements or new relationships within the areas investigated. This stopping judgment was limited to the sampled contexts and the progressively focused inquiry."
+    ]
+  },
+  {
+    "id": "limits",
+    "title": "Reflexivity and limitations",
+    "status": "How to interpret the findings",
+    "paragraphs": [
+      "Prior expectations about evaluation, governance and accountability may have influenced both questioning and interpretation. Comparing accounts and looking for contrasting cases helped challenge emerging explanations, but could not eliminate shared assumptions.",
+      "Recruitment through professional networks and architecture communities may favor established or visible perspectives. Academic and leadership accounts differ from firsthand reports of architecture practice. The group discussion may also reflect shared organizational assumptions and interaction effects.",
+      "The findings draw on self-reports, without corroborating observations or architecture artifacts. Statements about the future express expectations or preferences. Narrowing the guide helped investigate unresolved questions but reduced opportunities to revisit other topics.",
+      "AI assistance could miss context or contrasting accounts and suggest unsupported patterns. Researchers checked the evidence for every final theme and reviewed selected complete transcripts. This selective review cannot establish that every omission or alternative interpretation was found. Model outputs were suggestions, not independent evidence or validation."
+    ]
+  },
+  {
+    "id": "sharing",
+    "title": "Ethics and sharing",
+    "status": "Sharing follows participant permission",
+    "paragraphs": [
+      "The research team assessed the study against applicable institutional guidance and determined that institutional ethics approval was not required. Participants received study information by email and gave verbal consent to live transcription and research use during their interviews.",
+      "Permission to share de-identified transcripts was discussed separately by email and during the interview. I3 declined public sharing. That interview informed the analysis, but its transcript, quotations and prompt text are withheld. The 17 restricted evidence records retain only their IDs and analytical links.",
+      "The other 12 transcripts are available as marked, de-identified text exports. Names, identified organizations, selected locations, identifying background details and recording metadata have been removed or generalized. Original Word files remain private.",
+      "These changes reduce direct identification, but context may still allow someone to recognize a participant. Technical product names remain where they concern the subject of the discussion rather than a participant’s affiliation."
+    ]
+  }
+]

@@ -1,0 +1,531 @@
+INTERVIEW I6
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Interviewer 1 | 0:14
+Welcome back.Looks like we are almost all, except for one.But I guess we can start a while, so we don't waste so much time. So before delving into the actual questions, maybe we would like to ask you if you can just give a brief summary of your profiling relation to Via software architect.You didn't start the mic.
+
+P0002 | I6 | 0:52
+Always a problem.
+
+P0003 | Interviewer 1 | 0:54
+Yeah.
+
+P0004 | I6 | 0:55
+[Identifying professional background withheld. General participant perspective is recorded in the interview index.]
+
+P0005 | Interviewer 1 | 2:05
+Yeah, I see.
+
+P0006 | I6 | 2:05
+So that is my current context.What is a challenge there is that in the electricity domain, basically they have done the same thing for 100 years. And now they need to do new things.So it is very much also a transformation challenge of changing.the value system of people.
+
+P0007 | Interviewer 1 | 2:34
+All right.
+
+P0008 | I6 | 2:34
+Before that, I had a short stay at a high-tech solution provider where I worked on AI propositions.
+
+P0009 | Interviewer 1 | 2:36
+Yes.
+
+P0010 | I6 | 2:45
+[Identifying professional background withheld. General participant perspective is recorded in the interview index.]
+
+P0011 | Interviewer 1 | 3:05
+So the perfect fit, we have a lot of architectural and AI knowledge.
+
+P0012 | I6 | 3:08
+[Identifying professional background withheld. General participant perspective is recorded in the interview index.]
+
+P0013 | Interviewer 1 | 3:16
+Yeah, you look like you lived three lives or more, and they'll know that's great.
+
+P0014 | I6 | 3:22
+Yeah, yeah, yes.So, I've been on both sides of the Grand Canyon.I've been on the academic side; I've been down in the river and as applied science, and then I've been on, and now I'm in the real.
+
+P0015 | Interviewer 1 | 3:29
+Ah.Then.And now we are.Industry.
+
+P0016 | I6 | 3:39
+The real trouble.
+
+P0017 | Interviewer 1 | 3:40
+Yes.Yeah, talking about, yeah, the real trouble. So, we, the first question we would like to ask you is that, if you recall, when did the Gen. AI or well, LLM started to materially affect the your work as a software architect, directly or indirectly, because it...It's affected other engineering tasks.
+
+P0018 | I6 | 4:08
+That's a good question. I think that was in 2023, 2022, something like that.Then we started to see the rise of these things.At first, I was very much concentrated on the engineers.But at the time I was really busy also with medical device regulations.
+
+P0019 | Interviewer 1 | 4:34
+Mm.
+
+P0020 | I6 | 4:35
+which is very documentation heavy, process heavy, extreme, I would say.And.We started to see that we needed to start adopting this technology just to...Okay, so I need to explain a little bit context.Them.From a pure software architecture point of view, I think we didn't really see the change yet.because it was too much on the lower levels. But what we did see is that in a compliant domain, especially the heavy documentation like you have with medical devices, it really started to take off.Because you need to create a lot of documents, and engineers hate to write documents, but they rather just generate it.
+
+P0021 | Interviewer 1 | 5:40
+Yes.
+
+P0022 | I6 | 5:41
+And then the quality organization started to notice.And then they thought, hey, we can also use that. And now we are in the medical domain in the crazy situation that basically now also the regulators are starting to use this kind of technology. So we're using AI to generate documents.
+
+P0023 | Interviewer 1 | 6:02
+It's.
+
+P0024 | I6 | 6:08
+I have to fulfill the regulations, and then the regulator is using AI to read the document that we generate.
+
+P0025 | Interviewer 1 | 6:17
+Yeah.
+
+P0026 | I6 | 6:18
+And I was very concerned about this because the reason why all this medical device regulation has all this documentation is twofold. One is there is a safety thinking behind it that if you have to write downstuff, you have to think about it. And therefore, you take it into your design and into your processes. But if the computer does it, you don't have to think about it as a human.
+
+P0027 | Interviewer 1 | 6:49
+Yeah.
+
+P0028 | I6 | 6:51
+So, and that is one thing. And the second thing is the medical device regulation really comes from this factor quality regulation.sorry, factor quality control tradition, which is already 300 years old, where the thinking is that by controlling the process, you control the quality.And we know that for software that does not hold.
+
+P0029 | Interviewer 1 | 7:18
+Yeah.
+
+P0030 | I6 | 7:19
+But there is a whole industry around it and a whole set of regulations that just operate like that.
+
+P0031 | Interviewer 1 | 7:25
+Mm.So, the...
+
+P0032 | I6 | 7:27
+So, so we basically have a safety problem with with LLMs.And that will only be fixed if we have new safety concepts. That's really an architectural concern that I have.So how do you guarantee safety if you no longer can use documentation as a tool that people have been thinking about it?
+
+P0033 | Interviewer 1 | 7:54
+Interesting. And so if I recall correctly, now you work in a totally different domain, so energy domain. So can you think of, for instance, a recent situation in which, again, Gen. AI actually affected your work and so in which way?
+
+P0034 | I6 | 8:02
+Yeah.Yeah, so what I do and what I also see a lot of other architects do is that AI is great for architecture exploration.I cannot in an afternoon what I normally would have taken me a whole month. Just to, okay, I have a new domain. I have a set of questions I want to get answers to. For example, which technology should I use for, for example, now I'm busy with observability.
+
+P0035 | Interviewer 1 | 8:32
+Yeah.
+
+P0036 | I6 | 8:45
+And how should an observability stack look like?And it's much easier and much quicker now just to get that overview of where the big players in the market are.
+
+P0037 | Interviewer 1 | 8:58
+Yeah.
+
+P0038 | I6 | 9:00
+I no longer need to 1st get a subscription to Gartner and then I have an idea what the name of the player is and then start Google each player and then ask, read all their documentation and answer the basic questions. But that whole
+
+P0039 | Interviewer 1 | 9:08
+If.
+
+P0040 | I6 | 9:18
+Find.Option exploration has never been as easy as it is today.But people are still not really trained and also forced, and I try to do that.to really think about.Architectural decisions and and open exploration.It's still very much, okay, we choose something and then we just run with it.
+
+P0041 | Interviewer 1 | 9:49
+On, on, on the other end, do.Do you think that regardless of these new technologies and the potential of them, there are tasks that surprisingly didn't change at all or very little?
+
+P0042 | I6 | 10:18
+It didn't change.Well, what didn't change is organizational complexity.
+
+P0043 | Interviewer 1 | 10:26
+Geez.
+
+P0044 | I6 | 10:30
+So just to give you an example, my department is around 120 people right now. They grew from 30 people within four years to 130. They had two very painful reorganizations.They, they don't know of each other what they're doing.Um, so it's all loose ends.And it's not performing at all.and just to get the basic stuff in place and the basic engineering practices in place and have a kind of, yeah, predictability of outcome.We're so immature in that sense.Da, that is still very much a human thing.And that is also the reason why when I see in the current, which is a very conservative 20 years behind domain,Um...AI really doesn't get further than a single engineer that uses it for a particular task. It's not on a team level yet.
+
+P0045 | Interviewer 1 | 11:50
+Yeah, interesting that you mentioned about the, yeah, somehow the team and the people. So one curiosity that we also have is that whether or not in your experience youwitness Gen. AI changing the relationship between different stakeholders of the development. It can be between, you know, an architect and developer or a tester, but also between the technical stakeholders and customers, regulators. I mean, you obviously mentionedabout the regulator that are using a Gen. AI, but here we are also maybe thinking about the, yeah, the interaction between the human in the loop, humans in the loop.
+
+P0046 | I6 | 12:47
+Um...Yes and no. So because people have a certain job and certain area of responsibility, a certain set of expectations that the organization has, it's very much lagging behind.Um...and people are just seeing it as a...Right now, I would say...It hasn't reached the level yet that it is seen as a full team member.Yeah, so it is a tool that an individual person uses.And it's not a driver of change or development.I believe that in the future, we'll get more like that. So you already see it in meetings like you just did. Instead of having a secretary listening this whole conversation out and typing it out, we now have a very cheap secretary in the computer. So that is really...
+
+P0047 | Interviewer 1 | 13:51
+Mm.
+
+P0048 | I6 | 13:53
+Um...what I see happening on the team level, but beyond that, it's very much constrained still to single engineers. And what I also miss is the collaboration aspect.So it's a one-on-one collaboration. It's not a team.
+
+P0049 | Interviewer 1 | 14:12
+Team, yeah.
+
+P0050 | I6 | 14:12
+Aaron.I also need with my wife, for example, she's in business intelligence, exactly the same.
+
+P0051 | Interviewer 1 | 14:15
+Yeah, I see your point.And you, at the beginning of your answer, you talk or you mentioned about, you mentioned expectations, right? So have you experienced shifts in what people consider architects job because of, you know, the advent of Gen. AI or LLM and if so,
+
+P0052 | I6 | 14:33
+Yeah.
+
+P0053 | Interviewer 1 | 14:51
+or even if you didn't witness, perhaps, have you, on the other hand, experienced a shift in the architect responsibility, decision authority, accountability, because of Gen. AI?
+
+P0054 | I6 | 15:06
+Yeah, so people do expect that architects now can just engineer systems that include AI.For machine learning algorithms, it can deal with the uncertainty that it brings.And I would argue that...That is still an area that many architects still have to learn a lot.So basically this is the for many architects the first time that they have a non-deterministic component in their system.And they're used to work in a very deterministic way. So what you see is that we're really struggling then with how do you test this?
+
+P0055 | Interviewer 1 | 15:51
+Yes.
+
+P0056 | I6 | 15:53
+And not only, so to say, the machine learning itself, but also the whole system around it.So that is really a job.In my current energy domain thing, it is really still very constrained because...People don't want to apply this non-deterministic behavior yet.They still believe that, with deterministic methods, they can solve the problem.So it is on the radar that they need to do something with it.and especially on the modelling side. So when you have an electricity grid, you need to make predictions just like the weather, what the use is going to be. These guys are already switching to machine learning algorithms, but the rest of the organization is.
+
+P0057 | Interviewer 1 | 16:44
+Yes.
+
+P0058 | I6 | 16:56
+It's not there yet.
+
+P0059 | Interviewer 1 | 16:58
+So would you say that one effect of this is also like a change on what is considered architecture, an architectural knowledge or architectural artifacts, or there you see no big difference?
+
+P0060 | I6 | 17:15
+Um...What I see is that I get even more paper on my desk.Um, which I, I really try to change, um, so...And it also depends on your context. So in this energy domain, they're used to kind of completely specify out stuff.And through LLMs, it's much easier to write even more text.So what I notice is that the reports are getting bigger and bigger.
+
+P0061 | Interviewer 1 | 17:49
+Di.
+
+P0062 | I6 | 17:51
+Um...On the high-tech side, where I also worked, what I see there is that...Da.If you do it right, you can increase your, how do I say that? Because your exploration has become suddenly much more cheaper, you can afford to explore more and make more decisions explicit.But that is something that I do notice that your organization can do. Not all choose to do so, but some do, yes.
+
+P0063 | Interviewer 1 | 18:30
+Yeah.
+
+P0064 | I6 | 18:34
+But that has to do with the, how do you say that?The cost of decision making versus the cost of having a drone.And, and this.
+
+P0065 | Interviewer 1 | 18:43
+Yeah.Yeah, that makes sense.
+
+P0066 | I6 | 18:45
+Beat also.Tell me.And that's different than.
+
+P0067 | Interviewer 1 | 18:51
+Of course, yeah.So just checking that I'm leading [person redacted], I mean, I'm let's say leading, but in case you want to follow up or add your own question, just jump in.So.
+
+P0068 | Interviewer 2 | 19:08
+Yeah, but you're doing a good job.
+
+P0069 | Interviewer 3 | 19:13
+Yeah, yeah, yeah.
+
+P0070 | Interviewer 1 | 19:13
+Yeah, I mean. No, okay. Yeah, so the next question that actually, yeah, we rearrange a little bit the order because you touch upon very interesting topics. So, but perhaps one of the main question of thisThis session is on what, of course, according to your experience and your own thoughts, is there like anything that makes a software architect more valuable now compared with the before Jenny High was introduced in the?in the work life, let's say.
+
+P0071 | I6 | 19:56
+Um...Yes and no. So I think you need less of the art because exploration has become so cheap. Also, individual engineers can now explore more.Whereas in the past, you needed to kind of basically reserve capacity to do exploration, right? And then through the organization that was typically reserved then for the architects to do so, so that the engineers could just...keep pumping out the code.I do see a shift there that engineers are kind of starting to take that partially over, especially if it's in a defined context. What you also see in industry is that theThe role of software architect is disappearing.So if you look at job positions, and that would also be an interesting exercise to do, just analyze all the job positions over the last 10 years. I have the feeling that software architecture is out, and people now expect tech leads to do that work.
+
+P0072 | Interviewer 1 | 21:18
+Mm.
+
+P0073 | I6 | 21:19
+So that is definitely a shift that I kind of noticed. What I do see is thatSo for architects are very much also now.Moving into.A bit of, yeah, enterprise architecting, I would call it, and you need to, you need not only to structure your system, but also your organization.And I think that is becoming more and more dominant in the real good architects.They only think about the system, but they also think about the system that builds the system.So, and that is a combination of people and AI right now.And, but then you are really into change management, organization, kind of dynamics. AndThe question is always how much lead does the organization empower the architects to do that? Because traditionally speaking, it's the MBAers, the guys that always work with architects, that thing that they know how the organization should look like in the org chart.
+
+P0074 | Interviewer 1 | 22:29
+Yeah, yeah.
+
+P0075 | I6 | 22:37
+And then by black magic, it suddenly appears. So this is one of the dimensions that I never managed to manage in [organization redacted]. So in [organization redacted], the org, the way the organization was structured was always determined by some higher manager.that then just spent three days thinking about the new org chart and just threw it over the fence. There was no architectural consideration there.
+
+P0076 | Interviewer 1 | 23:05
+Yeah.So, uh, you...
+
+P0077 | Interviewer 2 | 23:07
+I have a follow up question, can I? So, no, this is interesting, but so why do you think that even though there is no job advertisement on software architect, but what we call software architect can still apply to other positions? Is just a name or a...
+
+P0078 | I6 | 23:09
+What?
+
+P0079 | Interviewer 1 | 23:10
+Of course.
+
+P0080 | Interviewer 2 | 23:29
+Is you also mentioned different competencies that maybe are needed, but is should we change also the way we prepare software architect if we know properly or is a miss of competencies or it just a terminology or is?
+
+P0081 | I6 | 23:47
+Well, I see two things happening. So if you just look for the job software architect, then I kind of noticed that the volume is going down quite a bit. And tech leads are going up. What I also noticed is that people are starting to talk about staff.So, a staff engineer or a staff architect, so they do have organizations do have this.Need to think beyond an individual scrum team.But they don't express it anymore as an architectural role.And that I find very interesting.And maybe this also has to do with pay.Because architects are equal equals equals many dollar signs.in most organizations. So they want to get rid of the expensive people.And also what is going on is that...I've seen it in [organization redacted], but also in the [location redacted] in general.The cost of an engineer is too high, so outsourcing is still very much a thing.So just to give you a number, over 80% of software development in [organization redacted] now happens in low-cost countries.And that is then India and Brazil.
+
+P0082 | Interviewer 1 | 25:25
+Yeah.
+
+P0083 | I6 | 25:26
+And then they have a bunch of architects, typically in the, for [organization redacted] in the [location redacted], because the architects, they're very, very expensive in these low-cost countries.because they can't find the right skilled people and the competition among the companies in these low-cost countries for really people that know what they're doing is so high that they earn more salary than in Europe.So, just to give you an idea, so an architect in [organization redacted] was cheaper in the [location redacted] than in India.And the U.S. is completely off the chart because the expenses of an engineer is like a factor.
+
+P0084 | Interviewer 1 | 26:08
+This is unexpected.
+
+P0085 | I6 | 26:16
+Four to five higher than in a low-cost country.And for an architect, it's even more of the chart.So what you see is that product companies, if possible, they're kind of shifting their software development to low-cost countries.And an exception is, of course, so I live in [location redacted], which is the...the innovation capital of Europe, because we have [organization redacted] here. And [organization redacted] cannot afford to offshore their R&D because the IP leakage risk is too high. But that's the only reason that they still hire here.So, [organization redacted] has already decided now.Just software is cost, so we just shipped it up.
+
+P0086 | Interviewer 1 | 27:16
+So before, again, to follow up, you mentioned, I mean, if I, let's say, interpret a bit, your answer was that mostly you will experience that as a result of introducing Gen. AI, some other roles rather than architects arerequiring, let's say, new expectation, new responsibility. But can you think of any, let's say, new responsibility or new task that are assigned to architects specifically because of Gen. AI? Now, regarding the vision of architects.Get that dying as soon as a as a position, let's say.
+
+P0087 | I6 | 28:04
+Yeah, so one tangible thing that many architects are confronted with is that they need to write the AI policy for the company.I spend time and effort on that. So what is allowed to be used and why and why not and all that kind of stuff. Because the rest of the organization finds it very difficult to get their grasp on. The other thing that is changing in responsibilities orIn the work.Um, how would I see that? Let me think.I would say it's also in...So it's about setting the borders of what are we doing with AI and what are we not doing with AI, but also a bit of cost control.
+
+P0088 | Interviewer 1 | 29:03
+Mm.
+
+P0089 | I6 | 29:04
+because it's very easy to spend a lot of money.
+
+P0090 | Interviewer 1 | 29:09
+Yeah.
+
+P0091 | I6 | 29:10
+Yeah.Um...And what is also changing in terms of...I think.What has become even more important as an architect?Is the role of filtering information?So it has never been easier to create more information.And the human brain, especially our management people, they have so many things on their mind.
+
+P0092 | Interviewer 1 | 29:40
+Yep.
+
+P0093 | I6 | 29:49
+that if there is an architect that clearly tells them, okay, these are the three main things you need to think about and decide about. And by the way, these are your options.that is really valued.And that can be that an AI is helping to create that picture. But right now, it's still incapable toSo, identify political sensitivities in the organization.
+
+P0094 | Interviewer 1 | 30:23
+All right, so just checking again that Author 3 and [person redacted] on that follow up question. Otherwise, we are moving towards the end of the interview. And now we have questions that maybe are even more open or general because they, let's say, try to look into the future.and understand with you, of course, how and what a possible future look like. So the first question on the future is that if you look at, if you look to five, three to five years ahead of now,What will you, I mean, you already mentioned that you think that software architects would slowly disappear as a position, but in case it will stay, so what do you think software architects will do really, or whoever will take their role?
+
+P0095 | I6 | 31:24
+Yeah, that's a very good question. So I believe that code as the main objective will disappear. I think in the future, that can be within five years.Maybe only 1% of the engineers will still be busy with code, and the rest is just...Doing stuff with AI, too.Generate the code, basically.Um...What an architect will be doing in the future is, I think...There are, there's a couple of areas. One is, and you'll also hear this in the news, but I think guardrails will become more and more important.How do you make sure if you have a non-deterministic component in your system, how do you ensure that you have the right guardrails in place such that you...still have some degree of predictability or at least can guarantee certain things.even though you have an old deterministic part.And this is also in the media right now. There's all this talk about slowdown by the most advanced labs, et cetera. And basically, they have to make the transition of making the models more capable versus towards being able to...
+
+P0096 | Interviewer 1 | 32:47
+Yes.
+
+P0097 | I6 | 32:59
+I have the right guardrails in place for me, sir.And that is that is a shift they need to make, because society will not.Um, I said that when harm happens.And it will happen.Society will not be kind. And you cannot just hide, yeah, it was not me, it was the AI. No, you're personally liable for what you do. And this is a lesson that especially the fast movers in Silicon Valley still have to learn.Move fast, break things, yeah, that's nice, but if you break things...Her head is on the chopping block.
+
+P0098 | Interviewer 1 | 33:41
+Yeah.
+
+P0099 | I6 | 33:45
+And now, in the in the right in the current political climate, they get away with a lot of stuff.For example, in Europe, that's not going to fly. And also, it's very clear, in China, it's also not going to fly.Yeah, so the US might screw itself over, but the rest of the world will not accept that.And this is also a moral and ethical thing. So where do architects need to grow? I think also in this dimension.is moral and ethical than it should.
+
+P0100 | Interviewer 1 | 34:19
+Interesting.
+
+P0101 | I6 | 34:19
+and regulations are also becoming more and more complicated.I would love it when you have to teach students that you also teach them about core regulations they need to be aware of. So things like copyright law, IP law, but also GDPR, and now all the new AI regulations that are coming.And that's completely off the radar of many computer science students.I know this, they're not even aware that such a world exists.
+
+P0102 | Interviewer 1 | 34:57
+Yes.
+
+P0103 | I6 | 34:58
+And only when they are faced with the consequences.Yeah, then they, then they wake up.So we also need to instill a...ethical, moral, and lawful way of thinking in engineering. And I think that is becoming more and more important.And that just has to do with, I mean, software is the biggest success that we have had in the last few years. And our role in society is only growing and growing and growing.
+
+P0104 | Interviewer 1 | 35:21
+Yes.
+
+P0105 | I6 | 35:33
+So, that is definitely.
+
+P0106 | Interviewer 2 | 35:34
+You know, this is very interesting. So, actually, we do that. All our PhD students have courses on ethics, and we have also a branch of research that goes in this direction. Digital ethics, all the impact on...
+
+P0107 | I6 | 35:38
+Yeah.Really good.
+
+P0108 | Interviewer 2 | 35:51
+Ah, digitization and computer AI on a human society, and...
+
+P0109 | I6 | 35:57
+Yeah, but you need to teach it in a way that they also need to apply it in a context. So I was, last year I was doing the PhD at software architecture school, and I had a little case study about intelligent doorbell that uses facial recognition. And it was targeted towards elderly people.
+
+P0110 | Interviewer 1 | 36:06
+Mhm.
+
+P0111 | I6 | 36:19
+This is a very interesting moral and ethical domain you're entering them.And I just noticed that the students don't have the...The hooks.to kind of even question and start thinking about, okay, what are my ethical and legal issues that I have to navigate?And this is also where culture plays a role. So another thing that I see, because products are basically developed for mostly for an international audience, the cultural differences really play a big role in these kinds of systems.So for example, in the medical domain, medical information, for example, is not allowed to leave Germany. Whereas in [location redacted], they really don't care about privacy. So that's a complete difference in the values of society and expectation.And, and yeah.
+
+P0112 | Interviewer 1 | 37:25
+Related to this follow-up question, you already clearly mentioned some values that I think you are pointing out that should be preserved. Can you, yeah, I just want to ask you this question explicitly.
+
+P0113 | I6 | 37:41
+Yeah.
+
+P0114 | Interviewer 1 | 37:47
+So, do you see, like, or...What do you think that organization, but even, you know, university or the society in general, should preserve, change or create in terms of value?value, sorry, specifically because of Gen. AI. Of course, now we are thinking about related to the architect role, but we can go bigger and I mean generalize a little bit the answer.
+
+P0115 | I6 | 38:21
+Well, we still have a big problem with IP.So most AI models are basically trained on the largest still in human history. It's even going so far that right now very rare books are being acquired and assimilated.
+
+P0116 | Interviewer 1 | 38:31
+Stealing, yes.Yeah.
+
+P0117 | I6 | 38:46
+Just for this purpose.
+
+P0118 | Interviewer 1 | 38:48
+Yes.
+
+P0119 | I6 | 38:49
+So I think we also have a big cultural challenge here.Because.But what is left of being an artist?In any shape or form.So that is a big challenge that I see.Can you go back to the question, because I?
+
+P0120 | Interviewer 1 | 39:14
+It was, yeah, of course, no problem. You actually partially already answered, it was on which values should the organization preserve or change with respect to the advent of Gen. AI and this transformative technology.
+
+P0121 | I6 | 39:30
+Yeah, so one of the big changes, and this is especially hard for Europe and especially for Germans, but also are suffering from this, is thinking that engineering always has to be about having predictable quality results.And if there's one thing we need to learn from the Americans, as Europeans, is that predictability is nice to have.But it's not a must.And it really depends on the domain, how much predictability you actually need.
+
+P0122 | Interviewer 1 | 40:12
+East.
+
+P0123 | I6 | 40:13
+And there are many domains where...Predictability is not key.And.
+
+P0124 | Interviewer 1 | 40:22
+Do you mean exactly with the predictability, because I mean the term is used?
+
+P0125 | I6 | 40:27
+Predictability of quality.So, you set a certain quality standard, and you want to use a particular engineering method, so that you know that for sure you hit that quality that you're after, let it be availability, let it be.
+
+P0126 | Interviewer 1 | 40:40
+Okay, yeah, yeah, I got it.
+
+P0127 | I6 | 40:46
+Um...But software has become so complex and the systems we're making are so complex.that I believe we should give up on that and just embrace the unknown.and find ways of working that we can quickly learn, A, what quality do we really need.But without doing harm to society, and that's a big challenge, and be...
+
+P0128 | Interviewer 1 | 41:15
+Yeah.
+
+P0129 | I6 | 41:21
+Um, that it's okay.Not to know certain things.So, being able to deal with uncertainty.And what I find is that many engineers are really struggling with that.
+
+P0130 | Interviewer 1 | 41:30
+Interesting.Yeah.Do you see any, I mean, that the answer that you just gave about the values and the future hold through under specific condition or you would say that there are more general reflections? I mean, when I ask about condition, I was thinking like maybe a specific domain that could beregulated or a specific workflow or I don't know.
+
+P0131 | I6 | 42:10
+Um...Well, I believe that we're most likely gonna see a...an explosion of the AI bubble.Um...Which will lead to a recession that...Yeah, you're too young to remember, but the other two guys probably do. The internet bubble.It something like on that scale is going to happen. That is what I think, because the expectations of what AI can do and cannot do are completely off the chart. And also how much money you can make with it.
+
+P0132 | Interviewer 1 | 42:41
+Mm.
+
+P0133 | I6 | 42:54
+And I think that will lead to kind of a backflash. And it will be very, how do you say that?If your title, your job title has AI in it, which is right now very fancy, and the Chief AI Officer of Company X, it will become a negative on your CV for a while.
+
+P0134 | Interviewer 1 | 43:12
+Mhm.
+
+P0135 | I6 | 43:26
+That is what I think is going to happen.But I do think just like with the internet bubble, after that, we will get to, and it will take 10 years probably, but we will see some very solid goods.profitable new markets develop that didn't exist before.
+
+P0136 | Interviewer 1 | 43:54
+Interesting, yeah.So, I...
+
+P0137 | I6 | 43:57
+But it will be different than what we think right now. And what that will be, if you tell me, then I can make a lot of money.
+
+P0138 | Interviewer 1 | 44:04
+Yeah.
+
+P0139 | I6 | 44:07
+But that is basically what everybody is trying to figure out. How are we going to make money out of this?
+
+P0140 | Interviewer 1 | 44:14
+Yeah, maybe some other are just figuring out how to survive this technology. But yeah, it's of course hard to foresee. Anyhow, I finish the questions.
+
+P0141 | I6 | 44:29
+The.
+
+P0142 | Interviewer 1 | 44:33
+So the only question left is whether or not you had any thought that, or any, let's say, question that you thought it was relevant and we didn't ask you, then you may feel free to, you know, discuss.That with us now.
+
+P0143 | I6 | 44:53
+Yeah, so what is really pondering in my mind?is AI really now is a one-on-one relationship. Now you have your AI stuff and you have one human that interacts with it.
+
+P0144 | Interviewer 1 | 45:03
+Mm.Yes.
+
+P0145 | I6 | 45:09
+But what I really miss is the, how do we scale that up?from a human point of view.Yeah, because we know that one human, and even if he has an army of 2000 AI agents, is not sufficient to build the type of complex systems that we are dealing with. So how do we scale up the technology that it can collaborate with teams of people?
+
+P0146 | Interviewer 1 | 45:30
+Yes.
+
+P0147 | I6 | 45:37
+That is something I find really interesting.And I don't see much development in that area. Maybe I'm blind for it.But that is for me, then it becomes really interesting.Because then I can, perhaps as an architect, also have AI teams that I...can give, how to say that, can do part of the job and I don't need an ART of 100 people to even a small product.So, yeah.That, that, that is what I'm looking for.
+
+P0148 | Interviewer 1 | 46:19
+Yeah, maybe.
+
+P0149 | Interviewer 2 | 46:22
+I also have a follow up on that. So you mentioned overall human aspect. So I think another one that I don't know if for you is relevant as well is the fact that
+
+P0150 | Interviewer 1 | 46:22
+Let's see.
+
+P0151 | I6 | 46:24
+Yeah.Yes.
+
+P0152 | Interviewer 2 | 46:37
+On one side, we have all these machines, AI, that seems to make easier so many things. We have a secretary and we have so. But on the other side, in companies, I also suspect that somehow the responsibility for things is still on humans and there is somebody that need to take the responsibility for managingAI that is producing code for documentation or whatever. So then.On one side, human is becoming a bottleneck because he's so fast to produce anything. And then, as human, I...
+
+P0153 | I6 | 47:20
+Yeah, you already see that, um, so, um...Traditionally speaking, when you want to make a product, the bottleneck is basically writing the code and testing the code. That's basically the main bottleneck. And that's why we have hundreds or thousands of software engineers running around trying to build a software product.or a software-intensive system.What you see now is that developers can produce code and test environment so quickly that the main bottleneck in the current practice becomes the code review, right? And even that can automate.
+
+P0154 | Interviewer 1 | 48:02
+Yes.
+
+P0155 | I6 | 48:05
+But people still use the code review also as a as a socialization point to spread the knowledge about what the code actually does to the rest of the team, at least to some key people.So a lot of focus is on trying to solve that bottleneck. But I believe it's more a knowledge management problem.
+
+P0156 | Interviewer 2 | 48:28
+Yeah, but more architecturally.I have the feeling that maybe we will have an illusion that we know what is happening and what.
+
+P0157 | I6 | 48:39
+Yeah, but I've already, 30 years ago, I already gave it up when we got the Windows 95. Before that, you really knew, when you were writing code, you really knew what the computer is actually doing.
+
+P0158 | Interviewer 2 | 48:48
+Yeah.
+
+P0159 | I6 | 48:58
+But systems nowadays are so complex and there are so many layers in between.You can only make educated guesses what it's doing.And we create distractions and we create illusions that we think we are in control. But if I ask you now, [person redacted], what is running on this computer right now? And what is it doing?
+
+P0160 | Interviewer 2 | 49:10
+Yeah.Yeah, yeah, sure, but somehow there is.
+
+P0161 | I6 | 49:26
+You have no idea. You have no idea.
+
+P0162 | Interviewer 2 | 49:30
+But somehow there is a shift from, I don't know what the computer is running and what this piece of code is actually doing to what is the architecture of everything and how many components, how they communicate and all the, I don't know, the things that maybe. Yeah, exactly.
+
+P0163 | I6 | 49:46
+Yeah, but even that you don't know.Yeah.
+
+P0164 | Interviewer 2 | 49:50
+But maybe in the past was a bit easier.
+
+P0165 | I6 | 49:50
+So we are really, so what I see is there is a big shift.industry happening from a single system to system of systems thinking.That is really something that I notice. And why are we doing that is because the knowledge that is required to understand one complex system is becoming too much for the human brain to handle.So what do we do? We split it up in different systems. You only need to know how your system works and how it interacts with the rest of the world, and the rest you can forget about it. So we, yeah, so that's basically the divide and conquer, but we're now starting to use it on a system level.And what is key there is that we also...bunch of life cycle decouplement. So you no longer need to coordinate your releases with other teams.because you have decoupled to lifecycle.Just like your Windows doesn't need to know what application you're writing right now, right?So you don't have to talk to Microsoft to organize that. But that is now also happening in products because the products are becoming so complex.
+
+P0166 | Interviewer 1 | 51:00
+Yeah.
+
+P0167 | I6 | 51:07
+And you still want to have speed.that this whole coordination layer that, especially traditional companies, you have, everybody needs to talk to everybody just to get your monolith out.Yeah, it's horrible, horribly inefficient.And yeah, this is also something where a lot of traditional companies still need to make steps. And you can only make that step if you have good architects.Because then you need to start defining the system boundary, you need to define how do I decouple life cycles.Oh, yes, that that is some a trend that I do see, but I also find interesting as another trend that I see that our system architecture colleagues.are starting to realize that their world is becoming too complex. And they believe that they can solve that with something we tried in software, namely by putting everything into models.Which is very interesting to see. So we tried that in software, it didn't work. But maybe it will work for our mechanical and electrical engineering colleagues. But I do see that that is starting to really take off a bit.And the AI is also very interesting there, because that software is at the frontier for the AI, but I also think it will start doing mechanical and electrical engineering.And that combination, that is really...For Europe, a big opportunity, but also risk, because Europe is very bad at software. Basically, the Americans have owned our...eaten our cake. I mean, successful software companies in Europe, you have a few, you have SAP, you have Spotify, booking.even maybe, and maybe a handful more, but they're not world player. Yeah, yeah, but they're not world players, right? We don't dominate the social media space. We don't have anything on the search side, nothing.
+
+P0168 | Interviewer 2 | 53:19
+Have a look.
+
+P0169 | I6 | 53:34
+What Europe is traditionally very good at is software intensive products.But that will really be.I said it is a multidisciplinary shock that we will get, and I think...Where we can make a difference in Europe is if we concentrate on what can Gen. AI do for multidisciplinary products, so software intensive systems.That is where I think we can beat the Americans. I don't think we can beat the Germany.I think we're too slow for them.But that's the biggest worry that I have.And, by the way, [family detail redacted], so...
+
+P0170 | Interviewer 1 | 54:21
+What?Yeah.
+
+P0171 | Interviewer 2 | 54:26
+You made a move to to be safe.
+
+P0172 | I6 | 54:28
+Yes.
+
+P0173 | Interviewer 1 | 54:30
+Exactly.All right, but uh...
+
+P0174 | I6 | 54:33
+So, yeah, that that is what I what I see.Going to happen, so we really need to, as Europeans, we need to fight for our cake, because...Our traditional strongholds are really disintegrating right now.And that is what really worries me.
+
+P0175 | Transcript note
+
+
+P0176 | Transcript note

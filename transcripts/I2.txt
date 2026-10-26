@@ -1,0 +1,171 @@
+INTERVIEW I2
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Interviewer 1 | 0:16
+Yes, at least I can see all of us. We are back with the video and I guess also with the microphone.So to start with, maybe we can just go back a little bit with the in time and think about when, if you recall, of course, if you can point an episode or a period of time in which, you know, you startedto hear a lot about generative AI and you had the impression that generative AI was, you know, affecting your work, of course, as in principle as software architect, but you know, more generally as maybe software also engineer.
+
+P0002 | I2 | 1:07
+Roughly about 3-4 years ago.I mean, at the time, you know, through my research colleagues, they talk about generative AI, doing automatic programming, that sort of stuff, LLM and that sort of stuff. So it was around about three, four years ago.
+
+P0003 | Interviewer 1 | 1:34
+Do you have any, do you recall maybe any, for instance, example or moments in which you thought, okay, this technology may be sounding, may be, you know, game changing or?
+
+P0004 | I2 | 1:54
+To be to be honest, I I I've I was skeptical. I'm still a bit skeptical about doing that. So.
+
+P0005 | Interviewer 1 | 2:01
+Yeah.
+
+P0006 | I2 | 2:09
+I mean, earlier this year, I was...at a local conference in [location redacted], and there are quite a few people and also industry people, local industry, as well as Jan AI companies.Talking about...really in depth, how data, how they used it and what are some of the issues. But even after that, a lot of people were, people including industry people, because they, in this particular small local conference, industry people were invited.and researchers from [location redacted], from [organization redacted], [organization redacted], it was kind of a joint event organised by [organization redacted] and [organization redacted], and also people from [location redacted] came. So they talked aboutYou know, in the two days conference, people talked about how software engineers are going to be replaced, and then they, you know, there are a lot of people.Software engineers lost their jobs.I personally wasn't terribly convinced that.
+
+P0007 | Interviewer 1 | 3:40
+Yes.
+
+P0008 | I2 | 3:43
+That is that Jan AI is going to to replace a software engineers or software architects on Mars.because I think this is still early stage, maybe in the next few years and 10 years, it mayKind of be more to me, Jan AI is a is more more useful, very useful too, because I, I, I kind of look at it.In a sense, my analogy is that...Back in the days when we were using development platforms, I don't know, perhaps those who worked in the 90s would probably remember that, how software...components are packaged together in development platforms and those things. So I kind of equate Gen. AI to those tools where it is a lot more, to me, sophisticated.
+
+P0009 | Interviewer 1 | 4:59
+Mm.
+
+P0010 | I2 | 5:07
+Ah.But...whether Jan AI would be able to have the generalintelligence in software development and getting and taking into account all the necessary context in generating either a design or programs. To me, it's somewhat premature.
+
+P0011 | Interviewer 1 | 5:36
+Yeah.So you also answer to another question that we wanted to ask, but this is very good. So maybe following up to what you said right now. So I mean, I don't know if perhaps you have been yourself using generative AI to some extent.But if you did, or let's say if you are in a team, let's say that [person redacted] has been using generative AI, do you see that there are, you know, things that...changed more or less drastically with the addition of Gen. AI and things that actually didn't change that much, that stayed the same, despite the introduction of tools such as LLM, Gen. AI and things like that.
+
+P0012 | I2 | 6:31
+Sorry, I don't think I really understand the question. Change from what?
+
+P0013 | Interviewer 1 | 6:37
+From so, if you if you think of, let's say, your your work task, let's say, then and and think on the the the tools such such as Jan AI LLMs, do you see that there are?activities or tasks that change drastically because of the intervention of Jan AI with respect to your daily job and the task that instead didn't change that much or at all.
+
+P0014 | I2 | 7:11
+Right, okay. I think it has changed a little bit, because I mean, I don't design large systems anymore. But if I just start small by talking aboutyou know, writing programs to help my research. In the past, I would have searched, you know, for little algorithms and then modified them myself to analyze things the way I wanted. But now I would probably getGive some specifications to a Jan AI and get them to generate those programs, 5 and this and that, and but what hasn't changed is because I don't always...
+
+P0015 | Interviewer 1 | 7:54
+Yeah.
+
+P0016 | I2 | 8:07
+I don't think that I am able to specify the requirements precisely enough for a Gen. AI to generate a program that suits my requirements perfectly. So sometimesWhen you, when you think, you know, in the back of your mind, you think, "Hey, I, I, I, I need this, but..."
+
+P0017 | Interviewer 1 | 8:28
+Yeah.
+
+P0018 | I2 | 8:34
+On the other side, either Jan AI or a programmer, they do not, they have their perspectives. They don't necessarily understand what I'm thinking or what I'm assuming. And I'm assuming that they know. So the programs are being either written by a human person or a Jan AI.May not be perfect, so what I'm trying to say is that I still need to check the program, I still need to check it with test data, and then I also find that, hey, I have not specified the details in this aspect, and either I go back and specify it.and get it to regenerate the program or I correct it myself. So there are kind of, you know, what has changed is that.
+
+P0019 | Interviewer 1 | 9:20
+Mm.
+
+P0020 | I2 | 9:29
+It has saved me time by looking around for snippets of programs rather than writing everything from scratch. But it still hasn't changed the fact that I need to check it carefully.
+
+P0021 | Interviewer 1 | 9:47
+Yeah, so.
+
+P0022 | I2 | 9:47
+So that's kind of at the low level. At the high level in architectural design, I think this issue would probably exacerbate because designing something is, I'd assume, it's even more challenging. I haven't tried that, so I can.Tell you, but that's my suspicion.
+
+P0023 | Interviewer 1 | 10:09
+Yeah, so this is very, what you said is very interesting actually, and links to like a whole bunch of questions that we have, we had in mind. So we will try to, you know, go through this step by step. So if I try to, let's say, toTo summarize what you just said, I got the feeling that you were saying, for instance, that certain activities, like as you said, finding a certain snippet or producing certain portion of the code or analyzing to some extent some portion of the code, are all activities that may be done with Jan AI.On the other hand, there are all a bunch of other activities such as requirements, specification or elicitation, and probably those activity related to the design of the system and therefore the architecture that, in your opinion, may be more difficult to delegate to GNI.So, in this in this context, do you also see that maybe the...expectation that other technical people have on the role and the competencies and the value of software architects changed because of Jan AI. So what we are trying to say is that maybebecause now people are assumed that many of...of, let's say, some architectural task could be delegated to GenEI, then what I expect from you as an architect is somehow different, focus is more on a certain area, less on another, your authority is slightly less or more, you know,this kind of consideration. Have you ever thought on this or do you have any comments?
+
+P0024 | I2 | 12:14
+I, I, I think.In terms of designing a system or a program, which is kind of a perhaps at a lower level, or in software architecture design, which is at a higher level, when designing these things, there are a lot of tested knowledge.There are a lot of tacit requirements, and not of all of them.Are spelled out from.The from this beginning, you don't know everything, no nobody knows everything, so so software architecture and then and then requirements specifications, they they are an iterative exercise and and it it kind of iterates and.
+
+P0025 | Interviewer 1 | 12:52
+Yeah.
+
+P0026 | I2 | 13:07
+and then gets kind of refined.sometimes until the very end. But, you know, hopefully the majority of the requirements are kind of being learned or explored at the early stage. But since it's a collaborative and also an iterativeExercise.One cannot.Tell a person, you know, be it another architect or a programmer,Everything from the beginning, I mean, for example, if you just take an example of, let me see, you try to pilot test, you know, some design, you, because you do it because you don't know everything you wanted to find out.you know, what the performance is like or what are the security gaps and, you know, these things. So you can't just say, you know, hey, here is the requirements, go and generate it and expect a perfect answer. Now, so what does that mean? A isyou after something is generated, be it a design or a program.You want to validate it, you want to check if there are any flaws, any issues. Then you refine, you say, oh, I've forgotten about that aspect. Oh, that's the behavior. So therefore, I need to do something about it. So then you refine your requirements, you refine your design, you go and do it again.Now.Gen. AI is a tool and it has some intelligence, but it can't second guess what you are looking for.So can it come back and say, hey, look, uh...
+
+P0027 | Interviewer 1 | 15:05
+Yeah.
+
+P0028 | I2 | 15:08
+What about this? Maybe you have forgotten some aspect of this. Maybe it can do that. I don't know. I haven't seen a real life system that can do it yet. I did some research with
+
+P0029 | Interviewer 1 | 15:20
+Yeah.
+
+P0030 | I2 | 15:29
+Barbara Page and wrote a kind of paper on that using kind of knowledge management and machine learning to kind of anticipate what it would an intelligent system could do.Um...We are still at a very early stage, I think, in my opinion, with what AI can do, you know, with such complicated system design. So, I don't know if I've answered your question.
+
+P0031 | Interviewer 1 | 16:03
+Yeah.
+
+P0032 | I2 | 16:11
+I think at this stage, I still think human intelligence is important in guiding AI. I need this. How about this? Then the AI, one thing what we have tested, also, Barbara and I tested,Was that?AI can give you a lot of options.And they are good at searching for various things.
+
+P0033 | Interviewer 1 | 16:37
+Yeah.
+
+P0034 | I2 | 16:41
+What they are not good at is finding which one is...more appropriate. They don't prioritize.
+
+P0035 | Interviewer 1 | 16:50
+Yeah.
+
+P0036 | I2 | 16:51
+So because of that, it's still up to a human person to do trade-offs, to say, hey, this is more important than that. Therefore, I opt to go with this design option. Or I will balance my design this way.This, what we have found in the now kind of a preliminary kind of software architecture design testing or validation, is what Jan AI cannot do for us at this stage.
+
+P0037 | Interviewer 1 | 17:25
+No, I mean, you answer the questions actually. So, and again, what I get is that, of course, as you say, there are, let's say, certain activities that may be of the software architect, you know, jobs that perhaps became with the advent of Gen. AI or LLM less relevant. On the other hand, there areThe some core activities, as you said, such as the prioritization of our design or thechoosing like a certain design because of certain KPIs or certain quality attributes and so on become more relevant or they are still relevant because at the moment this system are not good yet to you know to help us in this in this in this task.So, I think it was very, very interesting answer, actually, and so...Posing for one second the question on the role and expectation of the software architect. Before we had some question that we didn't ask because there was this nice flow, but we would like to go back to those that areRelated to, you know, working together in a team, right? So, what we wanted to ask is, if you, let's say, notice that, again, in your team and in your, you know, daily...working life, if instruments such as JNEI and LLMs affected the way different stakeholders interact with each other, like, for instance, developer with developers with developers or with the architect or with the, you know, manager customer. And yeah, if you if you witness and and in case you witness how,
+
+P0038 | I2 | 19:36
+Unfortunately, I can't really answer that question because, you know, as a researcher for the last X number of years, I don't work with developers in a team anymore. But I've heard certain stories.whether they are kind of representative of whatis happening out there. I don't know, but I've heard that stories that some people, they, when they start using Jan AI, they become so reliant on them that they don't kind of, because it may be right, you know, at a high percentage of the time.So they, and they then they assume that what Gen. AI produces is always right, and they become a bit lazy. So that's what I've heard, and I've heard certain examples of that, but I can't answer that question otherwise.
+
+P0039 | Interviewer 1 | 20:41
+No, no, I mean, it's fine, of course, to bring accounts and then and and story. This is perfectly fine. And also, yeah, this goes back to the question that I asked you before about, you know, perceivedyou know, accountability or responsibility authority, because as you said, there are situations in which, for instance, even within teams, the answers that are produced by Gen. AI may be valued more than the answer given from you and your colleagues or, you know, other other situation.Similar to this, so again.We, of course, we are this ourselves, so we don't have experience directly, as you said, but they seem plausible. So, yeah, let me check. We had just a few more questions, and those questions are about the future.So, here is purely, I guess, speculative. None of us really can look into the into the future, but given, of course, your extensive experience and so on, we wanted to to ask if you, if you, if you think from if you think tothree or five years ahead in time in the future. So do you see like the role of the software architects and the task that the software architects are asked to do changing and how?
+
+P0040 | I2 | 22:30
+Yeah.I don't think the role, let me let me try to to say that carefully, the role of an architect.probably doesn't change in the sense that it's kind of that high-level design of a system still requires someone whohas knowledge, experience, insights, and think through the issue. So that hasn't changed. But the way, the depending on that, if I look at Jan AI as a tool,Then perhaps when this tool becomes more sophisticated,The architect would probably use it more, rely on it more. What we don't have at the moment, in my opinion, I kind of even written a paper about it.is that we don't know what other architects have done in their design and what their considerations are in terms of designing for quality attributes, non-functional requirements, how the trade-off works and those things. So.What we do need is a very sophisticated tool which can gather that information. Now, a lot of that information is in-house. For example, if I am still an architect in a bank, some of that information is proprietary. I don't want to disclose it to anyone else.I will keep that knowledge in-house, but I will keep it in a way that it is easily for my fellow architects to access. Now, a lot of that information is also tacit. They don't, they don't happen, they don't occur in specifications. Any architects would know that.You write a specification for a even, you know, a design for your system, but there are a lot of little things that you decide do not appear in that in that in that specification or design. They occur in the everyday conversation, the whiteboard drawings that youyou make with your architects, in your emails, in your notes, and all those things. Now, I anticipate to have sophisticated tools to bring all that together and to be able to search them and relate to them. So it could be done through
+
+P0041 | Interviewer 1 | 25:04
+Yeah.
+
+P0042 | I2 | 25:23
+LLM. It can be done through other tools. It can be done through, you know, a systematic way of organizing it, such as an ontology or whatever, automatically, not manually. So to answer your question, I think these tools would help architectsdo their job better, more efficiently. Whether it's three years, five years, you know, I don't know. How that tool would change the organizational structure and theAnd the flow of design, it also depends on other factors.It depends on, on, on, you know, which organization it depends on, you know, whether they they they use, you know,Add a custom build software or platform software, that sort of stuff, so, so, uh, I think it will change, yeah.
+
+P0043 | Interviewer 1 | 26:26
+Yeah, I guess also regulations or other things may, I mean, there will be condition that of course shape this, let's say, evolution that we are imagining, I guess so. But so let's say if we abstract away fromGen. AI or whatever other technology it may arrive. So do you see or do you have in mind some, you know,some values, some, yeah, let's call it values that software architects should preserve, even when, you know, this technology will become more powerful or other technology will be even, you know, brought into the game.
+
+P0044 | I2 | 27:19
+When you say preserve, do you mean the software architect will just keep that knowledge in his own pocket to preserve his job or what do you mean?
+
+P0045 | Interviewer 1 | 27:28
+No, I mean, like, I really mean, like, for instance, I was thinking about, you know, what values the organisations should preserve, change, adapt around theUhh...around the, yeah, of course, the architect role. So for instance, I was thinking, I can give you an example that before you mentioned several times the fact that human should still be validating the output. So maybe, you know, one value could be human oversight.let's say. So, you know, if there are like really simply values that or condition that should be preserved regardless of whatever evolution we may witness.
+
+P0046 | I2 | 28:27
+No.I suspect will Di Di Di.Knowledge of an of architects and the knowledge of.in a system would be more and more entrenched or intertwined. An architect would probably learn better how to usethe sophisticated tools to do more sophisticated and more complex things. So that will change. But I mean, in terms of the job itself, the design itself,It will not change, except it's becoming more and more complex. I mean, a design is a design. Those quality attributes need to be to be to be upheld in the system security and so on and so forth, but it.Except it will be even more.difficult because, let's take security as an example.How do you know where the vulnerabilities are? If you don't know that there is somewhere in the operating system that someone could kind of attack the system in a certain way. If you don't know what you don't know, then you need to rely on something to tell you that there is such a vulnerability and what it means.for your current design. So, so the, I guess, to me, that sophistication requires better interactions between a group of human experts or software architects and the knowledge base. You know, if I, if I just use when I mentioned knowledge bases is kind of high.high-level terms. It can be LM, it can be Jan AI, it can be an ontology of certain things, anything.
+
+P0047 | Interviewer 1 | 30:34
+Yeah.
+
+P0048 | I2 | 30:37
+So, and I think we, to me, don't preclude any possibilities in the next few years to have these things as...That, that, that software architect would would use extensively.
+
+P0049 | Interviewer 1 | 30:59
+All right. Actually, this was the last question that we had for today. Maybe one very last or two comments. The first one is, if you, Interviewee, had, you know, anything in mind when joining this interview,that we didn't discuss yet. So if you had any thoughts or comments that you want to share with us and we didn't ask it, this will be one. And the second is actually at the beginning, I was eager to start the conversation with you. So I actually forgot to ask you if you could summarize briefly yourProfile, just to, you know, report it in the study, so and not to do ourselves, because you know, clearly better.
+
+P0050 | I2 | 31:54
+Okay. Oh, what did I do? I started working in the IT industry maybe in 81, 82, 1981, 82. I spent over 24, 22, 24 years.Working in the IT industry, I built fairly large systems. I built stockbroking systems, front, back office, architected them, designed them. I built national payment systems.for a number of countries. I, in my early days, I also work with operating systems. I built database kernels and stuff like that. So, and then I got my...Just in between contract, a friend of mine said, hey, Interviewee, why don't you do a PhD? So I spent two years on a PhD, so I did it. And then, oh, that's not too hard. Maybe I switched a career and became an academic. That's 2006.So, when I when I got my PhD, so it's been 20 years as an academic.I, I so that that's my that's my background. I, as an academic guy, I studied.Mainly software architecture and how to reason with software architecture design. I also mainly studied how...Human architects don't think reasonably, so that's what I studied, and how certain tools, to a certain extent, knowledge management tools can help.
+
+P0051 | Interviewer 1 | 33:53
+Mm.
+
+P0052 | I2 | 34:04
+an architect perform better. So that's my background.
+
+P0053 | Interviewer 1 | 34:11
+Yeah, and as we knew, it's very impressive. So, as I said, we are done with the questions, unless, of course, Author 3 and Author 2, you guys have anything that you want to add, comments or...
+
+P0054 | Interviewer 3 | 34:29
+No, no, no, for me it's okay.
+
+P0055 | Interviewer 2 | 34:30
+No.
+
+P0056 | Transcript note

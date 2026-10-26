@@ -1,0 +1,210 @@
+INTERVIEW I9
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Interviewer 1 | 0:20
+And we are all back. Good. So we have about 10 questions, but since, yeah, you maybe are the 8th or 9th participant that we have, we perhaps just focus on some of them.We don't ask all of them. Let's see. But before going into the details of the question, we would like to ask you if you can summarize your profile for the, yeah.Records.
+
+P0002 | I9 | 0:56
+[Identifying professional background withheld. General participant perspective is recorded in the interview index.]
+
+P0003 | Interviewer 1 | 1:24
+Great.Good. So yeah, since you actually said it yourself that you've been working more or less in data of software architecture from the inception, maybe we can skip all those preliminary questions and just go directly to the core ofthe interview. So assuming that, of course, Gen. AI is impacting the work that we do as architects, we would like to ask youIf you think that Jenny I changed the boundary between what was considered the architect's job before, yeah, it's...Everyday use.
+
+P0004 | I9 | 2:19
+Sure, it's an interesting question.I'm actually teaching a course here with some graduate students and we're basically focusing on architecture and Jan AI. And we're using a whole range of different techniques to do this. And some of the, you know, stuff we're discovering is kind of intriguing. But it seems now that with theThe capability to generate code so quickly that the architect's role is really...It's almost going back 30 years to be, we are about, our role is to specify what's needed very, very clearly.and unambiguously, and this gets put in depending on your agent into basically markdown files, which can then basically constrain, provide the context for the architecture to be to be to be built around. So, it's...
+
+P0005 | Interviewer 1 | 3:16
+Insta.
+
+P0006 | I9 | 3:17
+It's like Back to the Future, Back to the Past, really.
+
+P0007 | Interviewer 1 | 3:21
+It's actually an interesting observation. I think you are actually the first one that tells us something like that, which is interesting. Again, I didn't see it that way, but since you since you mentioned it, so you say that mostly the architect job went backto being specifying the intent, let's put it like this. But when it comes of responsibility, decision authority or accountability, do you think that this has this have shifted because of Jan AI?
+
+P0008 | I9 | 4:02
+I don't think so. All of my friends who work in tech say that once they check in some code, they're responsible for that code. So architecturally, it's exactly the same. You make decisions that provide, you know, core frameworks and capabilities. And I think you're responsible for it still.If no one's responsible for what's being checked in when things go wrong, then chaos ensues.
+
+P0009 | Interviewer 1 | 4:31
+Yeah. So, of course, this assumes that in industry, the teams are still validating what Jan AI produced. But yeah, we will get back to this in a few questions. But related to what you said before,To your answer, really, so.Since we went back to the past, let's say, with the responsibility of the architect, do you also think that somehow the meaning of architecture, artifacts and knowledge has shifted since, I mean, with respect to maybe 5, six years ago?
+
+P0010 | I9 | 5:15
+I think maybe it's become more important because it provides the context for all of the AI tools to work and the teams to work around them. Again, I talked to a couple of my colleagues who are in a startup and they're getting AI to generate most of the code.
+
+P0011 | Interviewer 1 | 5:19
+Mm.
+
+P0012 | I9 | 5:35
+But they have built about, I think [person redacted] said, something like 50 or 60 architecture decision records, which basically constrain exactly how the agents can generate code and this sort of modular architecture that they're forcing the agents to generate code for. And I mean,I'd never heard of a project that had 60 AD hours before. And yeah, so it's really quite interesting to see some of these shifts.
+
+P0013 | Interviewer 1 | 5:58
+Exactly.So, but to some extent, this example that you brought into the discussion is actually really, really meaningful. So, I mean, we know that there were a bunch of artifacts that typically were not developed so often or maintained or, you know, and architectural decision records maybe are a great example of this.So to some extent, do you think that Jenny I...impacted the artifacts that now architects are, you know, maintaining or regenerating, really, with respect again, a few years back.
+
+P0014 | I9 | 6:48
+Yeah, I think what I do now, and I think I see my students doing, is that we iterate with the agents to expand on business requirements and then come up with potential solutions. So I think the agents are almost becoming
+
+P0015 | Interviewer 1 | 7:00
+Mm.
+
+P0016 | I9 | 7:08
+core parts of your engineering team. So I've been using Spec Kit, I don't know if you know it, and it's really quite powerful. You give it some core architectural rules and core requirements and it then expands them and you can go and review those and say whatyou want to continue with, what you don't want to continue with. And that's how I'd been defined, because I basically defined this system. I don't generate the code for the students, but I define it using SpecKit, and then they can go through and build the system themselves. And so I think the agents are almost...new support mechanism to enable you to expand the design, explore the design space.
+
+P0017 | Interviewer 1 | 7:54
+Interesting. Yeah. This is also something that was brought up by several other interviewees. The last question related to your first answer. Do you think that the responsibility or expectation for architects changed because of Gen. AI?expectation from other stakeholders, let's say, of course.
+
+P0018 | I9 | 8:22
+Um...I don't know. I don't think so, but...Yeah, I'm not sure about that one, to be honest. I would say that the core responsibilities are still the same. It's just that the context in which people work now is so much faster.
+
+P0019 | Interviewer 1 | 8:46
+Okay, yeah.So, going back to what you, what we were talking before, like the...assumption that teams are validating what Gen. AI produce. So when we were talking with some colleagues these past weeks, so they told us, especially those working in companies, that they have adopted Gen. AI.They told us that, basically, they approach the use of Gen. AI as if Gen. AI is producing, I mean, not as if like Gen. AI is producing a code comparable to a union engineer, so sending a code or an artifact that can be plausible.but not quite 100% correct, right? So then they say that in this specific context, it is extremely important to have, you know, the senior knowledge skills needed to discern whether a answer from Jenny Hicefactually correct or not. Now the question is...Let's assume that Gen. AI is in the flow and it will stay in the flow. So a junior that starts nowadays in five, six years time, they may not be able to develop these senior skills or these in-depth skills that are actually required to validate the answer. SoThe question is, how do you think that architects, or for that matter, junior engineers, can develop these skills?Yeah, of course, it's a big question, but...
+
+P0020 | I9 | 10:33
+It's a very big question. The rumors are that around, I'm literally sat in the middle of the Amazon campus where our campuses, and rumors are that Amazon and Co are quietly rehiring engineers after the big firing because they're finding that, first of all, it's costing vast quantities of money.
+
+P0021 | Interviewer 1 | 10:41
+Yeah.
+
+P0022 | I9 | 10:54
+to use agents and 2nd that they're having some fairly bad outcomes. So, but it's all been very quiet, it's all rumours. I don't know, it's an intriguing one.
+
+P0023 | Interviewer 1 | 10:55
+Mm.Yeah.
+
+P0024 | I9 | 11:11
+junior engineers of today are the senior engineers and architects of tomorrow. So I don't think until AI is completely trustworthy, I don't think we can change that role.I don't know, it's a really tricky one. I think the whole industry is grappling with that one at the moment.
+
+P0025 | Interviewer 1 | 11:27
+Yeah, of course.Yeah, I mean, some companies or at least partners that we interview, they have this sort of unwritten, you know, rules where senior checks, the seniors check the generation of generative AI, but
+
+P0026 | I9 | 11:38
+Open.
+
+P0027 | Interviewer 1 | 11:51
+But again, this soon would be not enough. So, but yeah, we will see how we will.React as I could be unity and.So the next question is perhaps the core of the interview, the main question. And again, it's maybe a big one. And so, I mean, it's a bit speculative, so feel free to, you know, tell us your thoughts or justskip the question, but we would like to know if you think that software architects are more valuable now compared with before Jan AI, and if so, in which ways?
+
+P0028 | I9 | 12:41
+Um...I don't think the core role of the architect changes that much. You've got to help translate business requirements to architectural and functional requirements.So AI can help you with that, but I don't think it does the job for you. You've still got to have that business domain knowledge. So I don't think that the role of the architect in that respect is devalued at all. Potentially, if you can generate more tech, more software,
+
+P0029 | Interviewer 1 | 13:12
+Mm.
+
+P0030 | I9 | 13:17
+quickly, then it's even more valuable because you have to digest more business requirements and make sure they get generated into useful artifacts and useful systems.I think the...knowledge that an architect requires of the technical domain is still going to be used to guide the agent to specify the architecture, specify test cases, because that's one way you can, if you go in small increments with sort of test driven development, then you can actuallytest what the system is developing. And maybe one thing that's becoming more important is observability and architectural fitness function type concepts. Because again, if you're relying on code which is generated.Having runtime insights into how it's behaving is valuable because you can potentially track problems with it before they manifest in serious ways. And architectural fitness functions can, for example, define modularity rules and whatever, and you can continually test those during the builds to make sure thatNo one's violating the architectural rules.So I don't see any real diminishment of the architect's role and potentially because of the increased velocity of teams and potentially it's become more important.
+
+P0031 | Interviewer 1 | 14:53
+Mm.One, one, one thing that...This is not a scripted question, but you just it just popped to my mind. So, you, as many other both practitioner researchers, mentioned that one thing that, for I mean, at least at the moment, the gene high cannot replace is this.business knowledge, the domain knowledge and similar. So my question is, since this seems to be like, you know, set by the majority of the architects, why do you think that that is the case? Is it because it's difficult toBecause my assumption is that whatever knowledge we could express then could be learned by the agents or whatever it is. So why is the case that business knowledge, domain knowledge or whatever is so hard toTransfer.
+
+P0032 | I9 | 16:05
+Yeah, it's a bit like back to the past. I think requirements have always been one of the hardest parts of software engineering, defining requirements that meet user needs, meet business needs. And sometimes it just takes talking to people and fleshing out ideas.I guess.that can be supported by AI now. We can help with brainstorming and everything, but I think you still need.Human insights into to the business.
+
+P0033 | Interviewer 1 | 16:38
+Mm.
+
+P0034 | I9 | 16:39
+There's a lot of implicit knowledge. One of my friends is very senior in a major investment bank, well [organization redacted], and she runs a whole portfolio of projects and has 10s of architects working on those projects.And some of them are just completely valuable to the organization because if they left, no one knows how those systems work. It's all in their heads. And so they're people who they look after very well.So there's a lot of that concept which just isn't written down and would be very hard to discover.
+
+P0035 | Interviewer 1 | 17:23
+Okay, this is a, yeah, maybe we can have a separate discussion, but yeah, for it's an interesting take on the on the issue. Author 2, just checking that, as per usual, if you want to step in and yeah, okay, perfect.
+
+P0036 | Interviewer 2 | 17:38
+Yeah, don't worry, don't worry.Mm.
+
+P0037 | Interviewer 1 | 17:44
+All right, so then very few quick, maybe easier questions regarding some aspects of introduction of Gen. AI in the everyday task. So if you notice or you heard perhaps of Gen. AIchanging the way stakeholders interact with each other and with the architects. So the, let's say the human part of it. And the second question is that now we ask you several times what has changed because of GenEI, butCan you think of something that hasn't changed at all with respect to the role of architect? You've probably already said some of these things, but maybe you have.
+
+P0038 | I9 | 18:33
+Yeah.Yeah, I still think the core responsibility is pretty similar. You're defining technical requirements, translating business requirements into technical requirements, defining the shape of the solution, how things interact.what foundational technologies, tech stacks you're going to use, and then defining the rules, the guardrails, and the test cases that can be applied as the system is built and evolved.It feels as though maybe just certain areas are now amplified and have become more important because you're not writing the code, or majority of the time you're not writing the code.What was the other question? The first part, sorry.
+
+P0039 | Interviewer 1 | 19:34
+The first part was related to the human aspect. If you know this or heard about Jan AI changing the dynamics within teams, essentially.
+
+P0040 | I9 | 19:38
+Ohh, wow.I haven't, to be honest, no. It's not something that's come up in my conversations.I'm sure it is.
+
+P0041 | Interviewer 1 | 20:01
+It's fine. I mean, it's just like, I mean, it's just to just to give you some maybe insights. For instance, earlier today we talked about, we talked with a guy working in a big company in [location redacted] and then he actually told us that, well, beside the company firing,
+
+P0042 | I9 | 20:03
+Yeah.
+
+P0043 | Interviewer 1 | 20:23
+actually 80% of the team, then they have relying heavily on agents made also the people more independent. So that all class, they don't have much interaction at all because everybody is sort of dependent, so independent, sorry.
+
+P0044 | I9 | 20:36
+Okay.
+
+P0045 | Interviewer 1 | 20:43
+But in any case, yeah, this is...
+
+P0046 | I9 | 20:43
+Yeah.I think it's making people more nervous, that's for sure.
+
+P0047 | Interviewer 2 | 20:51
+Yeah.
+
+P0048 | Interviewer 1 | 20:51
+Yeah.Well, it's also philosophical.thing, right? Because if you have something that is very fast and then that's most of the job for you, you are also left with a lot of time, then then it's at the end you are unfulfilled because most of the things are taken away from you. But yeah, we this is we leave this to the philosophers.
+
+P0049 | I9 | 21:14
+Yeah.
+
+P0050 | Interviewer 1 | 21:19
+How we speak with the... All right. Yeah, actually, I think that, yeah, we can skip the earlier questions because it's, yeah, they're a little bit boring, but maybe you look like the right person to, you know, with whom we canspeculate a little bit about the future. So given that it's of course hard to see or foresee how the future would look like, but how do you think that, you know, looking three to five years ahead, how do you think that the software architectjob will look like, will stay the same, we will be replaced completely by smarter agents.
+
+P0051 | I9 | 22:13
+I just don't know. I mean, this thing is moving so fast.
+
+P0052 | Interviewer 1 | 22:15
+Yes.
+
+P0053 | I9 | 22:20
+I mean a year ago I couldn't do stuff I can do easily now.So, I don't know, it's almost scary the speed it's moving at.And.
+
+P0054 | Interviewer 1 | 22:35
+But, but sorry, maybe if we look it from another perspective, like, so of course, as you say, this everything is moving very fast and so on. So, are there any, you know, for instance, conditional boundaries that you wouldused to somehow define the or constrained evolution, for instance, like domains where you wouldn't allow, for instance, say autonomous development or agents, or in terms of values, for instance, human oversight, it should always be like a thing or
+
+P0055 | I9 | 23:09
+Yeah.
+
+P0056 | Interviewer 1 | 23:16
+An an implicit rule.
+
+P0057 | I9 | 23:19
+Well, you'd hope in systems that kill people, there's some sort of oversight still going on and safety critical systems.Maybe, I mean, I'm not an expert in any of those areas, but maybe that's an area where the use of AI is somewhat more constrained. I don't know for sure, but anything could be happening really. But with the regulatory requirements ofOf those environments, then.They move very slowly, is my understanding, so that might not change for a long time.I think it's going to be very interesting to see if we do get this accumulation of machine-generated technical debt.Find out, I guess, in a few years. That takes time to evolve. Might be a lot of cleaning up to do.Um...I don't know, but this the whole world is changing so fast at the moment. I really don't.I happily tell my students I don't know what the world's going to be like for you in 10 years' time.
+
+P0058 | Interviewer 1 | 24:40
+Oh yeah, tell me yes, I think we don't know even in two years.
+
+P0059 | I9 | 24:41
+Yes.
+
+P0060 | Interviewer 2 | 24:43
+And.
+
+P0061 | I9 | 24:44
+Yeah, exactly.
+
+P0062 | Interviewer 1 | 24:46
+If, if we are still, if there will be a word to start with, because yeah, jokes aside, yeah, as I said, these are a bit speculative and hard to answer, but yeah, that's also what we are trying to.
+
+P0063 | I9 | 24:50
+That's right.
+
+P0064 | Interviewer 2 | 24:51
+Yeah.
+
+P0065 | I9 | 24:54
+Yeah.
+
+P0066 | Interviewer 1 | 25:06
+to decode by talking with different people what, how the evolution could possibly look like.All right. I think we are done because we got some questions. So really the last thing, maybe if you have, you know, questions or points that you wanted to touch upon and we didn't ask you or we didn't bring it to the table, thenThis is your chance to...To mention them.
+
+P0067 | I9 | 25:42
+Um...No, I think I hit most of the areas that are...A little pertinent in my mind, anyway.Yeah, I think I'm good.
+
+P0068 | Interviewer 1 | 25:57
+Okay, then I'm gonna stop the transcripts, so we are...
+
+P0069 | Transcript note

@@ -1,0 +1,144 @@
+INTERVIEW I12
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Interviewer 1 | 0:17
+Yes, so.We started this study.few weeks ago. So by now, actually, we had the chance of talking with a few colleagues, experts. So initially, we planned to, we actually laid down around 10 questions, but since we somehow reachedsaturation for some of them. We probably will ask fewer questions and focusing on those for which we don't have clear direction yet. So all in all, maybe the meeting will be a little shorter than webooked you for, but I guess it's better for you. So we would like to start by asking you if you can briefly summarize your profile and yeah, your expertise in the field of software architecture, architecture, sorry.
+
+P0002 | I12 | 1:30
+[Identifying professional background withheld. General participant perspective is recorded in the interview index.]
+
+P0003 | Interviewer 1 | 3:20
+Yeah.Good. So then, given your expertise and your proximity with a lot of engineers and architects, we would like to start with the first, let's say, technical question. And listening, if in your opinion, Jan AI has changed the boundary between what wasConsider the architect's job and what typically belong to other roles.
+
+P0004 | I12 | 4:13
+Difficult to say in general. I mean, I think both developers use Gen. AI and might use also for some design or reviewing tasks or scaffolding tasks that previously were done by architects. On the other hand, also, of course, software architects are using Gen. AI.to support in their daily work and I don't know, understanding legacy code, making informed design choices, helping in migration, stuff like that.I think in our company, it has not really shifted the roles already, in a sense. You still need dedicated people that focus on the implementation and the scope design, and you need other people thatown more like the system vision, that have an oversight on non-functional properties, that share the knowledge between management and developers. So that role is not going away, I think, even though both
+
+P0005 | Interviewer 1 | 5:22
+Mhm.
+
+P0006 | I12 | 5:23
+roles use generative AI.
+
+P0007 | Interviewer 1 | 5:26
+Okay, so in in um...Basically, what you will notice is that the boundaries between the different roles are a little bit blurring due to Jan AI, but that, at least in your context, still there is the former role of architect with...clear and yeah clear responsibility which mostly are the same as they were before the Jan AI era.
+
+P0008 | I12 | 5:56
+What I see more is that the role between product management and developers is blurring. The product management or, I don't know, Scrum, and Scrum, you have terms for that, but the people that own the requirements, the customer requirements, they now start also writing little prototypes or doing some software development.
+
+P0009 | Interviewer 1 | 6:02
+Mm.
+
+P0010 | I12 | 6:17
+And on the other hand, some of the developers, they also fill gaps they have in the requirements by using AI. And I think more of those roles are blurring than the roles between developers and architects.
+
+P0011 | Interviewer 1 | 6:26
+Mm.Yeah, okay, interesting. So related to this, did you also experience, for instance, a shift in the responsibility, accountability, decision authority? For instance, now you say that the developers are also doing some work on analysis on the requirements. So as this moved the responsibility between the roles,But also.In your contest, do you have any decision that is somehow shifted to agents or similar tools?
+
+P0012 | I12 | 7:06
+When you say responsibility, I guess we need to be a bit more precise. So accountability has not shifted. The product management is still accountable for the customer requirements that they get implemented. And I think the developer accountability is still to ensure the quality of the software system and ensure error correct
+
+P0013 | Interviewer 1 | 7:12
+Hmm.
+
+P0014 | I12 | 7:28
+correctness and robustness, reliability, performance, and so on. So I think that that has not really shifted. If you're asking whether the developers and architects now put decisions on AI,difficult to say, maybe some low level decisions as of now that they delegate to AI. I would say for the higher level decisions or the more wide reaching decisions, people like roles like architects, they get augmented by AI, so they elaborate the design choices with AI or the different options that are available.But from the architects I've been talking to, they have not used them as a verdict or making the decision. So that has not happened. That's still under the control of the human. So the human is making decisions and just using AI as a support to get input on background, on different alternatives, on maybe how the trade-offs will work out.
+
+P0015 | Interviewer 1 | 8:29
+Mm.
+
+P0016 | I12 | 8:30
+But the decisions themselves, I don't think they are taken, at least for the wide-reaching decisions, are not taken by AI yet.
+
+P0017 | Interviewer 1 | 8:39
+Okay, so maybe from another angle, have you experienced or witnessed a situation in which, let's say, Jan AI or related tools made the role of the architect?less central and perhaps, you know, bypassed it.
+
+P0018 | I12 | 9:08
+The role of the architects less.Central.
+
+P0019 | Interviewer 1 | 9:12
+So, what I mean is that you say that, of course, accountability and final decision authority stayed with the architect and more generally with the humans, but now I want, as you also pointed out, the word responsibility is a bit general, which I agree, but let's say wewe had it general on purpose. So what I was trying to go after here is that maybe even though the accountability and decision authority stayed with the architect, maybe there were cases in which, for instance, developers or the agent themselves.bypassed some of the architects.Decisions.
+
+P0020 | I12 | 10:07
+I don't think I've heard about situations where...We had the situation that there was a development and then no architect was consulted and you, the people just let the AI do what it wanted to do and then afterwards you had a mess. I don't think we had that so far.whether people put more on AI for designing systems, I'm not so sure. So maybe [organization redacted] is also a bit behind on that, but people are very reluctant toYeah, turn a lot of things over to AI. There have been, of course, interesting tests. For example, I lately heard about a feature that was developed where they did a kind of a migration and modernization of a subsystem. And they tried to do it with as much AI as possible. Yeah. And they wanted to learn also how farcan these coding agents get us? So they used the latest and greatest, and they were significantly faster than what they estimated, but would have taken them without any AI. However, in that case, the architecture was already quite clear and was in place, and it was clear already what was the intention here. You moved from a...form a desktop application into a web-based application, essentially wanted to have the very similar functionality in place. So I think the whole architecture guidance was still in place and was not given to the AI. There are lots of constraints on technology choices, for example, that are in scope of the system. So you cannot justfor example, select arbitrary technologies because you might not have cybersecurity clearance or the libraries do not fit with the other developments that we are doing. So that guidance is, of course, still given to the AI. I think it was a successful test, but in a veryconstraint setting in a sense. And you cannot say that the architect architecting architecture guidance was given to the AI, the architecture decisions and structures and function decomposition was done by the AI. That's not the case. That was stillVery much done by the humans.
+
+P0021 | Interviewer 1 | 12:28
+Oh, I see. Okay, moving on, but still remaining on the, let's say, importance of the role of the architect. So what is your opinion, of course, based on what you can see? Is Jan AI making the role of the architect more orLess important.
+
+P0022 | I12 | 12:53
+So from my perspective, I mean, AI helps you with faster coding. People tend to read the code less and less. So the implementation phase condenses A lot. And that means to get good results out of that, you need to put more emphasis on the phases before the coding and after the coding.And before the coding, you have requirements, you have design, architecture guidance, and after the coding, you have verification, validation, architecture compliance checks, all that kind of stuff. And that you need to have in place. And so some of the units, they...
+
+P0023 | Interviewer 1 | 13:27
+Yeah.
+
+P0024 | I12 | 13:34
+are very good on those processes, others are not so good on those processes before and after. And so they need to ramp up. So from my perspective, the role of the architect is then also looking into the, how to say, the playing field of the AI to put guardrails in place to make sure to.formulate the system in intent in a testable form so that the AI can check it itself. Yeah, am I still following the guidelines and constraints that are in this setting? So architects also need to set up compliance checks for the architecture, give the architecture guidance to the AI.starts with these markdown files, agent MD files, where you put in some of the basic rules. But as the systems grow larger, then you need more so that the AI is just guardrailed and yeah, cannot make so many mistakes in carrying it out or destroying the architectural vision.Because, I mean, coding agents, they are still constrained by the context window they have. It's impressive how much they can already memorize, but for large code bases, it's still too much. So they always work on a local subset of the system and tend to make localized decisions if they are not aware of the surroundings and the entire scope of the system.And that is what architects are working on. So we have interviewed also inside [organization redacted] a couple of architects and asked them what they're concerned about. And they're really concerned about contextualizing these coding agents in a way that their architectural thinking and design choicesand guidings are reflected. And that's not so easy because that stuff is sometimes tacit knowledge, so it's only in the head of the architects. Sometimes it's not written down. Some have very extensive documentation, which you need to probably filter or convert so that an agent can make best use of it because it's mainly written for humans so far.Yeah, and so they, they, some of them are reluctant to go more for AI because before those things are in place. They want to have good guardrails, they want to have, make sure that if you use AI a lot, then it should be in the constraints that you set for that and you should not.Let it run freely.
+
+P0025 | Interviewer 1 | 15:57
+So, in many aspects, your answer was aligned with the view of many other, let's say, colleagues, which essentially think that, as you said, because ofthe increase on the amount and speed of the downstream work, the role of the architect is somehow equally, if not more important because of GNI. But do you see or can you think of any situation where the opposite happens, so when the role become less relevant?I mean, if you cannot, it's fine. Maybe there isn't a situation.
+
+P0026 | I12 | 16:57
+I mean, of course, there are smaller systems which do not require so much architectural guidance. If you just design a small tool for some customer that is done by two or three developers, of course, there's not much architectural guidance you need for that. But that was also before the AI hype. You didn'tinvest so much in architecture. So architecture is always a risk game. So you need to see where are the risk in the system. And then, of course, larger systems, they have more risk in the structure and the decay. So you need to put in more stuff. So of course, if you have a smaller system and it's done by a couple of developers, then
+
+P0027 | Interviewer 1 | 17:20
+Mm.
+
+P0028 | I12 | 17:35
+You don't need to have a lot of architecting, but it didn't change whether you use AI or not. I mean, the only thing I can think of is that, of course, then now people start to do prototypes and all kinds of stuff, right? Product management is coming up and saying, I have this nice idea. We just coded, web coded it, yeah, so because just trying it out. But I've not seen that.
+
+P0029 | Interviewer 1 | 17:51
+Mhm.
+
+P0030 | I12 | 17:56
+This is has been then, yeah, blindly taken into production, and that that has not happened. It's just they are still testing that, and of course, if if some persons that that don't have this technical background do coding, of course, then it's has some different emphasis on on the architecture.Um...Yeah, but I don't think this is really serious stuff as of now that anyone would say, okay, these experimentsYeah, I have transferred to serious product development. Of course, they inform choices, they refine requirements, of course. Of course, also, but for us in corporate research, it's a big change. Now we can try out many more ideas much more quickly and do iterative cycles with our stakeholders, with the software architects, with the product managers, with the technology managers, because we can show them tools running and we do a lot ofGermans and much more than we could do in the past, but yeah.But these are experiments and I don't think they lead to lesser architecture work once you move to production. That's not the case, I would say.
+
+P0031 | Interviewer 1 | 18:59
+Yeah.Okay, so going back a little bit with the, to the answer that you gave, I think, to one of our first questions. So some interviewees basically observed howCurrently, there the, let's say the job market is looking for position that are lesser and lesser labeled as software architects. So their thinking was thatessentially the role of the software architect could become less distinct or disappear. So, so what we, so this observation made us think that, do you think that this could be the case or let's say,Another scenario could be, as you also mentioned, that essentially the function of the software architect could be redistributed into existing roles or, let's say, shifted entirely into probably new roles.
+
+P0032 | I12 | 20:35
+Um, yeah, I have to say I cannot...confirm that. So from my perspective, there's, I mean, just for [organization redacted], I mean, there's still the same number of job openings for software architects as before. I know from they recently deployed a new software architect for one of the units I'm currently working with. So I don't see a trend there of acquiring fewer architects or even fewer developers. I also read a study that in Germany, they are stillstatistics that 80,000 IT people are missing in the job market. So from my perspective, I have not seen this, what you are alluding to, that less software architects are employed. And this other assumption that you have that the task of software architect get rolled into regular developer roles.As I said in the beginning, I think there's still the need for people who own the system vision and people who focus on specific subsystems or implementation tasks or specific parts of the system and don't, I don't know, talk to management too much or don't, so focus more on the technical aspects and then.You know, the role of the architect is also talking to a lot of stakeholders, talking to the management, talking sometimes also to customers, talking to the developers, right? It's also stakeholder communication. And I don't think that every developer will now assume that role, talking to every stakeholder. That won't happen. You will still have different people.people that have the higher level vision in place or look at the system in a more holistic perspective, and then people that look at much more specific aspects. And since the complexity of the systems is very high, I think this will stay the same.
+
+P0033 | Interviewer 1 | 22:18
+Okay.I see. Do you, of course, you mentioned some of these already, but do you see any, you know, specific conditions or boundaries that will make the evolution of the architectural different from what you just described in the last, let's say, 20 minutes?
+
+P0034 | I12 | 22:45
+Conditions that make the...
+
+P0035 | Interviewer 1 | 22:48
+I mean, boundaries, like, for instance, yeah, maybe was not the best wording. So, like, I don't want to use specific terms because I don't want to influence your, yeah, but so what we were asked, what we were thinking is that, for instance, an obvious point of discussion is that...
+
+P0036 | I12 | 23:02
+Then, then your coding is messed up.
+
+P0037 | Interviewer 1 | 23:12
+in certain domains, Jan AI should be strictly regulated or even prohibited. Or for instance, there are like other organizational, let's say, situation in which a company that may have a lowerAI adoption will not, you know, be able clearly to work this path of, you know, evolution that you just created. So what we would like to know is that if you can think of essentially some conditions that could make the evolution of, yeah, the role a bit different from what wedescribed until now.
+
+P0038 | I12 | 24:01
+Would have to think about that, but if you, I mean, for example, if you say safety critical systems and then people are freaking out, ah, how can you use AI with all the hallucinations and the limited attention spent on safety critical systems? Yeah, you cannot do that, but I wouldn't say that, so I don't think that that is a valid assumption, right? Because...from what I know about our safety certified systems, they go through very rigorous testing procedures, right? And most of the stuff that gets you the safety certification is actually the testing. And that is still done in very regular ways. So it doesn't matter whether a human writes the code or whether an AI writes the code. You still go through the same testing regimen. So I don't know why.why the factor of AI should be limited for safety critical systems. I mean, that's one thing. The other thing that could constrain a little bit the AI is, I guess, tacit knowledge, because software architects have a lot of tacit knowledge that is not written down, even though they have very sophisticated documentation and stuff.but they have also their experiences and they have gut feelings, which are often influential for their decisions. And they have a good feeling about certain design choices that they cannot really explain or rationalize. So I mean, that's limiting AI for taking everything over at the moment, I would say, because this test acknowledge is a bit hard to extract.Yeah, it's not readily available.
+
+P0039 | Interviewer 1 | 25:30
+All right. I think that at least from my side, I finished all the questions that we wanted to, I wanted to ask. I don't know if you guys have anything that I may have forgotten.
+
+P0040 | Interviewer 2 | 25:51
+No, I don't think so, that you forgot something.
+
+P0041 | Interviewer 3 | 25:54
+No.
+
+P0042 | Interviewer 1 | 25:55
+Okay, so before leaving you, setting you free, maybe just the last question, if you have any, you know, remarks or thoughts or comments on something that you thought would have been valid and important to discuss, but that we did not.
+
+P0043 | Interviewer 2 | 25:56
+I'll get some.
+
+P0044 | Interviewer 1 | 26:15
+Explicitly ask and give a chance, give you a chance to discuss, so...You may have it now.
+
+P0045 | I12 | 26:26
+Yeah, I don't know, different things. I mean, software architects also need to design now AI-based systems, so they need to get very familiar with all the AI technologies. I mean, this is something we have not touched upon. Maybe that doesn't change the role of the architect so much, but it changes a bit, yeah, the emphasis and the focus of the architects at the moment. I mean, in the past, they had to look at cloud native systems, service-based systems, component-based systems, whatever, but now theyneed to design AI-based systems and they need to develop the technical expertise for that. And most of them are doing that. So it's then also a different way of designing those systems. And then one thing we emphasize now a lot of on guard rating and testing and harnessing the AI, but I think this also has limits. Many people are just very risk-averse and say, okay, we need to keep the AI down. But you canAnd also overshoot it. Yeah, in some cases, the AI has not gotten very good, so if you constrain it too hard, you're also limiting the potential of it. Yeah, so some people have also, I heard about people that have first guardrailed and harnessed a lot, but now have built back, yeah, because the reasoning and the...capabilities that have been trained in the latest state-of-the-art AI is getting better, yeah? And you can delegate more and more high level tasks to them. So I think it's also important to find a good balance between harnessing and then, but against trading off it against locking down the AI and notReaping its potentials.But that's an architecture choice again for the development process.
+
+P0046 | Interviewer 1 | 28:00
+Yeah, of course.All right, but then let me stop the transcript.
+
+P0047 | Transcript note

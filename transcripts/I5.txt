@@ -1,0 +1,376 @@
+INTERVIEW I5
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | Interviewer 1 | 0:40
+Yes.All right, so we have around 10 questions, which are kind of open to, yeah, and a bit generic on purpose. And before getting into the questions, maybe we can start.by you summarizing briefly your profile.
+
+P0002 | I5 | 1:11
+Sure. Okay. So I'm A researcher, professor and researcher in software engineering, software design, technical debt. Those are my main areas of research interests. I've been doing this for about 30 years, which is scary.And.Certainly, I'm interested in the, excuse me, the effects of and the implications of AI.on the practice of software design, but I don't see myself as a practitioner. So I just, I said that in the e-mail. I want to make sure that's clear in the transcript that what I'm saying is mostly secondhand. What my experiences are mostly secondhand. Of course, I do some software development, but.
+
+P0003 | Interviewer 1 | 1:57
+Yeah.
+
+P0004 | I5 | 2:07
+Not, I don't see myself as a serious practicing architect.
+
+P0005 | Interviewer 1 | 2:14
+Yes, thank you for the clarification. That's totally fine. I mean, as you mentioned, the three decades of experience will do.
+
+P0006 | I5 | 2:19
+My disclaimer.K.
+
+P0007 | Interviewer 1 | 2:32
+Right, so the first question are essentially targeting the days in which you got to, you know, to meet Jan AI, let's say. So we will be curious to know ifyou actually remember when in time Gen. AI or LLMs became a thing in your work, still related to software development architecture. And if you have like any specific or recent
+
+P0008 | I5 | 3:04
+Yeah.
+
+P0009 | Interviewer 1 | 3:11
+situation where, yeah, Jan AI material affected the architecture work.
+
+P0010 | I5 | 3:21
+Yeah, so.Again, I'm...I am framing my response as a researcher. The first time that I seriously tried to use Jan AI as a researcher and essentially ask and answer research questions was April of 2024.So, I mean, I was aware of its existence, of course, before then, but I wasn't using it in any serious way to progress my research until then. And I sat down with a colleague and was asking, it was ChatGPT,
+
+P0011 | Interviewer 1 | 3:48
+Mm.
+
+P0012 | I5 | 4:06
+about design patterns. And so what I was doing was I was giving ChatGPT some.example Java files. So it would be blah, blah, factory.java. So you would assume from that that it would implement the factory pattern, for instance. And then I would ask ChatGPT questions about it. Is this an instance of a class that's implementing a factory pattern?And, at the time...Many, most of its responses were vague and often wrong.So it would say, yes, this is clearly a factory pattern. And then I would say, well, if it's a factory pattern, then it should create a base class and there should be, if it, no, sorry, sorry. I would say, well, there's no such thing actually as a factory pattern. So either it's an abstract factory or a factory method. So which is it? And then ChatGPT would say, oh, yeah, yeah, yeah, sorry.What I meant was, and that's right, let me clarify. I didn't say, is this an instance of the factory pattern? I just said, does this file participate in any design pattern? And that's when it came back and said, yeah, it's a factory pattern. And then I said, well, there's actually no such thing. It's either an abstract factory or a factory method, which is it?
+
+P0013 | Interviewer 1 | 5:31
+Mister.
+
+P0014 | I5 | 5:34
+Then it would pick one.And then I would look at the code again and I would tell it why it was wrong. So I would say, well, if it's an abstract factory, there would have to be child classes that inherit from this, but this seems to be doing everything in one class. And then it would say, oh, yeah, yeah, yeah. What I really meant was, and so at the time it was.Almost comical.
+
+P0015 | Interviewer 1 | 5:59
+Mm.
+
+P0016 | I5 | 6:00
+that it was making what I would say were very superficial judgments, judgments that I might expect an undergraduate in computer science to make. You know, they're just doing pattern matching, superficial pattern matching. And it was only when I pushed backthat it would retract its previous statements and then try something else, which again was often wrong.So that was two years ago, 2 1/2 years ago.Um...I haven't tried repeating that particular experiment since then, but I have done other experiments using LLMs as design assistants, essentially. And obviously, obviously, they are much more competent today and have deeper reasoning and I would say a broader.A basis of knowledge.
+
+P0017 | Interviewer 1 | 6:58
+Okay, that's a really interesting fact or experience. And yeah, I mean, I think that we all agree on the...first system being very bad.And again, then you said that more recently you kept using LLMs or yeah, related system as design assistant, right?
+
+P0018 | I5 | 7:27
+Yes.
+
+P0019 | Interviewer 1 | 7:28
+Good, and so maybe even thinking on, you know, second end stories or or or facts.If we think about pre-LLM era and the current era, where I think that most of our tasks are dominated by these systems, can you think of, you know, something that, I guess, in your experience, actually, you would have many things thatHave not changed at all.because of LLMs.
+
+P0020 | I5 | 8:09
+Yeah, so I think that.LLMs at the moment.by and large do not understand context. And so if you ask them to make a design choice or a design recommendation, they will do so and they will do so based ontheir training data, which is, I think, primarily open source software projects. Seems like a reasonable assumption.
+
+P0021 | Interviewer 1 | 8:43
+Mm.
+
+P0022 | I5 | 8:48
+And so they don't know about your particular project context. So when they make recommendations, those are different than what a seasoned architect would make, because a seasoned architect would be asking those contextual questions. Oh, what kind of technologies is your team familiar with? Oh, we're a Java shop.Or we're a Microsoft shop, or we're a whatever we use Amazon Cloud Services, and then the architectural suggestions would be...would be influenced by and constrained by that kind of...contextual information or, you know, we have a really short time to market or we're dealing in a safety critical domain or, you know, blah, blah, blah. I mean, all kinds of context gets considered by a real architect. The LLMs so far, at least, don't ask those questions.
+
+P0023 | Interviewer 1 | 9:45
+Yeah.
+
+P0024 | I5 | 9:59
+Yeah, you always have to say, you know, current status is things change so fast.
+
+P0025 | Interviewer 1 | 9:59
+That's interesting, and it...Yeah, yeah, of course. But this is also, I think it was last week that we had an interview with actually a team of architects from a company, which I would not mention, and they kind of pointed at the same issue, let's say. SoContext and the knowledge that.In this case, they say the senior workers could, you know, have and that LLMs or Gen. AI seems not to have, or I mean, not to strongly show.Good.
+
+P0026 | I5 | 10:49
+Yeah, and those things do matter.
+
+P0027 | Interviewer 1 | 10:52
+Yeah, of course. I mean, as you say, especially if you are in specific domains in specific circumstances, so it definitely matters. One thing that emerged also, yeah, in this in this other chat that we had with with thecolleagues is the, let's say, effect that these technologies can have or are having on the relationship between the different stakeholders. So, of course, as you said, you probably didn't use this technology in the context ofproduction team, but have you experienced or maybe you came across stories pointing out at Jan AI changing the relationship between developers, managers, customers, and things like that?
+
+P0028 | I5 | 11:56
+Mm.Yeah, I mean, I don't have much experience on that because that's really embedded in context. Just some secondhand stories that I've heard.
+
+P0029 | Interviewer 1 | 12:06
+Yeah.
+
+P0030 | I5 | 12:13
+That.It's changing the way, it's changing team roles and team structures.to some extent. So I mean, this is no surprise to anyone that architects and developers are spending a lot more of their time reviewing than creating.
+
+P0031 | Interviewer 1 | 12:24
+Mm.Yeah, exactly.
+
+P0032 | I5 | 12:40
+And...And so, you know, that just changes what you do on a daily basis and the kinds of conversations that you're having. So that's, I guess, team roles. As far as team interactions go, that I'm less clear on. I think it's an interesting question.I would expect that team sizes.may shrink on average.Um, just 'cause you need, you might you might need fewer developers, uh, the the the team experience profile might change.But I, I, I'm just speculating on that.
+
+P0033 | Interviewer 1 | 13:26
+Yeah, and two follow-ups.questions related to what you said. So one is, of course, as you said, you were speculating that you are not in the in the in a development or a team contest, but for instance, if you try to think on your work as a senior researcher or as a professor at the university, did youexperience, for instance, students or let's say union researchers.questioning more, whatever you as a senior researcher professor would say, just because they are more confident that the answer that they get from, you know, ChatGPT.That can be right, although, as you said previously in your, you know, in your example in your first first example is utterly wrong.
+
+P0034 | I5 | 14:25
+Yeah, so I'm not experiencing much of that, and it might be because of my teaching style. So I am teaching software development with Jan AI at the moment. And I know different universities have different takes on this. Some universities are forbiddingundergraduates at least, to use Gen. AI because they think it might interfere with the learning process. I've gone the other direction and embraced it. And so every class when I'm teaching, I've got VS Code open and there's Copilot pane right there.
+
+P0035 | Interviewer 1 | 14:47
+Yeah.
+
+P0036 | I5 | 15:06
+And I'm asking it questions and I'm typing things and looking at its suggestions and so forth, and...My...My focus in teaching is to show that many of its suggestions are wrong.They're reasonable, but wrong.because typically they don't understand context, they don't understand what I'm trying to achieve. And so I think because of that, my students, when I change the roles and I say, okay, now it's your turn to create something, you're the architect, you're the team, and I have them work in teams.Um...I think they also have that mindset of, well, I can't completely trust.What copilot or or whatever technology they're using? I can't completely trust what they're using, and so we have a we have built a...
+
+P0037 | Interviewer 1 | 15:58
+Without S.
+
+P0038 | I5 | 16:07
+Culture of let's say.I would say distrust, but let's say prudent skepticism, something like that.
+
+P0039 | Interviewer 1 | 16:21
+Yeah.
+
+P0040 | I5 | 16:21
+You know that they're mostly right most of the time, but that's not good enough.
+
+P0041 | Interviewer 1 | 16:26
+Yeah, yeah. So in a sense, you are.teaching in this case, your student that still responsibility, accountability, let's say decision authority is on them.
+
+P0042 | I5 | 16:40
+Yes. And I also ask them from time to time to explain their code to me.
+
+P0043 | Interviewer 1 | 16:47
+Yeah.
+
+P0044 | I5 | 16:48
+And if they can't explain it, that's a bad thing, right?
+
+P0045 | Interviewer 1 | 16:52
+Yeah, of course, of course.
+
+P0046 | I5 | 16:53
+That's kind of a failure, yeah.
+
+P0047 | Interviewer 1 | 16:55
+Yeah.
+
+P0048 | Interviewer 2 | 16:57
+Just a curiosity, just about the fact that you teach students about the responsibility and so on. Do they understand this point or they still before trusting more on copilot answers?
+
+P0049 | Interviewer 1 | 16:57
+Um...Yeah.
+
+P0050 | I5 | 17:16
+I think they understand it because I do it from lecture #1.
+
+P0051 | Interviewer 2 | 17:20
+Okay.
+
+P0052 | I5 | 17:21
+Really, from lecture number one, like, I'll...I'll start a new file and, you know, I'm teaching them just some simple concept, but I'll start a new file and it's some, let's say, a Python script. And I'll just type in some comments at the top because that's, you know, my habit, what it is that this...component is going to do and I put in my name and my date and today's date, right? Just a little comment block at the top.It often gets the date wrong.Right? And there's like day one, day one. Like how hard is that to know what day today is? You know, the computer has a clock, but it gets it wrong. And so I, you know, that's from lecture #1 in the class. So I think that that has become
+
+P0053 | Interviewer 1 | 18:06
+Yes.
+
+P0054 | I5 | 18:16
+I hope that that has become deeply embedded in their understanding of and use of AI is it's going to make mistakes, it's going to make assumptions, and you are in charge, you are responsible.
+
+P0055 | Interviewer 1 | 18:31
+Mmh.And the second, let's say, point was related to what you say that, yeah, essentially we are all experiencing this shift from producing to validating, validate essentially, yeah, sounding. So in this
+
+P0056 | I5 | 18:52
+Yeah.
+
+P0057 | Interviewer 1 | 18:54
+In this context, we were curious to understand if the meaning of or the nature of architecture, artifact or knowledge is changing for the role of software architect.So for instance, if there are, as an example, artifacts that before we were supposed to deliver as an architect, which now become less important, or on the other hand, more important.
+
+P0058 | I5 | 19:31
+Yeah, I think that...Um...My so, so I'm an optimist by nature, and I feel like we are actually entering a kind of golden age of architecture. And the reason I think that is that I think that AI is really good at supporting the thingsthat people have traditionally been poor at or have been reluctant to do. So architecture documentation, for instance, AI can produce that and do a really nice job of it, given some, you know, given guidelines, given constraints, given templates, like use this.architecture documentation template, include this kind of information from this perspective with some.with some guidance, it can do that job generally better than, more thoroughly than humans can, or at least than humans do in practice.Um...And so I think that that is...A real boon, a real help.to practicing architects because it takes away something that...humans don't like to do, they find boring, and they're typically poor at. And similarly, you know, you can keep the documentation more up to date for all the same reasons.
+
+P0059 | Interviewer 1 | 21:08
+Mm.Yes.
+
+P0060 | I5 | 21:12
+Architecture rationale, it can also produce some of that, which again, you ought to do, but sometimes it's recorded, sometimes it's not, you know, ADR, that kind of stuff. I'm not sure if I've answered your question.
+
+P0061 | Interviewer 1 | 21:23
+Yeah.Yes, yes, actually, you did. And I was, yeah, I was also thinking that essentially what you what you're saying is that you see human and gene high to to complement each other and gene high be a tool to essentially do better what we are.
+
+P0062 | I5 | 21:27
+Okay.
+
+P0063 | Interviewer 1 | 21:48
+currently not doing or doing poorly because we don't like it probably or yeah. So, and yeah, this actually, yeah, it's really, it's really interesting. And again, this was also something that was mentioned in other interviews, although then there is also thisAgain, factor that, yeah, they produce things that we don't want to, but at the same time, we have to verify these things, knowing that there are, I mean, sometimes may be wrong, despite all the constraints and so on. So, but all right, so the
+
+P0064 | I5 | 22:25
+Yeah.Yeah.
+
+P0065 | Interviewer 1 | 22:34
+We have one last question before entering into the future of a software architect. So the last question regarding the present is what makes a software architect more valuable now compared with, for instance, before Jan AI was part ofThe picture, in your opinion, of course.
+
+P0066 | I5 | 23:00
+I don't know if it's a matter that we're more valuable or less valuable now. I think that what that that Jan AI can be an amplifier.And so my mental model of Gen. AI at the moment is if I have a, it's as though I have at my disposal a team of talented junior developers.And so, you know, they're smart, they're good, they work hard, but they're junior developers. I wouldn't simply trust what they did without, with the code review, for instance. And I would give them more guidance than I might give a more senior developer. So that's my mental model.
+
+P0067 | Interviewer 1 | 23:37
+Mm.
+
+P0068 | I5 | 23:44
+But because of that, because I have this resource now that is at my disposal and it's relatively inexpensive, the...I think that's another discussion that we're not yet paying the real cost. We're not yet paying the real cost of AI, but for the moment, relatively inexpensive.
+
+P0069 | Interviewer 1 | 24:00
+Yes.No.Except.
+
+P0070 | I5 | 24:08
+Then it allows an architect to dream bigger.Because before we were limited by what I can do in my 40 hours a week or what my team can do in their 40 hours a week. And that's much less of a limitation these days. There's still limitations for sure, but I do think that this gives us the ability to dream bigger. So I'mplaying around all the time as a team of 1. Create me a system that does blah, blah, blah. And I know that if I was going to do that myself, it would be a week of frustration and head-scratching and debugging. And now it's...
+
+P0071 | Interviewer 1 | 24:55
+Yeah.
+
+P0072 | I5 | 24:56
+Twenty minutes of prompting.
+
+P0073 | Interviewer 1 | 24:59
+Yeah, yes.
+
+P0074 | I5 | 25:00
+So it's simply an amplifier, as I said, I think.
+
+P0075 | Interviewer 1 | 25:05
+Yeah, I like the definition amplifier. But one thing though, so like many people, they see, you know, software development as transitioning into, you know, a
+
+P0076 | Interviewer 2 | 25:08
+Yes.
+
+P0077 | Interviewer 1 | 25:27
+Into a form of vibe coding, where essentially you get the code just out of the the prompt prompting. So, in that sense, do you do you think that I mean, again, of course, with all the the constraints or or or cautions of the cautions of the of the case, but...
+
+P0078 | I5 | 25:34
+Yeah.
+
+P0079 | Interviewer 1 | 25:46
+Do you think that a software architect or similar figure, they will have a role, and if so, like which?
+
+P0080 | I5 | 25:59
+Yeah, I think that still that design is still crucially important, architecture is still crucially important, and the reason is that...The reason is...That the code that...AI is currently producing.does not fare well under scrutiny from a design perspective.So if you look, if you ask it to generate a system and then you do some analysis of it, it is not particularly well decoupled. It is not particularly cohesive. And so, and other people have made this observation as well thatThe code tends to look more.tangled. That AI is focused on getting the job done, getting the functional requirements met, passing the tests.
+
+P0081 | Interviewer 1 | 26:56
+Darn it.
+
+P0082 | I5 | 27:01
+and not particularly concerned with design. So because of this, if coupling is high and cohesion is low, then the bigger, not the bigger the system goes, in any system, that means that you haveOhh.You have few bounds on dependencies.And so that means that complexity is going to go up as the square of size, right? If anything can depend on anything else in the system, and it seems to be trending that way, then complexity goes up as the square of size. And...
+
+P0083 | Interviewer 1 | 27:31
+Yes.
+
+P0084 | I5 | 27:42
+Since it's really easy, as I just mentioned with my, you know, my example of the team of junior developers, it's really easy to generate size, to generate a lot of code.We're inevitably going to get to the point where AI cannot maintain, cannot understand and maintain.The code that it built.
+
+P0085 | Interviewer 1 | 28:04
+Mm.
+
+P0086 | I5 | 28:06
+Without.constraints and those constraints are going to come from an architect.
+
+P0087 | Interviewer 1 | 28:11
+That could touch the design, yeah.
+
+P0088 | I5 | 28:14
+Yeah. And so I see that as remaining the key role for an architect is identifying the key design rules, the design principles, the load-bearing walls, and having, ensuring that the implementation conforms to those.
+
+P0089 | Interviewer 1 | 28:15
+Interesting.
+
+P0090 | I5 | 28:35
+That's always been the architect's responsibility, one of the architect's responsibilities, and that does not change.
+
+P0091 | Interviewer 1 | 28:46
+Yeah, I think it's indeed interesting to see if one could do.some work on automatic assurance.Of of 40 cents.conformance assurance between what is generated by an LLM and the design intent. Let's say that is specified somehow. This I think it's going to be really interesting.
+
+P0092 | I5 | 29:11
+Yeah.Yeah, I was playing around.a few weeks ago, and as I say, almost every week I'm asking Copilot to build some little system for me, just for fun. And I asked it to build a survey system. So this would be for administering simple surveys, true, false, multiple choice questions, fill in the blank.questions, that kind of stuff. And then with the simple GUI, save files in JSON or CSV or text format. So pretty simple file, pretty simple program, something I would give to an undergraduate programming class as maybe an end of semester project, something like that.And when I looked at the code that it produced, it produced a couple 1000 lines of Java code, the code was pretty bad.
+
+P0093 | Interviewer 1 | 30:06
+Mm.
+
+P0094 | I5 | 30:09
+So there were God classes, there were long methods within classes. The methods were not particularly cohesive.And so I told Copilot that.Right, I gave it critical feedback.And copilot, of course, being good-natured, said, oh yeah, yeah, you're right, you're right. Let me fix that. Let me refactor it. And it did. So it took the, for instance, the worst class, the biggest, ugliest God class, and refactored it into, I forget, it was either four or five.Smaller classes.
+
+P0095 | Interviewer 1 | 30:51
+Awesome, yes.
+
+P0096 | I5 | 30:53
+But one of those was still a God class. It was just a smaller God class than before. And so, you know, I still had to say, okay, that's better, but.Right? So again, I think that that's...Going to be necessary until...The paradigm of vibe coding changes, and, and you know, maybe that's on us on kind of the AI companies and on the researchers to.educate people that just vibe coding isn't enough.
+
+P0097 | Interviewer 1 | 31:29
+No, yeah.But.Yeah, OK, this is also maybe we wish there was every discussion, because it's gonna be very long, but yeah, there are some, yeah, some some nice implication that may follow, but yeah, nevertheless, let's let's keep focus so we don't steal so much of your...Time, we are about the about to end, actually. Yeah, we have the last two, three questions that is, as I said, that are, as I said, on the on the future.
+
+P0098 | I5 | 31:58
+Oh, perfect.
+
+P0099 | Interviewer 1 | 32:03
+And of course, the future is hard to predict for anybody. But I mean, given your experience and also what you know this until now, so if we look at three to five years ahead, what do youI mean, do you think that the software architects would still be there?the main task will be the same change and and let's say how, of course, in case things that will change.
+
+P0100 | I5 | 32:37
+Yeah.I do think architects will still be here, and I do think their main tasks will be similar. And the reason is what I said 10 minutes ago, that AI gives us the ability to dream bigger.And so...As we dream bigger, the the need for...A clear and well-communicated design concept.Will become.More and more.Important will become less and less optional because in the past when you were when you were developingsystems, Windows humans were developing systems.They could...more or less get away with anything.just by hacking.And that's what you saw. So I used to do a lot of work in reverse engineering of architectures. And most systems, when you reverse engineer them, they just look like this. You know, they say there's layers, you can't find layers. There's just tangles of dependencies. AndUh...I think without the architect, we're going to have that same problem just at one layer of complexity greater.Since we were limited by what humans could kind of keep in their context window, and now maybe we're limited by what AI can keep in its context window, and maybe that's a bigger context window, but it's not infinite.
+
+P0101 | Interviewer 1 | 34:28
+Mm.Well, that's interesting, actually. Yeah, I didn't dig in that way.All right.
+
+P0102 | I5 | 34:39
+I mean, every time, every time there's been a technology, a new technology throughout human history, people have used it to dream bigger.
+
+P0103 | Interviewer 1 | 34:49
+Yes, of course.
+
+P0104 | I5 | 34:51
+Right? This is do bigger things, build bigger things, build more ambitious things. I mean, that's just kind of human nature.As I've got this new tool, what can I do with it?
+
+P0105 | Interviewer 1 | 35:02
+Yeah, yeah, yeah.I think that...Yeah, somehow, like, I guess that the feeling of most people is that perhaps we are having between our hands a technology that may be disruptive in the sense that could soon improve itself to a way thatYeah, clearly would be hard for us humans to manage, but that's unknown for the moment, so yeah, so related to to I mean to all.we said until now as a closing question, really. Are there, I mean, of course, we didn't talk much about, you know, values and things like that, but do you think that there are like, yeah, exactly values thatorganization should preserve, of course, with respect to this sort of disruptive technologies.
+
+P0106 | I5 | 36:18
+Yeah, I think that...It's really important that people have a sense of purpose and agency.and that they do their best work when they have a sense of purpose and agency. And so if all I'm doing, for instance, is reviewing code produced by AI,I think I'll go crazy. I know I'll be, I'll be intensely unhappy with my life.And so...Organizations do have to...you know, will have to adapt to this new way of doing things. That's a threat.I think there's also threats speaking now as an educator toerosion of skills or tohow we're going to teach the next generation of software developers. I think, and now I'm going a little bit farther afield, but I think that there's a potential threat to creativity.
+
+P0107 | Interviewer 1 | 37:35
+Except.
+
+P0108 | I5 | 37:44
+Because.I wasn't the one who said it. I forget who said it, but someone called LLM's Stochastic Parrots.Right.
+
+P0109 | Interviewer 1 | 37:58
+Yes.
+
+P0110 | I5 | 38:00
+And, you know, that's what they are. And so that means that...Again, with the current instantiation of the technology, they're never going to do anything that's truly creative.But creativity is what moves our discipline forward. It's what architects are supposed to do. And so where's that going to come from? I think there's good answers to that, or at least half answers. So I think that AI can, you can use AI as a, like a brainstorming buddy.
+
+P0111 | Interviewer 1 | 38:26
+Mm.
+
+P0112 | I5 | 38:35
+for instance, as a way of fostering creativity, as a way of quickly testing out ideas, you know, doing some throwaway prototypes at low cost and so forth. Those can help in creativity just by removing or lowering barriers to trying out stuff.But if we simply say, AI, here's, you know, here are the reins, you're driving the carriage now, I think that...There's a lot of risks, and that that companies.that use AI thoughtfully and think about.keeping up their skills and fostering creativity and and andthinking about agency of their workforce will do better in the coming years.
+
+P0113 | Interviewer 1 | 39:35
+So there was a similar comment from a few interviewees regarding the preservation of skills, essentially. So the question was, or the dilemma was how, so we know that LLMs are notperfect. So we need senior people in order to catch the mistakes that they make. But how do current junior acquire the knowledge needed to become senior? And that's like...
+
+P0114 | I5 | 40:10
+Yeah.And we only learn and grow through struggle.Right, and and and you know, where are we going to develop those those cognitive muscles?
+
+P0115 | Interviewer 1 | 40:20
+Unfortunately.
+
+P0116 | I5 | 40:26
+If, if we're, you know, sitting back and letting AI do all the heavy lifting.
+
+P0117 | Interviewer 1 | 40:38
+Well...It's an interesting time for sure to be alive, so we'll see how it goes.
+
+P0118 | I5 | 40:49
+It's a, as I said, I'm an optimist. I think it's a great time to be alive. I think it's really exciting, but with exciting, there's always challenges.
+
+P0119 | Interviewer 1 | 40:56
+Well, the alternative to not be alive is not really appealing. So let's put it this way.
+
+P0120 | I5 | 41:01
+Ha ha ha!That's a point, that's a point. A little darker than where I was going, but yes.
+
+P0121 | Interviewer 1 | 41:04
+Yeah.Yeah, I know, just joke. But, you know, this is something that my grandmother will say every time when she got older and, you know, she will get her birthday and then we will congratulate her and then she will always say, well, the alternative is not to getting older, is not reallyBetter or so.All right, I think that we are done with our questions. And I mean, if you have any, of course, question yourself or, you know, areas that you wanted to discuss that we didn't touch upon, yeah, feel free to.To do so now.
+
+P0122 | I5 | 41:53
+Yeah, no, I think we've we've covered a nice a nice bit of ground and I've unburdened myself, so that's good.
+
+P0123 | Interviewer 1 | 41:59
+Yeah, yes, yes, yeah, and then I know we stop the transcript, so...
+
+P0124 | Transcript note
+[person redacted] stopped transcription

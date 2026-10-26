@@ -1,0 +1,301 @@
+INTERVIEW I7
+
+PUBLIC SHARING COPY
+Paragraphs follow the original automatic transcript order. Marked identifying details are withheld; spelling, disfluencies and transcription artifacts otherwise remain. This is a text export, not a copy of the source Word metadata.
+
+P0001 | I7 | 0:11
+Yes, can you hear me?
+
+P0002 | Interviewer 1 | 0:11
+Great, yes, yes, we are all back.Good. So, yes, we had a bunch of questions around 10-ish, but since, yeah, we already have done some some interviews already, maybe we will try to focus on on some aspects that we that emerge with theduring the prior interviews, but before doing so, maybe you could briefly summarize your profile and your professional experience.
+
+P0003 | I7 | 0:51
+[Identifying professional background withheld. General participant perspective is recorded in the interview index.]
+
+P0004 | Interviewer 1 | 2:07
+Yeah.Great. And yeah, so today we, of course, as we mentioned, would like to focus a little bit on the role of so-called software architects or equivalent position.and how Jan AI and related technologies is impacting if it's impacting this role.
+
+P0005 | I7 | 2:33
+Yeah, and to be clear also, so I don't add any bias to the interview, I'm not an architect per se. I take part of the discussion, but I don't set the architect through. I work with the teams and the tech lead and the architect who...
+
+P0006 | Interviewer 1 | 2:33
+So...Yep.Yeah.
+
+P0007 | I7 | 2:53
+do the architecture, but I am with them on a daily basis for the last 11, 12 year. But to be clear, I don't set architect per se. I don't say that we need to use layered or monolithic or some other architect myself. They just get some input from me and I follow up with them and I see the day-to-day.Challenge we have.
+
+P0008 | Interviewer 1 | 3:14
+Yeah. Great. Thank you so much for this distinction. I think, yeah, of course, it's relevant. And I mean, one, let's say, starting question that we always ask and we could go through very quickly is that if you recall when in time, more or less, theGen. AI started to materially affect the work that the architects in your team were doing. And if you also recall, for instance, one recent happening where this produced a big change in the work task.
+
+P0009 | I7 | 3:55
+So I wouldn't say that we are mastering how to use AI in general in our development. We are, like everyone else, finding the ways. So we have, along the last 1 1/2 year, tried introducing AI in different level, with testing, with working, with generating code or migrating code orworking, like reviewing the architect or setting some architect constraint. What I have seen, which is, I would say, something similar to problems or challenges we have had even before using AI, is how, after defining an architect and you set the principle,like say you have a layered architecture where you set the commonly used code in a certain lower layer, and that code is used, for example, or it's utilized by like 100 of different views or dialogues or functionality on a higher level. So any change happen on the lower level will affect.
+
+P0010 | Interviewer 1 | 4:44
+Mm.
+
+P0011 | I7 | 5:03
+the top level. And often when we do enhancement or poor performance or functionality or bug fixes, we need always to distinguish where the fix is so we don't break our architecture. So we don't start introducing generic solution on a higher level.
+
+P0012 | Interviewer 1 | 5:03
+Mhm.
+
+P0013 | I7 | 5:23
+or trying to fix something which is in one specific view in a lower level. I would say this was something that was discussed quite a lot and I think we have had...challenges with that with both with and without using AI, which is how to control that the added code is not added to the wrong layer, so to speak.Does that answer the question, or am I off?
+
+P0014 | Interviewer 1 | 5:49
+Yeah, yeah. No, I was just actually thinking because your answer and what you said previously about you to some extent being involved in cross-functional teams made me, yeah, think of, you know, maybe aa better question. That is, if you notice, let's say, the introduction of Gen. AI, of course, changing the boundaries between what is considered the architect's job and what belongs to other roles, for instance.
+
+P0015 | I7 | 6:19
+Mm.Okay, yeah. So I would say we still strictly require the architect to do the architect work. And there are certain layers which are protected in a way that if a change need to happen, then the architect should at least beat the review in these areas. What has changed, I would say that before these areas were more like a black box because people weren't allowed to do changes to them, so they look into them as something that they can interact with. But now with AI in general, that people would have more understanding aboutwhat is happening in this lower level. So to put it in a simple word, I would say the knowledge sharing and understanding of the architect has improved. So it's not necessarily that the architect as a human being resource need to explain why things are added in a certain layer and what does that layer do.individual in the team can, with the help of AI, understand what that layer include and do some sort of impact analysis to see, do I need to do my fix on a certain layer or is it enough to do the fix on a higher level?
+
+P0016 | Interviewer 1 | 7:47
+Interesting, and so, to some extent, yeah, your answer points to a better dynamics within the team, because the architecture knowledge, as you said, is somehow shared also with other or understood by other.by other, let's say, technical stakeholder. But at the end, in your specific setting, what I get is the responsibility, the accountability and decision authority of the architect still stays mostly with the OK architectural. Perfect.
+
+P0017 | I7 | 8:21
+Yes.Yes, and we look into it to be in this way, I would say, going forward, and not because AI or generative AI cannot do it. It's more that the knowledge that our architect has is not only the code. And right now, what we provide to the AI to operate on is only the code.So there are things that you can extract from the code, like what's the architect and how is the design. We do have documentation about like diagrams for the architect and do and don't do and rules and so on, which we also provide to the AI, but there are a lot which is not.written down, which mean if we would shift at this point of time, not the full responsibility, but to trust more AI to do such a change, we wouldn't secure that the changes are done in the right way. Plus, I think this is a generic problem. I mean, you can always prompt it andlimit the scope of how much you want to change. But one thing we have noticed with using AI, with architect or with just writing code, unlike a human, AI can write a lot of code. But then this code need to be maintained by a human, at least at this stage. So one problem we have seen and noticed in different area thatIf you put such a task, you sometimes get over-engineered solution. You would see things like structured in a certain way, which of course it might have some benefit, but why? Like why do you need to do all these changes which risk for us breaking things?because there is always like a trade-off for us, which is how much can we do, refactor and change the architect without breaking the code and needing to retest everything. So these are areas where we still need a human to be involved. We need toprovide more input to have more contribution from the AI, which is today not documented. It's more in the head of the people. But I see this changing quite fast because if we look into like not long time ago, maybe eight months ago, I had a few colleagues coming to me and complaining.about other colleagues using AI because the quality of the code. They were saying like, this is not acceptable. It's just like a few 1000 line of code which does nothing or you can do it in different ways. Recently, the same people who were complaining, they weresaying things in a more positive way that these tasks were done better because AI was used. So with this speed of things changing, maybe I would say we might trust AI to be more involved. But once again, I don't see that we will remove the role of an architect in the near
+
+P0018 | Interviewer 1 | 11:23
+Thank you, thank you.
+
+P0019 | I7 | 11:27
+Future.
+
+P0020 | Interviewer 1 | 11:29
+As a follow up to what you just said, I have two questions. So one is more on the people, because now you mentioned this sort of tension. So I just wanted to ask if you, and this would be the first question, if you know this, like Jan AI,
+
+P0021 | I7 | 11:40
+Mm.
+
+P0022 | Interviewer 1 | 11:49
+Changing indeed the relationship between the, you know, technical stakeholder, developer, architects, tester, and yeah.
+
+P0023 | I7 | 11:56
+Absolutely. It is indeed because you can also, in our standup in different meetings, you start hearing, normally we, before start using AI, you would say, for example, X person said this. And now people start saying that Claudepropose that I should do this. So the name Claude start being mentioned more like a colleague working in the team. And many of the discussion we have today, in good or bad way, is like, yeah, but you shouldn't trust it or no, this is a good idea or what, how did you prompt to it or what rule you have applied.and so on. So absolutely, the dynamic has changed, I would say, and to a high extent.Not only the trust level, but also mentioning Claude as a colleague working with you. That's also something interesting I have noticed many times in different teams.
+
+P0024 | Interviewer 1 | 12:46
+And.Yes.Yeah, later on, if we have time, I would like to get back to this. But yeah, first I just wanted to ask the second question that is still related to the suspect somehow, but it's more like on
+
+P0025 | I7 | 13:09
+Mm.
+
+P0026 | Interviewer 1 | 13:14
+So you mentioned the, again, the responsibility essentially to be still in the hands of the architect, but as the meaning of architecture, artifacts or knowledge change for the architect. So what I mean is like, for instance,Uh...Does the architect maintain or create different artifacts than, let's say, before Jan AI was introduced?
+
+P0027 | I7 | 13:54
+This answer you will have to, I think the architect will, our architect, if you meet them, would be able to give a better answer. But from what I know is that I know that our architect is using AI to help restructuring and refactoring the architecture.Does that result on creating new artifacts? Not that I'm aware of, but it's more to make the architecture cleaner with less dependability or dependency and more understandable, so to speak.But I'm not aware of any like specific artifact, architecture artifact created purely by the AI by itself without our architect asking for that. So if you see what I mean, it's more that our architect use the AI more as a helper. So we provide what we need to do and then the AI would do it for us. It's not that the AI is
+
+P0028 | Interviewer 1 | 14:46
+Yeah.
+
+P0029 | I7 | 14:56
+proposing or doing the work.
+
+P0030 | Interviewer 1 | 14:58
+Yeah, so maybe what I can try to comment by using an example that was given by another interviewee that essentially say that, for instance, when it comes of documentation, traditionally, yeah, you, I mean, not just the architects, but also the human in general, were very...
+
+P0031 | I7 | 15:14
+Yeah, okay.
+
+P0032 | Interviewer 1 | 15:19
+reluctant in producing good and yeah, let's say good documentation. So in that case, for instance, Gen. AI helped quite a lot in producing a lot of documentation, maybe even too much to some extent. But this is for instance an example, yeah, reported by.
+
+P0033 | I7 | 15:21
+Yep.Yeah.Yeah.Yeah.If you meant it like this, then I would say definitely yes. We are generating some documentation and also we are generating some tests. But once again...We had before some documentation and we have before a lot of tests. It's more, as you said, the quality and the quantity of it. But you and the other person that you mentioned, I think, has said something also interesting here because what's the point of having too much documentation if no one can read them? I mean, if you get like a few 1000 pages,what's the point? Who will read these 2000 pages? And this documentation, I would say, with different model will change. And then the question is, do we really need documentation? If you have, I mean, documentation is a way for people to understand. But if you now can ask the direct question and instead of having like 2000 pages,If you ask there a question that you would normally or traditionally go to a documentation to find, if you can achieve that by just chatting with the model, then the value of the documentation is not really there. There are still regulation and ISO standard that require a full documentation and full coverage and so on, but I would...Also, then this might change going forward.
+
+P0034 | Interviewer 1 | 16:55
+So I was smiling because you are touching upon many very interesting points that were not originally part of the, let's say, question that we typically ask, but I think they're very relevant to discuss with you since you are experiencing them firsthand.So I will try to be very, very brief and introduce all the, yeah, this thing that you sparkle in my mind. So first of all, you said something very important that now we are producing a lot of, in this case, documentation, but generally.Even in previous interviews emerged the situation in which now the bottleneck became human and human when he's asked to verify or read or manipulate, let's say, the documentation or whatever it is, the artifacts produced by Jan AI.So it seems that you are also experiencing this issue to some extent, or do you have a different stance?
+
+P0035 | I7 | 18:04
+Yeah, I would say it's a challenge because documentation is a material you have, but then what's the purpose of that material? The purpose of the material is for a human to understand how things work. And if you can achieve that in some other easier means, then why do you need it? Plus, there is one important thing with documentation, that it gets outdated so fast.Do a small work with the code and then your documentation is not accurate anymore. And an inaccurate documentation is worse than no documentation. Then you are leading yourself in the wrong direction. And if we look to the code as the main source of truth, then with AI on top of it,who can answer these questions that you normally get from the documentation. I would start questioning, why do we need too much documentation? And I'm not saying we will eliminate the documentation, but we wouldn't need to, because if AI can generate it today, once another person needs it, they can generate it directly. So what's the point?
+
+P0036 | Interviewer 1 | 19:07
+Yeah.
+
+P0037 | I7 | 19:07
+to generate and burn token and then regenerate every day to keep it up to date or something.
+
+P0038 | Interviewer 1 | 19:14
+No, it's clear. Then I, yeah, I still have a couple of other questions, but before going there, I, not to bias your answer, I need to ask you first another question that is maybe even more important. So
+
+P0039 | I7 | 19:29
+Mhm.
+
+P0040 | Interviewer 1 | 19:34
+Do you think, or maybe what makes, in your opinion, software architect more valuable now or valuable now compared with before Jan AI became part of the...
+
+P0041 | I7 | 19:50
+The.
+
+P0042 | Interviewer 1 | 19:50
+Development environment.
+
+P0043 | I7 | 19:51
+I will answer the question, but I should also say something which I struggle with every day, that people around me, especially business people, they think AI is to replace everyone we have, including the architect, the tester, the coder, and so on, as it is today. And I'm talking about the current state of AI.It's a helper tool. It's not the door. The real, I would say it's right now we need more skilled. It's replacing the average skills, but we need more skilled people, especially like the architect, because you will get a new artifact created, for example, or you will get the refactoring. But to.which might pass some tests that we have in place. But we can tell that the changes made are 100% safe and correct. And not only safe and correct for now, but also safe and correct for the expansion of the platform.And that's why I'm saying that our architect can use AI, but they can use it as a tool in their daily work to make their job easier. But then they need to review the code, they need to review the changes, and they need to accept the changes. And this is part of our policy, that none of the code generated by AI should go to production without a human review.That in itself, and maybe we have talked about it before, is creating a big challenge for people. Because if you look to the old way of developing software and you look to the time frame, you have the plan, which is what needs to be done. And then you have, and I'm simplifying that.and then you have the build, which is writing the code, and then you have the review, and then you have the final test, and then you have the merge. Back in the days, it used to be that the part of this chain that takes the most is build, because it's a human, and the best human we have can write per week.1000 lines of code, a good 1000 lines of code. Now, within one minute, you get a few 1000 lines of code. So that thing which used to be long, it's the shortest in the whole thing. What is taking more time than before is planning, because we need to give more input for AI to be able to...generate the code in the right way, and we need to gate it in a way that it wouldn't do unnecessary changes or functionality, plus we need to do a lot of review. And when you write the code yourself, you understand fully every line, every character, what it means and why it's there. But when it's done by someone else like AI,then it takes more mental power and energy to review that part of code. Plus, and maybe we talked about this before, from colleague I know here internally, the thing that they enjoy the most is to write the code. The things that they hate the most is to review someone else's code.And now we are saying, okay, let AI do the part of the job that you enjoy doing the most, which is writing the code and solving the problem, and get stuck with the part that you hate the most, which is reviewing the code.Did I, am I completely off track or?
+
+P0044 | Interviewer 1 | 23:00
+Yeah, no, no, no. I mean, it's really interesting, as I said, because it, of course, it resonates a lot with my personal stance, but also with what we heard already from completely different, I mean, independent people. So
+
+P0045 | I7 | 23:15
+Yeah.But with that said, and I think this is a good example to mention for you, are you aware of MVCC, multi-version control, something for handling multi-threading? It's an architecture pattern. Okay, then I can share this.story with you and then I don't know if it adds something to you or not, but we have a team who is working on the server and their task was to implement MVCC, which is not only an architect, but it also includes building different parts. Like you have to take, for example, snapshot of the data and then you have to detect.
+
+P0046 | Interviewer 1 | 23:48
+Mhm.
+
+P0047 | I7 | 23:58
+conflict and then you have to do a merge and you have to do it in a certain way. So what our team did, they give the task for an AI to do the job.They just prompted what needed to be done and a lot of prompts, like I don't remember how many pages, A4 pages. And then we got a solution and then it didn't work. But then the person who did this, after they read it and they looked into it and they, while looking into it,they throw it away or put it aside and implement it themselves. And what they have learned from this process, that how it can be done, because it's something we haven't done before. So you were asking me before if there are new things that we AI introduced, for example. And I would say this isBack in the days, we wouldn't afford building such a solution and throw it aside and redo it again, because now we know how to do it better. We will have to do it with what we have done, otherwise we will spend too much money and things will take so long time. But now with the introduction of this, instead of polishingand trying to refactor the original solution, the team used it more as a reference way to do. And then they adapted part of the AI generated part, but they have redone some other part and solved problem in some other ways. Not thatthe provided solution wasn't 100% good, but more that, yeah, this is one way to do it, but given that we have done things in a certain way, in certain architecture, in certain code style, in certain ways, we will do it differently, so to speak.
+
+P0048 | Interviewer 1 | 25:46
+This is again, we heard something similar already, and I think the take away is that, to some extent, Jan AI can help with fast prototyping and experimenting and being braver than we were before, because nowgiven the cost of tokens and so on, is still cheap to, yeah, as you said, experiment. So, this is a very nice example. Thank you, thank you for sharing it with us. Going back to, yeah, to the to the...
+
+P0049 | I7 | 26:11
+Yep.
+
+P0050 | Interviewer 1 | 26:24
+question that I wanted to ask, but I first wanted to listen to your answer about the value of software architect. So you also implicitly say that essentially now you see, and this is also something that emerged from my previous interviews,is that essentially the values of architect is also the knowledge that they have. So they can use the knowledge to essentially validate or refine what the Gen. AI is generated. Why? Because most people, as you said, they use Gen. AI as a
+
+P0051 | I7 | 27:02
+Mm.
+
+P0052 | Interviewer 1 | 27:07
+a companion that can produce an output similar to what a junior architect or engineer would do. So, a plausible correct artifact, but maybe not the good enough artifact. Now, here there is a little bit of a philosophical question. So, if wethink a few months or maybe years ahead, how do, how would architects develop the expertise that are needed to, you know, exercise the judgment over what Gen. AI is producing? And I'm not talking about people that are senior now, I'm talking about clearly those who
+
+P0053 | I7 | 27:45
+Yeah.
+
+P0054 | Interviewer 1 | 27:50
+Will enter the the working force.
+
+P0055 | I7 | 27:53
+Yeah, I would say you can generalize this question on any software engineer who writing code and an architect normally is an experienced software engineer. And this question actually we have discussed internally, which is how can we improve the skills of oursoftware developer, because now things has changed. As I explained that now most of the code is written by AI. But back to your question, I would say here,I mean, it depends about are we talking months from now or are we talking years? In the short run, I would say...The architect will still be needed. I think the current knowledge of a skilled architect is sufficient enough in a like a short time period. Going forward, I think things will change completely. I mean, today we are we we do the architect of the code and we do the the naming.convention in the code itself for a human to read it and understand it in a good way. But if we to automate more and use AI more, then, I mean, even programming language is a language between a machine and a human. And that's why you write it even in a spoken language, like you do for each, to indicate that you want to iterate.
+
+P0056 | Interviewer 1 | 29:06
+Yes.
+
+P0057 | I7 | 29:13
+And you write it in English, for example, because it's the commonly used language between different people, for example. I would say going forward, this will change. So the change is not only on the architect level, the change will be also in the fundamental things, how the programming language work. I mean, why do we need to write the language on the level that we have, like C#? Why do we need to have it on this level? Can't we write it directly on the assembly?And then if a human need to review it, then the AI would provide a way for them to understand what's happening. So why AI need to write to start with C#, for example, or a certain syntax to start with. But back to your question, I know sometimes I go away from the question. I would sayIt will be challenging for the architect quite a lot, because now it's become much cheaper to do big changes to the architecture. And that will mean that their knowledge needs also to improve quite a lot in order to keep up with the speed of the AI.Because once again, they will need to approve the work done by the AI. So how to keep, one of the things they need to be stronger in is to understand more the different architecture pattern. Most of our architects that we have, or the people I know, they know different architecture.but they have developed a few of them.And as AI can do different type of architecture, and then if they need to review something that they haven't done before, that would be a big challenge for them. Because theoretically, they know how it can be done, but they haven't done it by hand.Did I answer the question or am I completely off track?
+
+P0058 | Interviewer 1 | 30:56
+No, no, I mean, first of all, there is no right or wrong track, but it's just exploratory. But yes, you definitely answer my question and indeed this, again, it is something that I personally share, but yeah, it's also...are to some extent, I don't want to say regulate, but to control moving forward.So, yes, just of course.
+
+P0059 | I7 | 31:30
+But one thing here I would say, maybe I should also mention it here that...I think we will have going forward and we start actually looking into this slowly that today in the organization you have, for example, a business owner who define the rule or the specification of the software. You have an architect who define how the architect should be. You havea software engineer who write the code and you have the tester. And going forward, I mean, all of what I mentioned can be replaced, not only the architect, can be replaced if we go to the extreme with a pure AI.or into a high extent. And I think going forward, it will be more like you have different type of agent with different roles. And these two different agents need to communicate between each other, so to speak. So the specification agent would communicate with, for example, the...architect agent. This is what we do today in daily life. Like we come with a business need, we go to the architect and we tell the architect, we need to do this change. And then the architect says, in order to do this change, we will have to change the architecture, for example, to be this, so we can introduce this code, so to speak.And that's another reason why an architect is needed today. It's not just go and change the architect. It's more the reasoning about if I want to do this change, how that can implement. And the point I'm into that, I think there will be like different agents working together, like a human today work together, in order to have the full circle.or more accurate architect decision made, so to speak. And this is what I meant, that our architect has certain knowledge in their head, which is not in the code, not in the documentation, and not everywhere, which is, for example, the business need. Or even sometimes like some history, like we have done this before for different customer and it didn't work and this and this and this.because of this reason. And then they question, did this condition change? If yes, then there is a chance that it would work. Like, for example, the speed of the CPU or the amount of memory we can utilize. Ten years ago, if you have 100 gig, you are [person redacted]. Today, if you havebelow 1 tera you are poor, so to speak. And that also affects a certain architect decision, which is how much memory we can have, for example, or operate on top of.
+
+P0060 | Interviewer 1 | 34:07
+Yes.Again, I was thinking, I mean, your answer prompt another question, butI just want to, let's say, make sure that we go through what we planned first. And now, I mean, we actually approached a little bit the almost the end of the planned questions at least. And now we are even more speculative than we have been until now.
+
+P0061 | I7 | 34:39
+Yeah.
+
+P0062 | Interviewer 1 | 34:39
+because we are about to ask you some questions about the future. And of course, here, I mean, feel free to answer with what you, I mean, with your best guess. Of course, no one can foresee in the future. But what we would like to reason with you is
+
+P0063 | I7 | 34:51
+The.
+
+P0064 | Interviewer 1 | 34:58
+That, again, if you look into three to five years ahead in time, so what do...do you think architects will really do? And maybe the second, I can ask you also this related question so you can answer all at once, is that if, let's say...Regardless of.what you think it will happen, let's put it this ways. Are there are there some values that organisations should preserve or change or create even with respect to Gen. AI and in this case the architect role?
+
+P0065 | I7 | 35:49
+Yeah, as you said, it's hard to expect how the future would look like. But I would definitely say, and once again, not only the architect, but different role in the software development will significantly change. They have already changed, I would say.up till today. Like what people, I mean, when you look into this thing, one should always think about when I wake up in the morning and I go to work, what do I use? What do I do? If you are an architect, you would have a whiteboard and you would throw something. And then after that, you would go to the code and move some folder and.change the architecture and then create some interface. These I have seen already changing that people, instead of spending most of the time in the Visual Studio, for example, or different code editor, they would spend that time more with the interface of an AI, regardless what the AI is.And instead of writing code and drawing pictures and so on, they are doing prompting. So prompt engineering, I would say, will be one of the skills that people will have. When it comes to the architect.I think most of the...jobs that we have today, which are less complex, will disappear. But the demand on the high skilled, high complex role will increase. That's giving that an AI wouldn't do another revolution change.But if it goes with the same speed we have, I would say that many of the simple tasks that people, or not simple, it used to be complex, but like the daily thing that you do today will not exist anymore because you can automate it or generate it with AI. But the hard part will become even harder.Speak, so for the for the architect itself, I would say the role would then disappear.Maybe in five years we should have another talk and see if I was right or wrong. I don't think the role will disappear, but the type of...
+
+P0066 | Interviewer 1 | 37:53
+Some, some, some, some interviewees, they said something like almost the opposite, so they observed, I'm trying to put it in a way that I don't really, so they observed that, yes, perhaps the task, and let's say the task of the architect will stay, but that...
+
+P0067 | I7 | 38:06
+Yeah.
+
+P0068 | Interviewer 1 | 38:17
+The role of the software architect is already disappearing, and their, let's say, claimed evidence was just to look at the ads, the working ads, so what companies are recruiting, and their opinion was that the, you know, the position software architect.
+
+P0069 | I7 | 38:30
+Yeah.
+
+P0070 | Interviewer 1 | 38:37
+It, I mean, it doesn't almost exist already anymore.
+
+P0071 | I7 | 38:43
+Yeah.That might be the case, but one should also add the aspect of what are they building.Because if I'm building a simple mobile app, then absolutely I don't need an architect. I can remove that. But if you have a platform where it's used globally by thousands of people at the same time, and you have like thousands of concurrent user connecting and you have a client server and you have distributed load and so on,That's quite complex platform. So one aspect one should also ask is you are removing the architect role from what organization and from building what product? Because I don't think it's fair to say that you would remove the architect from all different type of application.And that's what I meant before, that the jobs which are not too complicated might disappear, but the jobs that are complicated today, they will become even more demanding and more complicated, so to speak, for the future.
+
+P0072 | Interviewer 1 | 39:46
+Yeah, so I get that your answer are assuming, let's say, as a boundary condition, complex, yeah, system essentially, okay. Any other, for instance, condition?
+
+P0073 | I7 | 39:57
+Yes.Yeah.Because, in the same, in the same way, if you wanna, if you wanna think about it.If you purely look into the job ads and what's the demand right now, I mean, there are many companies that I'm aware of that they let go of employees.who work with code because they have managed to do things with AI, so to speak. So of course things will change. And there are examples for companies that, I know the name of the company, I will not mention it, but they let go the test department.which was 120 software engineer who is doing testing because they built and purchased some test AI automated things which they thought it would work.And then after a while, it didn't work. And that created too much problem and they had to re-recruit people, but then they had another problem that these, that they let go, found jobs, and they are the one who has the knowledge about how the test can be done. So there are cases where.Yeah, yeah, it might go also in the in the wrong direction.
+
+P0074 | Interviewer 1 | 41:14
+Yeah, of course. All right, so the actual, the question that it was not planned, but I wanted to ask you is, because again, it came from some interviews. So some of the colleagues, they noted that for the moment, one strong limitation, well, not limitation, butfactual, let's say, observation is that AI is currently used as one-to-one tool. So each engineer has more or less one. And so in that sense, they observe that this is one of the biggest limitation and they
+
+P0075 | I7 | 41:46
+Yes.Yes.
+
+P0076 | Interviewer 1 | 41:56
+Yeah, they foreseeing that one of the big challenge would be to scale this at a team level. So, and my question, because before you also mentioned something like along these lines, so I wanted to ask you if you have any thoughts on this or you experience something similar or completely different.
+
+P0077 | I7 | 42:14
+Yep.Yeah, so what we do, I mean, we had this problem before. And I will start from the very beginning and then I will answer your question. We had this problem before that different people want to, and I'm talking like 1 1/2 year, or two year, I don't know. Time is flying fast. Every engineer had his own or her own account.
+
+P0078 | Interviewer 1 | 42:30
+Yeah.
+
+P0079 | I7 | 42:35
+where they do their own things. It wasn't even like organization managed. But then we moved more into this type of subscription where it's organization managed. And when you move to this one, it is meant to be collaborative work. And we have set rules thatFor example, when we do the code review, we have in an empty file wrote down what are the things that we need to check. And these are the priority, and we even prioritize them if it's critical or medium or low. And then on top of that, we let the AI be creative and give, for example, the code review.And then if I find something from the AI, which we don't have in the list, then my responsibility is to bring it to the team and say like, hey, we have missed this one. And then we add it to the centralized rule. And then when the rest of the team do the next review, they will get that. So I would say we had it that way, but now it's changing.because also the tool provided, like Cloud or Codex or OpenAI or whatever they are, they start building not individual tool, but more organization tool. And that's also related to what I was telling you about before, that right now,we do one things at the time. It's not like AI having different hat and looking, because when you ask the question, like, I want to do a review, for example, you don't take all the other aspect. And that's what I meant by having different agent with different hat that can communicate to each other. And when I say communicate to each other, like just getting input,from different perspective to come up with the right review or the right architecture decision.
+
+P0080 | Interviewer 1 | 44:13
+Yeah.Good, Author 2, I monopolize the the the interview.
+
+P0081 | Interviewer 2 | 44:28
+No, no, don't worry, it was a really interesting conversation.
+
+P0082 | Interviewer 1 | 44:32
+Yes, just wanted to check that maybe I didn't yeah overstep your. Yes, then I think we are done and we are with our last question that is actually an open question. Just look looking if you know prior to joining this interview you had any
+
+P0083 | I7 | 44:44
+Okay.Mm.
+
+P0084 | Interviewer 1 | 44:55
+you know, thoughts or experience that you wanted to share with us that you thought it may be relevant, but we didn't ask directly. So this is like an open opportunity to mention anything that, yeah, we may have forgotten.
+
+P0085 | I7 | 45:13
+About the architect role and the change to the architect role, I think you have covered it pretty good. I would like to share something in general, which is a need for us, and I think it needs to be researched more, I feel, which is
+
+P0086 | Interviewer 1 | 45:24
+Mm.
+
+P0087 | I7 | 45:31
+Giving all what we have talked about, I mean, you know, when you do software, you have the roles that does different things. You have the tools, and then you have the way of working, and then you have the technology we have, like if it's hardware or software. And with the use of AI, I would say how we...develop software need to be researched more. I mean, now if you look to Cloud, for example, I mean, it used to be coming from computer science and software engineer. Now the tool provider like Cloud, they are proposing how you should work. But then they are proposing, I don't know if they are proposing so more people would use Cloud.or if it's the real right way to do it. Plus, I always struggle, like we do things in a certain way, but I hear things around me that this company has succeeded to do this. And when we try to do it, it doesn't work. So am I misinformed or is there a better way to do it?
+
+P0088 | Interviewer 1 | 46:11
+Yeah.
+
+P0089 | I7 | 46:29
+So what I'm coming into is I would like to hear and discuss more about how AI can be used in general to optimize the cost and the resource of developing software, taking in consideration the human aspect. Like we don't, the last thing we want is to, as I said before, to leave the boring task for a human and give the enjoyable task for a machine.It should be the other way around. We should give the boring task for a machine and keep the enjoyable for the human to enjoy doing in their daily work.So this is an area I would say we at least are looking for so many answers for, and I don't really get an accurate answer. I have read so many articles, I have read books, I have talked to colleagues in different companies. They say things when we try to do things in reality, we get better.Sometimes we get we get it to work, sometimes we get completely different result.
+
+P0090 | Interviewer 1 | 47:25
+Yeah, I mean, I feel your struggle and I think that, I mean, from, of course, from a totally different perspective, but from an educator point of view, I have a similar struggle because, of course, what you were asked to teach in software engineering courses being, you know, processes and things like that.that were valid until three years ago. Now they are not valid anymore. At the same time, as you pointed out, we do not necessarily have a new or an updated model that we could teach the students. And I mean, I think as you observed, one of the,I don't think there are answers right now. And one of the problem being is that the adoption is still scattered and very, very heterogeneous. So, but yeah, that definitely is really interesting and something I've been looking personally into for the last three or four years as well. So.But hopefully, maybe we can provide some answers soon.
+
+P0091 | I7 | 48:31
+Yeah, and one more thing just came to my head. I would have liked to discuss it or at least to see if you, when you publish this article, if you get some answer. I mean, we are talking about the architect as a whole, but you know, the architect does different things.
+
+P0092 | Interviewer 1 | 48:50
+Yes.
+
+P0093 | I7 | 48:50
+They do the drawing for how the solution should look like. They do the implementation, they do the testing, they do a different part of the work. What part of the architect job can be given to an AI and it can deliver a good value?Because once again, when I said I don't see the architect role to be replaced, I didn't mean that everything that the architect does today will not be replaced. I meant more than overall knowledge of an architect will still be needed. But I'm quite sure that a big part of what an architect does in their dailywork today will be replaced by some sort of AI. So that distinguish between what the architect does and what part can be enhanced or replaced by an AI, I think is also another interesting aspect to be looked at.
+
+P0094 | Interviewer 1 | 49:48
+Yeah, so part of the, let's say, one of the answers that we are aiming to provide with this study is exactly this. But we...Purposely didn't want to start by the task, because, as you may know, there is a lot of disagreement on what is what the architectural role entails as a list of tasks. So then, instead of trying to define the task, we look
+
+P0095 | I7 | 50:14
+Yeah.
+
+P0096 | Interviewer 1 | 50:19
+we took the opposite direction. So we started from what we know to be at least largely agreed on, that is the architect, and then we are trying to come up with the same, with the answer to the same question that you gave. And yes, as per usual,when we will publish this paper, if it gets accepted or when it will get accepted, we will share it with you, the full paper, so you could read also what are the results from these interviews that we did from all over the
+
+P0097 | I7 | 50:48
+The.
+
+P0098 | Interviewer 1 | 50:58
+The word.Yes, so yeah, we are also about or close to the end of the allocated time. So I'm going to stop the transcript now since we are done.
+
+P0099 | I7 | 51:02
+Right.

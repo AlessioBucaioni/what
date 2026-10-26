@@ -1,0 +1,172 @@
+{
+  "package": "Architectural work and generative AI",
+  "status": "Local review build",
+  "approved_codebook": true,
+  "final_themes": true,
+  "files": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "README.md": {
+      "bytes": 3573,
+      "sha256": "2acea47dc8f351829aba708fd32fb7a79036a5ef52abe2df4f90b4f66e99a367"
+    },
+    "assets/app.js": {
+      "bytes": 43800,
+      "sha256": "071791e3f7f0aa86d7b88c6dacccc1398d19997e33fda6e346dac8f056124897"
+    },
+    "assets/style.css": {
+      "bytes": 33277,
+      "sha256": "58e6f186b77f84ee465a50fcce5cf997a1310212ecbc33014e2c6ce082fec28d"
+    },
+    "data/code_destinations.csv": {
+      "bytes": 8841,
+      "sha256": "257c979b90a6a7e1ba46bafb7749340b1a27915761e2c8f7daef03b3098ed608"
+    },
+    "data/code_destinations.json": {
+      "bytes": 12283,
+      "sha256": "e293065e4da30b0421061928a598eb79c27e640c83cd0621b9a5f8537722aa0c"
+    },
+    "data/codebook.json": {
+      "bytes": 45492,
+      "sha256": "0d4d3a60b674fb5952c561122f6d81c9a2d3000bec6ce171b6ee78b2294b67f2"
+    },
+    "data/codes.csv": {
+      "bytes": 32464,
+      "sha256": "7b5d4341ef375e77c899ec76909c9e5a7730e0e97572ae1a07eb5c265e01f833"
+    },
+    "data/downloads.js": {
+      "bytes": 224,
+      "sha256": "97da0ff59a6ca22f6ae7fa197a199052c35128c4010411a6a28e02033b7e1dd3"
+    },
+    "data/evidence.csv": {
+      "bytes": 139711,
+      "sha256": "10b6e7108fc71a456d603acf4fef8420d15dc13f83de4ce2b81e0800d29585af"
+    },
+    "data/evidence.json": {
+      "bytes": 229792,
+      "sha256": "8740ea368001dda59d5b825d8cce0662368e19e486e4a0824ecdd5f996a725ca"
+    },
+    "data/interview_protocol.json": {
+      "bytes": 2771,
+      "sha256": "1e040263fb185fda675d8ce3d8378529abe643b5139824498bf299485a66b12e"
+    },
+    "data/methodology.json": {
+      "bytes": 7007,
+      "sha256": "feaa83d2c22d5c72cf182fed33c3cfcda6e044b43386c07155e8238e2546c0a7"
+    },
+    "data/package.js": {
+      "bytes": 777694,
+      "sha256": "02a41e24a2beaf937b441e0dfc4a1989983032499a007926b150a03dfc930342"
+    },
+    "data/package.json": {
+      "bytes": 959569,
+      "sha256": "2c3572a7c3f69841e3cebd20abba7d91b753957ac7b26a9695f2d08208990fb3"
+    },
+    "data/relationships.csv": {
+      "bytes": 3551,
+      "sha256": "fa606f5517525d62ce3c7a381eda9a06b18ce68e0d1e20e14907004faed2ee9d"
+    },
+    "data/relationships.json": {
+      "bytes": 4965,
+      "sha256": "d569f6051c4dd2487efbe125da7eab5f013b59fa1b71e83d5cd194cbef155f4b"
+    },
+    "data/rq_decisions.csv": {
+      "bytes": 12651,
+      "sha256": "bbe2b4bd5bdf6dc145805a8486aee414ad48c4b268840979de80fdd58035baca"
+    },
+    "data/rq_decisions.json": {
+      "bytes": 18698,
+      "sha256": "2916d127ff5e763d813a681e50b5acdba8b3c3439ba2db560d4c30b69715523c"
+    },
+    "data/rq_relations.csv": {
+      "bytes": 9799,
+      "sha256": "1b5d5a764f3887b879fa904770e597e031e752779479381757baa0f3b7fa5845"
+    },
+    "data/rq_relations.json": {
+      "bytes": 13735,
+      "sha256": "a5d2009a4bbc637a701d1ee6dd34ad48cf0026ff6fdb076c642ab3f7a6a5265f"
+    },
+    "data/themes.json": {
+      "bytes": 77333,
+      "sha256": "793cab5e34cae95496dcbcc271d3ce16990afaf27a744e88d082b76a5fe30f77"
+    },
+    "data/transcripts.json": {
+      "bytes": 506262,
+      "sha256": "dfa44a6d79e220d98e8653f33b64dff5dcd4a113830c6c494ca624a1990aee4f"
+    },
+    "downloads/analysis.md": {
+      "bytes": 121923,
+      "sha256": "9ee3fc4ef8f56f2cc34d736b5cc8ac826dcddfb14e8d05bc9e192d27ab062882"
+    },
+    "downloads/codebook.md": {
+      "bytes": 46041,
+      "sha256": "578b7168aed4b9d62b2e4c4ba0b08e5e727b4252530155a965390c342d2da6d8"
+    },
+    "downloads/interview_protocol.md": {
+      "bytes": 2511,
+      "sha256": "ed1cf0244123223bf031748ecf8d9641d5d264b1d69ffb4fd30f7e57cc5e2e30"
+    },
+    "downloads/methodology.md": {
+      "bytes": 6765,
+      "sha256": "0dbd1974f38e59019bb01d93bba04fa25896d2c65261de01a200ab5a269335c9"
+    },
+    "index.html": {
+      "bytes": 2754,
+      "sha256": "95a0bf24ad0334b14e5154f76dbce07acd56e6329a511871551d4c400a3b88b4"
+    },
+    "robots.txt": {
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    "transcripts/I1.txt": {
+      "bytes": 39887,
+      "sha256": "9190598acc5135f1bc24c9282c2827fe6df782ad0057b92e17cdd3c9930a3def"
+    },
+    "transcripts/I10.txt": {
+      "bytes": 30466,
+      "sha256": "07537918bfaaa11392a1af806319fbc404a2782573b8cfa8e8f84a98dfcf877a"
+    },
+    "transcripts/I11.txt": {
+      "bytes": 19726,
+      "sha256": "c4f84d317024e19217df1fac4b45adeb196d9ebae09be10d80e3827591f51464"
+    },
+    "transcripts/I12.txt": {
+      "bytes": 21507,
+      "sha256": "eeeb309641806ff43b3b3c3ce14caf47b66075abfda013ff3ced4e5420727816"
+    },
+    "transcripts/I13.txt": {
+      "bytes": 23801,
+      "sha256": "ccaece4b8505f1b0e89bdae79cc8251d3b8a809068fa28f2916c00b2fe6aa4a6"
+    },
+    "transcripts/I2.txt": {
+      "bytes": 22482,
+      "sha256": "6e35983206240b2c29413b87fb43ee697b360602d5e9248fd6dc2e381b2a39b0"
+    },
+    "transcripts/I4.txt": {
+      "bytes": 37848,
+      "sha256": "f0c08028dccb7c95fee9a1ae130c7c44de6fd1d86d176afec860b50e8e837c3a"
+    },
+    "transcripts/I5.txt": {
+      "bytes": 30006,
+      "sha256": "917045acfc16318fa7d93abf68e5708c79f4d1902b542d7847f31af857c5bb4e"
+    },
+    "transcripts/I6.txt": {
+      "bytes": 39617,
+      "sha256": "16787a138475c62ce329380a578d6f2b96524fc41886e79818ace687cba99e82"
+    },
+    "transcripts/I7.txt": {
+      "bytes": 42769,
+      "sha256": "14a57c34b4fa2accdc9ec5666765a2c73ad31bac7e5fab3a0b30ff6075f460df"
+    },
+    "transcripts/I8.txt": {
+      "bytes": 25561,
+      "sha256": "1efd98797fc3cb1f7aa44a2eefd2272cbde9270661edf7ed816b9a58f1984cc5"
+    },
+    "transcripts/I9.txt": {
+      "bytes": 19156,
+      "sha256": "2e61bc6a049f7501275e60a6f9447b69a0135c7a96d007b48e51967539960d6f"
+    }
+  }
+}
